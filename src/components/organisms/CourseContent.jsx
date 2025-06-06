@@ -155,9 +155,9 @@ return (
           >
             {/* Section Header */}
             <div className="mb-8">
-              <div className="flex items-center space-x-4 mb-4">
+<div className="flex items-center space-x-4 mb-4">
                 <div className="p-3 bg-gradient-to-r from-primary to-secondary rounded-xl">
-                  <Icon name={section.icon} className="w-6 h-6 text-white" />
+                  <Icon name={section.icon || "BookOpen"} className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
                   <h2 className="text-3xl font-heading font-bold text-surface-900 dark:text-white">
@@ -214,9 +214,9 @@ return (
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 text-center text-white"
+className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 text-center text-white"
         >
-          <Icon name="Award" className="w-16 h-16 mx-auto mb-4" />
+          <Icon name="Trophy" className="w-16 h-16 mx-auto mb-4" />
           <h3 className="text-2xl font-bold mb-4">Congratulations!</h3>
           <p className="text-lg mb-6">
             You've completed the Getting Started Course. You're now ready to build amazing apps with Apper!

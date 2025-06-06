@@ -1,36 +1,35 @@
 [
   {
-    "id": "welcome",
-    "title": "What is Apper?",
-    "description": "Learn about your AI app creator that builds through conversation",
-    "completed": false,
-    "content": {
-      "type": "welcome",
-      "heading": "What is Apper?",
-      "subheading": "Apper is your AI app creator that builds fully functional apps through simple conversation",
-      "explanation": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes. You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface). Just chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs. In short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI.",
-      "features": [
-        {
-          "icon": "MessageSquare",
-          "title": "Conversational Interface",
-          "description": "Chat in plain English to build your app"
-        },
-        {
-          "icon": "Zap",
-          "title": "Instant Creation",
-          "description": "Apps built in minutes, not months"
-        },
-        {
-          "icon": "Users",
-          "title": "No Technical Skills",
-          "description": "Perfect for anyone with an idea"
-        }
-      ],
-      "primaryAction": "Get Started",
-      "secondaryAction": "Skip Tour"
-    }
+    "id": 1,
+    "title": "Welcome to Apper",
+    "description": "Your AI-powered app creation journey starts here",
+    "content": "Welcome to the future of app development! Apper is your intelligent companion that transforms ideas into fully functional applications through simple conversations.",
+    "type": "welcome",
+    "heading": "What is Apper?"
   },
-{
+  {
+    "id": 2,
+    "title": "What Makes Apper Special",
+    "description": "Discover the power of conversational app building",
+    "content": "Unlike traditional app builders, Apper understands natural language. Simply describe what you want, and watch as your app comes to life through our advanced AI technology.",
+    "title": "Conversational Interface",
+    "description": "Chat in plain English to build your app"
+  },
+  {
+    "id": 3,
+    "title": "Try Interactive Building",
+    "description": "Experience the magic of drag-and-drop app creation",
+    "content": "Get hands-on with our interactive demo. Drag components, see real-time changes, and understand how intuitive app building can be with Apper's visual interface."
+  },
+  {
+    "id": 4,
+    "title": "Create Your First App",
+    "description": "Ready to build? Here's how to get started with your first app",
+    "content": "Now you're ready to create your first application! Follow our step-by-step guide to transform your idea into a working app in minutes, not months.",
+    "primaryAction": "Get Started",
+    "secondaryAction": "Skip Tour"
+  },
+  {
     "id": "what-is-apper",
     "title": "What is Apper?",
     "description": "Learn about our no-code platform and how it works",
@@ -115,9 +114,9 @@
           "type": "image",
           "x": 200,
           "y": 200,
-          "label": "Add Image"
+"label": "Add Image"
         }
-],
+      ],
       "primaryAction": "Next Step",
       "secondaryAction": "Back"
     }
@@ -125,9 +124,9 @@
   {
     "id": "create-first-app",
     "title": "Create Your First App",
-    "description": "Learn how to start building your first app with Apper",
+"description": "Learn how to start building your first app with Apper",
     "completed": false,
-"content": {
+    "content": {
       "type": "tutorial",
       "heading": "Create Your First App",
       "subheading": "Ready to build? Here's how to get started with your first app",

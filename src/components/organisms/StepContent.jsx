@@ -63,9 +63,9 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
               transition={{ duration: 3, repeat: Infinity }}
               className="mb-12"
             >
-              <div className="relative inline-block">
+<div className="relative inline-block">
                 <div className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-card">
-                  <Icon name="Zap" className="w-16 h-16 text-white" />
+                  <Icon name="Sparkles" className="w-16 h-16 text-white" />
                 </div>
                 <AnimatedIconBubble
                   iconName="Sparkles"
@@ -152,14 +152,15 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
               <motion.div
-                initial={{ opacity: 0, x: -50 }}
+initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                <h3 className="text-2xl font-heading font-bold text-surface-900 dark:text-white mb-6">
-                  How it works:
-                </h3>
-<div className="space-y-6">
+                <div className="flex items-center space-x-4 mb-4">
+                <div className="p-3 bg-gradient-to-r from-primary to-secondary rounded-xl">
+                  <Icon name="Brain" className="w-6 h-6 text-white" />
+                </div>
+                <div className="flex-1">
                   {[
                     { step: '1', title: 'Start a Conversation', desc: 'Chat with Apper about your app idea in simple English', icon: 'MessageSquare' },
                     { step: '2', title: 'AI Builds Your App', desc: 'Apper creates your app based on your conversation', icon: 'Bot' },
@@ -205,12 +206,12 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
                         animate={{ y: [2, -2, 2] }}
                         transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
                         className="h-20 bg-gradient-to-br from-accent/20 to-primary/20 rounded-lg border-2 border-dashed border-accent/30"
-                      />
+/>
                     </div>
                   </div>
                   
                   <AnimatedIconBubble
-                    iconName="Magic"
+                    iconName="Wand2"
                     bubbleClass="w-12 h-12 bg-accent -top-6 -right-6"
                     iconClass="w-6 h-6 text-white"
                     animate={{ rotate: [0, 5, -5, 0] }}
@@ -235,10 +236,10 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
                     </Button>
                   ))}
                 </div>
-              </motion.div>
+</motion.div>
             </div>
 
-<motion.div
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
@@ -291,10 +292,10 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
                 className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
               >
                 Try our interactive demo! Drag the elements around to see how easy it is to build with Apper.
-              </motion.p>
+</motion.p>
             </div>
 
-<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -393,12 +394,12 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
+transition={{ delay: 0.4 }}
               className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-8 mb-12"
             >
               <div className="text-center mb-8">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                  <Icon name="MessageSquare" className="w-8 h-8 text-white" />
+                  <Icon name="MessageSquarePlus" className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-heading font-bold text-surface-900 dark:text-white mb-4">
                   The Prompt Box
@@ -433,12 +434,12 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
                   <motion.div
                     key={example.title}
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
+animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6 + index * 0.1 }}
                     className="bg-surface-50 dark:bg-surface-700 rounded-xl p-6 border border-surface-200 dark:border-surface-600"
                   >
                     <div className={`w-12 h-12 bg-gradient-to-br ${example.color} rounded-lg mb-4 flex items-center justify-center`}>
-                      <Icon name="Zap" className="w-6 h-6 text-white" />
+                      <Icon name="Lightbulb" className="w-6 h-6 text-white" />
                     </div>
                     <h4 className="font-heading font-bold text-surface-900 dark:text-white mb-2">
                       {example.title}
@@ -456,12 +457,12 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 }}
+transition={{ delay: 0.8 }}
                 className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 rounded-xl p-6 border border-purple-200 dark:border-purple-700"
               >
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Icon name="Lightbulb" className="w-6 h-6 text-white" />
+                    <Icon name="Sparkles" className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h4 className="font-heading font-bold text-purple-900 dark:text-purple-200 mb-2">
