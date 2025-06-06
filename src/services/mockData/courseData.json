@@ -77,19 +77,65 @@
         "type": "demo",
         "title": "Try Interactive Demo",
         "description": "Experience Apper's building process with our hands-on demo"
+},
+      {
+        "type": "text",
+        "content": "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you."
       },
       {
         "type": "list",
-        "heading": "What you can build with Apper:",
+        "heading": "Internal Business Tools:",
         "items": [
-          "Business dashboards and analytics tools",
-          "E-commerce stores and marketplaces", 
-          "Booking and scheduling systems",
-          "Community forums and social platforms",
-          "Educational and training portals",
-          "Games and interactive experiences",
-          "Project management tools",
-          "Financial and budgeting apps"
+          "Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Customer-Facing Apps:",
+        "items": [
+          "Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "SaaS Products:",
+        "items": [
+          "Launch full software products people can subscribe to — with logins, payment plans, user roles, and usage tracking."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Websites:",
+        "items": [
+          "Create stunning websites in minutes — from landing pages and personal portfolios to blogs and membership sites."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Online Stores:",
+        "items": [
+          "Set up a complete online shop — with product listings, Stripe payments, carts, discounts, and order management."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Games & Interactive Apps:",
+        "items": [
+          "Build fun and engaging apps — like quizzes, puzzles, learning games, tap-to-win challenges, or daily streak trackers."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Databases & Admin Panels:",
+        "items": [
+          "Manage your data behind the scenes — with editable tables, filters, role-based access, and connected dashboards."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Anything You Can Imagine:",
+        "items": [
+          "From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
         ]
       }
     ]
