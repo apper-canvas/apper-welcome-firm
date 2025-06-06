@@ -119,12 +119,11 @@
             "title": "Watch Apper Build",
             "description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
           },
-          {
+{
             "title": "Customize and Launch",
             "description": "Make any changes you want by continuing the conversation, then publish your app with one click."
           }
         ]
-]
       }
     ]
   },
@@ -141,7 +140,7 @@
       {
         "heading": "No Need to Worry",
         "type": "text",
-        "content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
+"content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
       }
     ]
   },
@@ -181,23 +180,23 @@
         "type": "text",
         "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
       },
-      {
+{
         "heading": "What Each Version Includes",
         "type": "list",
         "items": [
           "A summary of what changed",
-"A summary of what changed",
           "A Preview button to view it",
           "A Restore button to bring it back instantly"
         ]
       },
       {
         "heading": "Benefits of Version Management",
+        "type": "text",
         "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
     ]
   },
-{
+  {
     "id": "manage-your-app",
     "title": "Manage Your App ⚙️",
     "subtitle": "Essential app management and configuration",
@@ -378,12 +377,12 @@
         "heading": "User Management Features",
         "type": "list",
         "items": [
-          "Create User Profiles – Set up detailed user accounts with roles and information",
+"Create User Profiles – Set up detailed user accounts with roles and information",
           "Assign Permissions – Control what each user can view, edit, or delete",
           "Manage Team Access – Organize users into teams with specific access rights",
           "Secure Data Access – Ensure sensitive information is only visible to authorized users",
           "Role-Based Control – Define different permission levels for different user types"
-]
+        ]
       },
       {
         "heading": "💡 Best Practices",
@@ -453,12 +452,12 @@
       },
       {
         "type": "text",
-        "content": "Perfect for apps that offer flexibility or usage-based pricing."
+"content": "Perfect for apps that offer flexibility or usage-based pricing."
       },
       {
         "heading": "Stripe Settings",
         "type": "text",
-"content": "Connect your Stripe account to start accepting real payments — securely and automatically."
+        "content": "Connect your Stripe account to start accepting real payments — securely and automatically."
       },
       {
         "heading": "Stripe handles:",
@@ -522,12 +521,12 @@
         "type": "text",
         "content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
       },
-      {
+{
         "heading": "You'll choose one of two options:",
         "type": "list",
         "items": [
           "Employee App – Each user sees only their own data",
-"Customer-Facing App – Each customer can have multiple users with shared access"
+          "Customer-Facing App – Each customer can have multiple users with shared access"
         ]
       },
       {
