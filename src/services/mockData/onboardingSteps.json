@@ -127,11 +127,11 @@
     "title": "Create Your First App",
     "description": "Learn how to start building your first app with Apper",
     "completed": false,
-    "content": {
+"content": {
       "type": "tutorial",
       "heading": "Create Your First App",
       "subheading": "Ready to build? Here's how to get started with your first app",
-      "explanation": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend. For example, you could type something like: 'I want to build a tool to track customer orders.' or 'Make an app where users can book sessions and pay online.' or 'Create a quiz game that gives points and tracks team progress.' But to help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. Here's how to do it.",
+      "explanation": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend. For example, you could type something like: 'I want to build a tool to track customer orders.' 'Make an app where users can book sessions and pay online.' 'Create a quiz game that gives points and tracks team progress.' But to help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. Here's how to do it:",
       "examples": [
         {
           "title": "Customer Order Tracker",
