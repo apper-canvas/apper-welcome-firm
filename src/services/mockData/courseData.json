@@ -5,22 +5,10 @@
     "subtitle": "Discover the power of no-code development",
     "icon": "Zap",
     "sections": [
-      {
-        "heading": "Welcome to Apper",
+{
+        "heading": "What is Apper",
         "type": "text",
-        "content": "Apper is a revolutionary no-code platform that empowers anyone to build powerful web applications without writing a single line of code. Whether you're an entrepreneur with a big idea, a small business owner looking to digitize operations, or someone who wants to bring their creative vision to life, Apper makes it possible."
-      },
-      {
-        "heading": "Key Features",
-        "type": "list",
-        "items": [
-          "Drag-and-drop visual editor for intuitive app building",
-          "Pre-built templates and components to get started quickly",
-          "Real-time collaboration with team members",
-          "Responsive design that works on all devices",
-          "Built-in database and user management",
-          "One-click deployment to the web"
-        ]
+        "content": "Apper is your AI app creator.\n\nIt's not just powered by AI — it is AI.\n\nKind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes.\n\nYou don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app.\n\nWith Apper, everything happens in one place, all through a simple conversation (chat interface).\n\nJust chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs.\n\nIn short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI."
       }
     ]
   },
