@@ -54,10 +54,10 @@
         "content": "What truly sets Apper apart is how natural it feels."
       },
       {
-        "type": "text",
+"type": "text",
         "content": "You just speak with Apper in your plain everyday language, and it understands what to build, how it should look, and how it should work."
       },
-{
+      {
         "type": "text",
         "content": "That's why Apper isn't just another app builder — it's a new way to create software."
       }
@@ -67,14 +67,11 @@
     "id": "what-can-you-build",
     "title": "What Can You Build?",
     "subtitle": "Endless possibilities with AI-powered development",
-    "icon": "Lightbulb",
+"icon": "Lightbulb",
     "sections": [
       {
-        "type": "list",
-        "heading": "Web Apps:",
-        "items": [
-          "Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools."
-        ]
+        "type": "text",
+        "content": "Apper's versatility means you can create almost any type of application you can imagine. From simple tools to complex business platforms, here are some examples of what's possible:"
       },
       {
         "type": "list",
@@ -121,6 +118,83 @@
     ]
   },
   {
+    "id": "step-by-step-prompting",
+    "title": "Step-by-Step: How to Write a Better Prompt with ChatGPT",
+    "subtitle": "Optimize your app ideas for better results",
+    "icon": "MessageSquarePlus",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Follow these simple steps to transform your basic app idea into a detailed, effective prompt:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Open ChatGPT in a new tab.",
+          "Copy and paste the following prompt into ChatGPT: \"I want to build [Insert your app idea here]. Rewrite this as a detailed prompt focused on the app's main function and detailed features. It should be simple, clear, easy to understand, and ready to use in an AI app creator.\"",
+          "Replace the part that says [Insert your app idea here] with your actual idea. For example: I want to build an app that helps users book yoga classes and pay online.",
+          "ChatGPT will rewrite your idea into a cleaner, more detailed prompt.",
+          "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box.",
+          "This will give you a much better starting point. Using this prompt, Apper will be able to generate your app more accurately based on your needs."
+        ]
+      }
+    ]
+  },
+{
+    "id": "apper-builder-interface",
+    "title": "The Apper Builder Interface",
+    "subtitle": "Navigate your app's control center",
+    "icon": "Layout",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Once you submit your prompt, you'll be redirected to the 'Apper Builder Interface'."
+      },
+      {
+        "type": "text",
+        "content": "The Apper Builder Interface has 4 main sections:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Customize App: View and edit your app's layout, pages, and components.",
+          "Manage App: Control your app's settings, invite users, set up permissions, onboarding emails, and billing for your app (we'll cover all this in detail later).",
+          "Code: View or edit the code behind your app if you're working with a developer and want advanced customization. Important Note: No coding is required to use Apper; this is just for added flexibility.",
+          "Database: It's where your app safely stores and manages all its data. This could be anything from user details, form submissions, product lists, bookings, messages, or any data your app needs to deal with."
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Apper takes care of everything automatically:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Analyzes your app",
+          "Creates the right tables for your app's data",
+          "Links related info together (like connecting a user to their orders), and",
+          "Keeps everything updated in real time with your app's screens."
+        ]
+      },
+      {
+        "type": "text",
+        "content": "So when someone adds, edits, or views something in your app, the database is always working quietly in the background to make it all run smoothly."
+      }
+    ]
+  },
+  {
+"id": "what-can-you-build-continued",
+    "title": "What Can You Build? (Continued)",
+    "subtitle": "More examples of possibilities",
+    "icon": "Lightbulb",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Here are some additional examples of what you can create with Apper:"
+      }
+    ]
+  },
+  {
     "id": "create-your-first-app",
     "title": "Create Your First App",
     "subtitle": "Ready to build? Here's how to get started",
@@ -150,10 +224,10 @@
           {
             "title": "Describe Your Idea",
             "description": "Tell Apper what you want to build in plain English. Be as detailed or as simple as you like."
-          },
+},
           {
             "title": "Watch Apper Build",
-"description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
+            "description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
           },
           {
             "title": "Customize and Launch",
@@ -171,9 +245,9 @@
       {
         "heading": "What If You Encounter an Error",
         "type": "text",
-        "content": "If something goes wrong during setup, you might see a message saying \"Build was unsuccessful.\""
+"content": "If something goes wrong during setup, you might see a message saying \"Build was unsuccessful.\""
       },
-{
+      {
         "heading": "No Need to Worry",
         "type": "text",
         "content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
@@ -212,9 +286,9 @@
     "icon": "GitBranch",
     "sections": [
       {
-        "heading": "Loading and Navigation",
+"heading": "Loading and Navigation",
         "type": "text",
-"content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
+        "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
       },
       {
         "heading": "What Each Version Includes",
@@ -408,10 +482,10 @@
       {
         "type": "text",
         "content": "You can invite users, create profiles, and assign specific permissions to control access to tables and pages. This ensures that each user sees only what they need, keeping your data secure and organized."
-      },
+},
       {
         "heading": "User Management Features",
-"type": "list",
+        "type": "list",
         "items": [
           "Create User Profiles – Set up detailed user accounts with roles and information",
           "Assign Permissions – Control what each user can view, edit, or delete",
@@ -484,9 +558,9 @@
           "Extra storage",
           "Bonus tools",
           "One-time unlocks"
-        ]
+]
       },
-{
+      {
         "type": "text",
         "content": "Perfect for apps that offer flexibility or usage-based pricing."
       },
@@ -553,9 +627,9 @@
         "type": "text",
         "content": "Apper creates and manages your database automatically based on how your app works, so you don't have to set anything up manually."
       },
-      {
+{
         "type": "text",
-"content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
+        "content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
       },
       {
         "heading": "You'll choose one of two options:",
