@@ -363,6 +363,148 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
               </div>
             </motion.div>
           </motion.div>
+)
+
+      case 3:
+        return (
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="max-w-5xl mx-auto"
+          >
+            <div className="text-center mb-12">
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="text-4xl md:text-6xl font-heading font-bold text-surface-900 dark:text-white mb-6"
+              >
+                Create Your First App
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto mb-8"
+              >
+                Ready to build? Here's how to get started with your first app
+              </motion.p>
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-8 mb-12"
+            >
+              <div className="text-center mb-8">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                  <Icon name="MessageSquare" className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-heading font-bold text-surface-900 dark:text-white mb-4">
+                  The Prompt Box
+                </h3>
+                <p className="text-surface-600 dark:text-surface-400 max-w-2xl mx-auto">
+                  When you log in to Apper, you'll see a large prompt box in the center of the screen. 
+                  This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                {[
+                  {
+                    title: "Customer Order Tracker",
+                    prompt: "I want to build a tool to track customer orders.",
+                    description: "Perfect for small businesses managing orders",
+                    color: "from-primary to-primary-dark"
+                  },
+                  {
+                    title: "Booking & Payment App", 
+                    prompt: "Make an app where users can book sessions and pay online.",
+                    description: "Great for service providers and consultants",
+                    color: "from-secondary to-secondary-dark"
+                  },
+                  {
+                    title: "Quiz Game",
+                    prompt: "Create a quiz game that gives points and tracks team progress.",
+                    description: "Ideal for education and team building",
+                    color: "from-accent to-orange-500"
+                  }
+                ].map((example, index) => (
+                  <motion.div
+                    key={example.title}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.6 + index * 0.1 }}
+                    className="bg-surface-50 dark:bg-surface-700 rounded-xl p-6 border border-surface-200 dark:border-surface-600"
+                  >
+                    <div className={`w-12 h-12 bg-gradient-to-br ${example.color} rounded-lg mb-4 flex items-center justify-center`}>
+                      <Icon name="Zap" className="w-6 h-6 text-white" />
+                    </div>
+                    <h4 className="font-heading font-bold text-surface-900 dark:text-white mb-2">
+                      {example.title}
+                    </h4>
+                    <p className="text-sm text-surface-600 dark:text-surface-400 mb-3 italic">
+                      "{example.prompt}"
+                    </p>
+                    <p className="text-xs text-surface-500 dark:text-surface-500">
+                      {example.description}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.8 }}
+                className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 rounded-xl p-6 border border-purple-200 dark:border-purple-700"
+              >
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="Lightbulb" className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-heading font-bold text-purple-900 dark:text-purple-200 mb-2">
+                      Pro Tip: Use ChatGPT First
+                    </h4>
+                    <p className="text-purple-700 dark:text-purple-300 text-sm">
+                      To help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. 
+                      This will help you articulate your vision more precisely and get better results from Apper.
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.0 }}
+              className="text-center"
+            >
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button
+                  onClick={() => onNavigate(2)}
+                  className="px-6 py-3 border-2 border-surface-300 dark:border-surface-600 text-surface-700 dark:text-surface-300 font-semibold rounded-2xl hover:bg-surface-100 dark:hover:bg-surface-700"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  icon="ArrowLeft"
+                >
+                  Back
+                </Button>
+
+                <Button
+                  onClick={() => onStepComplete(3)}
+                  className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-2xl text-lg shadow-card"
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  icon="CheckCircle"
+                >
+                  Complete Onboarding
+                </Button>
+              </div>
+            </motion.div>
+          </motion.div>
         )
 
       default:

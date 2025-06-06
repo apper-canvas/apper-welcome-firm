@@ -117,6 +117,54 @@
           "y": 200,
           "label": "Add Image"
         }
+],
+      "primaryAction": "Next Step",
+      "secondaryAction": "Back"
+    }
+  },
+  {
+    "id": "create-first-app",
+    "title": "Create Your First App",
+    "description": "Learn how to start building your first app with Apper",
+    "completed": false,
+    "content": {
+      "type": "tutorial",
+      "heading": "Create Your First App",
+      "subheading": "Ready to build? Here's how to get started with your first app",
+      "explanation": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend. For example, you could type something like: 'I want to build a tool to track customer orders.' or 'Make an app where users can book sessions and pay online.' or 'Create a quiz game that gives points and tracks team progress.' But to help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. Here's how to do it.",
+      "examples": [
+        {
+          "title": "Customer Order Tracker",
+          "prompt": "I want to build a tool to track customer orders.",
+          "description": "Perfect for small businesses managing orders"
+        },
+        {
+          "title": "Booking & Payment App",
+          "prompt": "Make an app where users can book sessions and pay online.",
+          "description": "Great for service providers and consultants"
+        },
+        {
+          "title": "Quiz Game",
+          "prompt": "Create a quiz game that gives points and tracks team progress.",
+          "description": "Ideal for education and team building"
+        }
+      ],
+      "tips": [
+        {
+          "icon": "Lightbulb",
+          "title": "Be Specific",
+          "description": "The more details you provide, the better Apper can understand your vision"
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Use ChatGPT First",
+          "description": "Refine your idea with ChatGPT before describing it to Apper"
+        },
+        {
+          "icon": "Zap",
+          "title": "Start Simple",
+          "description": "Begin with core features, you can always add more later"
+        }
       ],
       "primaryAction": "Complete Onboarding",
       "secondaryAction": "Back"
