@@ -94,77 +94,13 @@
           "Educational platforms and course websites",
           "Portfolio and personal websites",
           "Event management and booking systems",
-          "Social networking and community platforms"
+"Social networking and community platforms"
         ]
       },
-{
+      {
         "heading": "Industry Solutions",
         "type": "text",
         "content": "Apper serves businesses across all industries. From restaurants managing online orders to consultants tracking client projects, from artists showcasing portfolios to nonprofits organizing events - the possibilities are limitless."
-      }
-    ]
-  },
-  {
-    "id": "getting-started-steps",
-    "title": "Getting Started Steps",
-    "subtitle": "Step-by-step guide to building your first application",
-    "icon": "PlusCircle",
-    "sections": [
-      {
-        "heading": "Getting Started",
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Choose a Template",
-            "description": "Browse our template library and select one that matches your vision. You can always customize it completely later."
-          },
-          {
-            "title": "Set Up Your Project",
-            "description": "Give your app a name and choose your preferred color scheme. These can be changed anytime."
-          },
-          {
-            "title": "Add Your Content",
-            "description": "Replace placeholder text and images with your own content using our intuitive editor."
-          },
-          {
-            "title": "Customize the Design",
-            "description": "Use the visual editor to adjust layouts, colors, fonts, and spacing to match your brand."
-          },
-          {
-"title": "Preview and Test",
-            "description": "Use our preview mode to test your app on different devices and screen sizes."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "apper-builder-interface",
-    "title": "The Apper Builder Interface",
-    "subtitle": "Master the tools that will bring your ideas to life",
-    "icon": "Layout",
-    "sections": [
-{
-        "heading": "Interface Overview",
-        "type": "text",
-        "content": "The Apper builder interface is designed for maximum productivity and ease of use. The main workspace shows your app as you build it, while side panels provide access to components, styling options, and settings."
-      },
-      {
-        "heading": "Key Interface Elements",
-        "type": "list",
-        "items": [
-          "Canvas: The main working area where you build your app",
-          "Component Library: Pre-built elements to drag and drop",
-          "Properties Panel: Customize selected components",
-"Layers Panel: Navigate your app's structure",
-          "Preview Mode: Test your app in real-time",
-          "Publishing Tools: Deploy your app with one click"
-        ]
-      },
-      {
-        "heading": "Automatic Optimizations",
-        "type": "text",
-        "content": "Apper automatically optimizes your app for performance, accessibility, and search engines. No additional configuration required."
       }
     ]
   },
