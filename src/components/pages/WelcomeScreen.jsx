@@ -121,10 +121,15 @@ function WelcomeScreen({ darkMode, setDarkMode, onGetStarted }) {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="pt-12 text-sm text-gray-500 dark:text-gray-400 space-y-2"
           >
-            <p>✨ No credit card required</p>
-            <p>🚀 Start building in under 2 minutes</p>
-          </motion.div>
-        </div>
+<div className="flex items-center justify-center space-x-1 mb-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <p>No credit card required</p>
+            </div>
+<div className="flex items-center justify-center space-x-1">
+              <div className="w-2 h-2 bg-secondary rounded-full"></div>
+              <p>Start building in under 2 minutes</p>
+            </div>
+        </motion.div>
       </div>
 
       {/* Floating Elements */}

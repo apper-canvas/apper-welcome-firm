@@ -1,163 +1,102 @@
 [
   {
     "id": "what-is-apper",
-    "title": "What is Apper? 🚀",
-    "subtitle": "Discover the power of no-code development",
-    "icon": "Zap",
-"sections": [
+    "title": "What is Apper?",
+    "subtitle": "Understanding your AI app creator",
+    "icon": "Brain",
+    "sections": [
       {
-        "heading": "What is Apper",
         "type": "text",
-        "content": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes."
+        "content": "Apper is a revolutionary AI-powered platform that transforms your ideas into fully functional applications through simple conversation. No coding required, no complex setup – just describe what you want, and Apper builds it for you."
       },
       {
-        "heading": "How Apper Works",
-        "type": "text",
-        "content": "You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface)."
-      },
-      {
-        "heading": "Simple Conversation Interface",
-        "type": "text",
-        "content": "Just chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs."
-      },
-      {
-        "heading": "The Simplest Way to Build Apps",
-        "type": "text",
-        "content": "In short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI."
-      },
-      {
-        "heading": "🌟 Key Benefits",
         "type": "list",
+        "heading": "What makes Apper special:",
         "items": [
-          "Chat in simple, everyday English to describe your app idea",
-          "Get fully functional apps built in just a few minutes",
-          "No coding, designing, or technical skills required",
-          "Everything happens in one unified platform",
-          "Apps improve instantly based on your feedback",
-          "Complete control through natural conversation"
-        ]
-      },
-      {
-        "heading": "💡 Getting Started Tips",
-        "type": "list",
-        "items": [
-          "Start by describing your app idea in simple terms",
-          "Be specific about what you want your app to do",
-          "Don't worry about technical details - just explain your vision",
-          "Ask for changes or improvements anytime during the conversation",
-          "Test your app frequently as it's being built"
+          "Natural language interface - just talk to describe your app",
+          "Instant app generation from your descriptions", 
+          "Beautiful, responsive designs automatically created",
+          "Powerful features without technical complexity",
+          "Cloud-hosted with automatic scaling",
+          "Works on desktop, tablet, and mobile devices"
         ]
       }
     ]
   },
   {
     "id": "why-apper-stands-out",
-    "title": "Why Apper Stands Out ⭐",
-    "subtitle": "What makes us different from other platforms",
-    "icon": "Star",
+    "title": "Why Apper Stands Out",
+    "subtitle": "The future of app development is here",
+    "icon": "Sparkles",
     "sections": [
       {
-        "heading": "Why Apper Stands Out",
         "type": "text",
-        "content": "In a crowded market of app-building tools, Apper takes a fundamentally different approach. While others require you to learn their platform, Apper learns from you! It's the difference between speaking a new language and having a conversation in your own words."
+        "content": "Traditional app development takes months and requires technical expertise. Apper changes everything by using advanced AI to understand your needs and build exactly what you envision – in minutes, not months."
       },
       {
-        "heading": "What Makes Us Different",
-        "type": "text",
-        "content": "Unlike traditional no-code platforms that still require you to understand templates, drag-and-drop interfaces, and technical concepts, Apper works purely through natural conversation. You simply describe what you want, and it builds it for you!"
-      },
-      {
-        "heading": "🚀 Key Differentiators",
-        "type": "list",
-        "items": [
-          "Pure AI conversation - no templates or drag-and-drop required",
-          "Builds complete, functional apps in minutes, not hours or days",
-          "No learning curve - if you can chat, you can build apps",
-          "Instant iterations - just ask for changes in plain English",
-          "One unified platform - no need to switch between multiple tools",
-          "Real-time collaboration through shared conversations",
-          "Automatically optimized for all devices and screen sizes",
-          "Built-in best practices for performance, security, and accessibility"
+        "type": "steps",
+        "heading": "Compare traditional vs. Apper:",
+        "steps": [
+          {
+            "title": "Traditional Development",
+            "description": "Hire developers → Plan architecture → Write code → Test → Deploy → Maintain (3-6 months, $10,000+)"
+          },
+          {
+            "title": "Apper Development", 
+            "description": "Describe your idea → Apper builds it → Customize if needed → Publish (5-15 minutes, $0 to start)"
+          }
         ]
       },
       {
-        "heading": "The Apper Advantage",
         "type": "text",
-        "content": "Traditional platforms make you adapt to their way of thinking. Apper adapts to yours! Whether you're a business owner with an idea, a designer with a vision, or a developer who wants to prototype quickly, Apper meets you where you are and builds what you need."
+        "content": "Watch this quick demo to see Apper in action: https://youtu.be/demo-video-url"
       }
     ]
   },
-{
-    "id": "what-you-can-build",
-    "title": "What You Can Build 🏗️",
-    "subtitle": "Endless possibilities with Apper",
-    "icon": "Layers",
+  {
+    "id": "interactive-building",
+    "title": "Interactive Building Experience",
+    "subtitle": "See how intuitive app creation can be",
+    "icon": "Wand2",
     "sections": [
       {
-        "heading": "What You Can Build",
         "type": "text",
-        "content": "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you."
+        "content": "Apper's interface is designed to feel like a conversation with a smart assistant who happens to be an expert app developer. You describe features in plain English, and Apper translates them into working functionality."
       },
       {
-        "heading": "Internal Business Tools",
-        "type": "text",
-        "content": "Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards."
+        "type": "demo",
+        "title": "Try Interactive Demo",
+        "description": "Experience Apper's building process with our hands-on demo"
       },
       {
-        "heading": "Customer-Facing Apps",
-        "type": "text",
-        "content": "Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools."
-      },
-      {
-        "heading": "SaaS Products",
-        "type": "text",
-        "content": "Launch full software products people can subscribe to — with logins, payment plans, user roles, and usage tracking."
-      },
-      {
-        "heading": "Websites",
-        "type": "text",
-        "content": "Create stunning websites in minutes — from landing pages and personal portfolios to blogs and membership sites."
-      },
-      {
-        "heading": "Online Stores",
-        "type": "text",
-        "content": "Set up a complete online shop — with product listings, Stripe payments, carts, discounts, and order management."
-      },
-      {
-        "heading": "Games & Interactive Apps",
-        "type": "text",
-        "content": "Build fun and engaging apps — like quizzes, puzzles, learning games, tap-to-win challenges, or daily streak trackers."
-      },
-      {
-        "heading": "Databases & Admin Panels",
-        "type": "text",
-        "content": "Manage your data behind the scenes — with editable tables, filters, role-based access, and connected dashboards."
-      },
-      {
-        "heading": "Anything You Can Imagine",
-        "type": "text",
-        "content": "From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
+        "type": "list",
+        "heading": "What you can build with Apper:",
+        "items": [
+          "Business dashboards and analytics tools",
+          "E-commerce stores and marketplaces", 
+          "Booking and scheduling systems",
+          "Community forums and social platforms",
+          "Educational and training portals",
+          "Games and interactive experiences",
+          "Project management tools",
+          "Financial and budgeting apps"
+        ]
       }
     ]
-},
+  },
   {
     "id": "create-your-first-app",
-    "title": "Create Your First App 🚀",
-    "subtitle": "Get started with Apper's intuitive prompt interface",
-    "icon": "Rocket",
+    "title": "Create Your First App",
+    "subtitle": "Ready to build? Here's how to get started",
+    "icon": "MessageSquarePlus",
     "sections": [
       {
-        "heading": "Getting Started",
         "type": "text",
         "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
       },
       {
-        "heading": "💡 Example Prompts",
-        "type": "text",
-        "content": "For example, you could type something like:"
-      },
-      {
         "type": "list",
+        "heading": "Example prompts to try:",
         "items": [
           "\"I want to build a tool to track customer orders.\"",
           "\"Make an app where users can book sessions and pay online.\"",
@@ -165,158 +104,33 @@
         ]
       },
       {
-        "heading": "🎯 Get Better Results with ChatGPT",
         "type": "text",
-        "content": "But to help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. Here's how to do it:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Open ChatGPT in a new tab",
-          "Tell ChatGPT about your app idea and ask it to refine your prompt",
-          "Use the improved version in Apper's prompt box",
-          "This will give you much better and more accurate results"
-        ]
-      }
-    ]
-  },
-  {
-  "id": "getting-started-prompts",
-  "title": "Getting Started with Better Prompts 💡",
-  "subtitle": "Learn how to write effective prompts for better results",
-  "icon": "PlusCircle",
-  "sections": [
-    {
-        "heading": "🚀 Getting Started",
-        "type": "text",
-        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
-      },
-      {
-        "heading": "💡 Pro Tip for Better Results",
-        "type": "text",
-        "content": "This will give you a much better starting point! Using a detailed prompt, Apper will be able to generate your app more accurately based on your needs."
+        "content": "Pro tip: To help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. This will help you articulate your vision more precisely and get better results."
       },
       {
         "type": "steps",
-        "heading": "📝 Step-by-Step: How to Write a Better Prompt with ChatGPT",
+        "heading": "Your first app in 3 steps:",
         "steps": [
           {
-            "title": "Open ChatGPT in a new tab",
-            "description": "Navigate to ChatGPT in your browser to start refining your prompt."
+            "title": "Describe Your Idea",
+            "description": "Tell Apper what you want to build in plain English. Be as detailed or as simple as you like."
           },
           {
-            "title": "Copy and paste the following prompt into ChatGPT",
-            "description": "\"I want to build [Insert your app idea here]. Rewrite this as a detailed prompt focused on the app's main function and detailed features. It should be simple, clear, easy to understand, and ready to use in an AI app creator.\""
+            "title": "Watch Apper Build",
+            "description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
           },
           {
-            "title": "Replace the placeholder with your actual idea",
-            "description": "Replace the part that says [Insert your app idea here] with your actual idea. For example: I want to build an app that helps users book yoga classes and pay online."
-          },
-          {
-            "title": "Get the improved version from ChatGPT",
-            "description": "ChatGPT will rewrite your idea into a cleaner, more detailed prompt."
-          },
-          {
-            "title": "🚀 Copy and paste into Apper",
-            "description": "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box. You're ready to build!"
+            "title": "Customize and Launch",
+            "description": "Make any changes you want by continuing the conversation, then publish your app with one click."
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "app-being-built",
-    "title": "Your App Is Being Built... 🔨",
-    "subtitle": "Watch as Apper creates your app in real-time with intelligent progress updates",
-    "icon": "Loader",
-    "sections": [
-      {
-        "type": "text",
-        "content": "In the center of the screen, you'll see a friendly message letting you know that your app is being set up. You don't have to do anything just yet — Apper is preparing everything for you automatically."
-      },
-      {
-        "heading": "Real-Time Progress Updates",
-        "type": "text",
-        "content": "Meanwhile, you'll see a message in the left-hand chat interface that walks you through what's happening, something like:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "🔍 Analyzing your request and breaking it into clear features",
-          "⚙️ Setting up the right components, pages, and workflows",
-          "🎨 Building an intuitive, responsive interface",
-          "🚀 Preparing a first version focused on your core idea"
-        ]
-      },
-      {
-        "type": "text",
-        "content": "This chat updates as progress is made! You can even interact with it and ask for tweaks, request additions, or just sit back and watch things come together."
-      }
-    ]
-  },
-  {
-    "id": "first-version-ready",
-    "title": "Your App's First Version Is Ready 🎉",
-    "subtitle": "Explore your newly created app and see what Apper has built for you",
-    "icon": "Sparkles",
-    "sections": [
-      {
-        "type": "text",
-        "content": "Once the setup is complete, your app's first version appears right on the dashboard!"
-      },
-      {
-        "heading": "What You Can Expect",
-        "type": "list",
-        "items": [
-          "✅ Some parts of your app are already working and clickable; you can explore and check them out",
-          "Others are just visual for now — they'll come to life as you add more logic",
-          "You can explore the app layout, click around, and get a feel for what's been generated so far"
-        ]
-      },
-      {
-        "type": "text",
-        "content": "This is your starting point - a solid foundation that you can build upon and customize to match your exact vision!"
-      }
-    ]
-  },
-  {
-    "id": "edit-and-modify",
-    "title": "How to Edit, Modify, or Add New Features to Your App 🔧",
-    "subtitle": "Use the AI chat assistant to continuously improve and expand your app",
-    "icon": "MessageSquare",
-    "sections": [
-      {
-        "type": "text",
-        "content": "On the left-hand side, you'll see the Apper AI chat assistant! This is where you can keep building your app, just by having a conversation."
-      },
-      {
-        "heading": "✨ Making Changes is Simple",
-        "type": "text",
-        "content": "You can type exactly what you want next! For example:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "\"Add a page to manage bookings.\"",
-          "\"Make the save button actually store data.\"",
-          "\"Each button should be large, with both an icon and text for clarity.\""
-        ]
-      },
-      {
-        "type": "text",
-        "content": "Or, if you're not sure what to do next, just click one of the suggestions the assistant has already listed in the chat!"
-},
-      {
-        "heading": "⚡ Instant Updates",
-        "type": "text",
-        "content": "Apper will immediately start updating your app based on your input! Explore, customize, and keep building — all right from the same screen."
+]
       }
     ]
   },
   {
     "id": "troubleshooting-errors",
     "title": "What to do when you encounter build issues 🛠️",
-    "subtitle": "Quick solutions for common setup problems",
     "icon": "AlertCircle",
     "sections": [
       {
@@ -372,20 +186,20 @@
         "type": "list",
         "items": [
           "A summary of what changed",
+"A summary of what changed",
           "A Preview button to view it",
           "A Restore button to bring it back instantly"
         ]
-},
+      },
       {
         "heading": "Benefits of Version Management",
-        "type": "text",
         "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
     ]
   },
-  {
+{
     "id": "manage-your-app",
-"title": "Manage Your App ⚙️",
+    "title": "Manage Your App ⚙️",
     "subtitle": "Essential app management and configuration",
     "icon": "Settings",
     "sections": [
@@ -569,10 +383,10 @@
           "Manage Team Access – Organize users into teams with specific access rights",
           "Secure Data Access – Ensure sensitive information is only visible to authorized users",
           "Role-Based Control – Define different permission levels for different user types"
-        ]
+]
       },
       {
-"heading": "💡 Best Practices",
+        "heading": "💡 Best Practices",
         "type": "list",
         "items": [
           "Start with basic roles and expand as needed",
@@ -644,10 +458,10 @@
       {
         "heading": "Stripe Settings",
         "type": "text",
-        "content": "Connect your Stripe account to start accepting real payments — securely and automatically."
+"content": "Connect your Stripe account to start accepting real payments — securely and automatically."
       },
       {
-"heading": "Stripe handles:",
+        "heading": "Stripe handles:",
         "type": "list",
         "items": [
           "One-time and recurring transactions",
@@ -713,10 +527,10 @@
         "type": "list",
         "items": [
           "Employee App – Each user sees only their own data",
-          "Customer-Facing App – Each customer can have multiple users with shared access"
+"Customer-Facing App – Each customer can have multiple users with shared access"
         ]
       },
-{
+      {
         "type": "text",
         "content": "This choice helps Apper set up the right structure and permissions behind the scenes — so your app behaves the way it should."
       }

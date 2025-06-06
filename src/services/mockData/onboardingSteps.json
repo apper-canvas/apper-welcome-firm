@@ -1,39 +1,33 @@
 [
   {
     "id": 1,
-    "title": "Welcome to Apper",
-    "description": "Your AI-powered app creation journey starts here",
-    "content": "Welcome to the future of app development! Apper is your intelligent companion that transforms ideas into fully functional applications through simple conversations.",
-    "type": "welcome",
-    "heading": "What is Apper?"
+    "title": "Welcome to Apper!",
+    "description": "Get ready to build amazing apps without writing code",
+    "isCompleted": false
   },
   {
     "id": 2,
     "title": "What Makes Apper Special",
-    "description": "Discover the power of conversational app building",
-    "content": "Unlike traditional app builders, Apper understands natural language. Simply describe what you want, and watch as your app comes to life through our advanced AI technology.",
-    "title": "Conversational Interface",
-    "description": "Chat in plain English to build your app"
+    "description": "Discover how AI makes app building effortless",
+    "isCompleted": false
   },
   {
     "id": 3,
-    "title": "Try Interactive Building",
-    "description": "Experience the magic of drag-and-drop app creation",
-    "content": "Get hands-on with our interactive demo. Drag components, see real-time changes, and understand how intuitive app building can be with Apper's visual interface."
+    "title": "Interactive Building",
+    "description": "Try our hands-on building experience",
+    "isCompleted": false
   },
   {
     "id": 4,
     "title": "Create Your First App",
-    "description": "Ready to build? Here's how to get started with your first app",
-    "content": "Now you're ready to create your first application! Follow our step-by-step guide to transform your idea into a working app in minutes, not months.",
-    "primaryAction": "Get Started",
-    "secondaryAction": "Skip Tour"
+    "description": "Learn how to create your first app with Apper",
+"description": "Learn how to create your first app with Apper",
+    "isCompleted": false
   },
   {
     "id": "what-is-apper",
     "title": "What is Apper?",
     "description": "Learn about our no-code platform and how it works",
-    "completed": false,
     "content": {
       "type": "explanation",
       "heading": "What is Apper?",
@@ -111,20 +105,20 @@
         },
         {
           "id": 3,
-          "type": "image",
+"type": "image",
           "x": 200,
           "y": 200,
-"label": "Add Image"
+          "label": "Add Image"
         }
       ],
       "primaryAction": "Next Step",
       "secondaryAction": "Back"
     }
   },
-  {
+{
     "id": "create-first-app",
     "title": "Create Your First App",
-"description": "Learn how to start building your first app with Apper",
+    "description": "Learn how to start building your first app with Apper",
     "completed": false,
     "content": {
       "type": "tutorial",
