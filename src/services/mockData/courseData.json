@@ -1,0 +1,415 @@
+[
+  {
+    "id": "what-is-apper",
+    "title": "What is Apper?",
+    "subtitle": "Discover the power of no-code development",
+    "icon": "Zap",
+    "sections": [
+      {
+        "heading": "Welcome to Apper",
+        "type": "text",
+        "content": "Apper is a revolutionary no-code platform that empowers anyone to build powerful web applications without writing a single line of code. Whether you're an entrepreneur with a big idea, a small business owner looking to digitize operations, or someone who wants to bring their creative vision to life, Apper makes it possible."
+      },
+      {
+        "heading": "Key Features",
+        "type": "list",
+        "items": [
+          "Drag-and-drop visual editor for intuitive app building",
+          "Pre-built templates and components to get started quickly",
+          "Real-time collaboration with team members",
+          "Responsive design that works on all devices",
+          "Built-in database and user management",
+          "One-click deployment to the web"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "why-apper-stands-out",
+    "title": "Why Apper Stands Out",
+    "subtitle": "What makes us different from other platforms",
+    "icon": "Star",
+    "sections": [
+      {
+        "heading": "Unique Advantages",
+        "type": "text",
+        "content": "Unlike traditional development or other no-code platforms, Apper focuses on simplicity without sacrificing power. Our intelligent design system learns from your preferences and suggests improvements, making the building process faster and more intuitive."
+      },
+      {
+        "heading": "Comparison with Alternatives",
+        "type": "list",
+        "items": [
+          "Faster learning curve than traditional coding",
+          "More flexible than rigid website builders",
+          "Better performance than other no-code platforms",
+          "Advanced customization options without complexity",
+          "Integrated hosting and deployment",
+          "Comprehensive analytics and insights"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "what-you-can-build",
+    "title": "What You Can Build",
+    "subtitle": "Endless possibilities with Apper",
+    "icon": "Layers",
+    "sections": [
+      {
+        "heading": "Application Types",
+        "type": "list",
+        "items": [
+          "Business websites and landing pages",
+          "E-commerce stores and marketplaces",
+          "Customer relationship management (CRM) systems",
+          "Project management and collaboration tools",
+          "Educational platforms and course websites",
+          "Portfolio and personal websites",
+          "Event management and booking systems",
+          "Social networking and community platforms"
+        ]
+      },
+      {
+        "heading": "Industry Solutions",
+        "type": "text",
+        "content": "Apper serves businesses across all industries. From restaurants managing online orders to consultants tracking client projects, from artists showcasing portfolios to nonprofits organizing events - the possibilities are limitless."
+      }
+    ]
+  },
+  {
+    "id": "create-your-first-app",
+    "title": "Create Your First App",
+    "subtitle": "Step-by-step guide to building your first application",
+    "icon": "PlusCircle",
+    "sections": [
+      {
+        "heading": "Getting Started",
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Choose a Template",
+            "description": "Browse our template library and select one that matches your vision. You can always customize it completely later."
+          },
+          {
+            "title": "Set Up Your Project",
+            "description": "Give your app a name and choose your preferred color scheme. These can be changed anytime."
+          },
+          {
+            "title": "Add Your Content",
+            "description": "Replace placeholder text and images with your own content using our intuitive editor."
+          },
+          {
+            "title": "Customize the Design",
+            "description": "Use the visual editor to adjust layouts, colors, fonts, and spacing to match your brand."
+          },
+          {
+            "title": "Preview and Test",
+            "description": "Use our preview mode to test your app on different devices and screen sizes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apper-builder-interface",
+    "title": "The Apper Builder Interface",
+    "subtitle": "Master the tools that will bring your ideas to life",
+    "icon": "Layout",
+    "sections": [
+      {
+        "heading": "Interface Overview",
+        "type": "text",
+        "content": "The Apper builder interface is designed for maximum productivity and ease of use. The main workspace shows your app as you build it, while side panels provide access to components, styling options, and settings."
+      },
+      {
+        "heading": "Key Interface Elements",
+        "type": "list",
+        "items": [
+          "Canvas: The main working area where you build your app",
+          "Component Library: Drag-and-drop elements like buttons, forms, and images",
+          "Properties Panel: Customize the selected element's appearance and behavior",
+          "Pages Panel: Manage different pages of your application",
+          "Preview Mode: See how your app looks to end users",
+          "Publishing Options: Deploy your app with one click"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "behind-the-scenes",
+    "title": "What Happens Behind the Scenes",
+    "subtitle": "Understanding how Apper works its magic",
+    "icon": "Cog",
+    "sections": [
+      {
+        "heading": "The Technology",
+        "type": "text",
+        "content": "While you focus on design and functionality, Apper automatically generates clean, optimized code behind the scenes. Our platform uses modern web technologies to ensure your apps are fast, secure, and scalable."
+      },
+      {
+        "heading": "Automatic Optimizations",
+        "type": "list",
+        "items": [
+          "Code optimization for faster loading times",
+          "Automatic responsive design adjustments",
+          "SEO optimization for better search rankings",
+          "Security measures and data protection",
+          "Performance monitoring and improvements",
+          "Browser compatibility ensuring"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "editing-and-expanding",
+    "title": "Editing and Expanding the App",
+    "subtitle": "Grow and improve your application over time",
+    "icon": "Edit3",
+    "sections": [
+      {
+        "heading": "Making Changes",
+        "type": "text",
+        "content": "Your app is never truly finished. Apper makes it easy to update content, add new features, and respond to user feedback. All changes can be made instantly without any downtime."
+      },
+      {
+        "heading": "Expansion Options",
+        "type": "list",
+        "items": [
+          "Add new pages and sections as your business grows",
+          "Integrate third-party services and APIs",
+          "Set up user accounts and membership systems",
+          "Add e-commerce functionality and payment processing",
+          "Implement advanced features like search and filtering",
+          "Create custom workflows and automation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "troubleshooting-errors",
+    "title": "Troubleshooting Errors",
+    "subtitle": "Common issues and how to solve them",
+    "icon": "AlertCircle",
+    "sections": [
+      {
+        "heading": "Common Issues",
+        "type": "text",
+        "content": "Don't worry if you encounter issues while building - it's part of the learning process! Most problems have simple solutions, and our platform provides helpful error messages to guide you."
+      },
+      {
+        "heading": "Quick Fixes",
+        "type": "list",
+        "items": [
+          "Clear your browser cache if the editor seems slow",
+          "Check your internet connection for sync issues",
+          "Refresh the page if components aren't loading",
+          "Use the undo feature to revert unwanted changes",
+          "Contact support through the help chat for assistance",
+          "Check our knowledge base for detailed troubleshooting guides"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "app-versions",
+    "title": "App Versions",
+    "subtitle": "Managing different versions of your application",
+    "icon": "GitBranch",
+    "sections": [
+      {
+        "heading": "Version Control",
+        "type": "text",
+        "content": "Apper automatically saves versions of your app as you work, allowing you to revert to previous states if needed. You can also create manual save points before making major changes."
+      },
+      {
+        "heading": "Version Features",
+        "type": "list",
+        "items": [
+          "Automatic daily backups of your app",
+          "Manual save points for major milestones",
+          "Compare different versions side by side",
+          "Restore any previous version with one click",
+          "Branch versions for testing new features",
+          "Merge changes from different versions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mobile-vs-desktop-preview",
+    "title": "Mobile vs Desktop Preview",
+    "subtitle": "Ensuring your app works perfectly on all devices",
+    "icon": "Smartphone",
+    "sections": [
+      {
+        "heading": "Responsive Design",
+        "type": "text",
+        "content": "Every app built with Apper automatically adapts to different screen sizes. Our preview mode lets you see exactly how your app will look on phones, tablets, and desktops."
+      },
+      {
+        "heading": "Preview Options",
+        "type": "list",
+        "items": [
+          "Live preview as you build",
+          "Device-specific previews (iPhone, iPad, etc.)",
+          "Orientation testing (portrait and landscape)",
+          "Performance testing on different devices",
+          "Share preview links with others for feedback",
+          "Test touch interactions on mobile devices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manage-app-settings",
+    "title": "Manage App Settings",
+    "subtitle": "Configure your app's behavior and appearance",
+    "icon": "Settings",
+    "sections": [
+      {
+        "heading": "General Settings",
+        "type": "text",
+        "content": "App settings control how your application behaves and appears to users. From basic information like the app name and description to advanced features like custom domains and analytics."
+      },
+      {
+        "heading": "Available Settings",
+        "type": "list",
+        "items": [
+          "App name, description, and favicon",
+          "Custom domain and SSL certificates",
+          "SEO settings and meta tags",
+          "Google Analytics and tracking codes",
+          "User permissions and access controls",
+          "Backup and export options"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "onboarding-and-emails",
+    "title": "Onboarding and Emails",
+    "subtitle": "Engage your users with automated communications",
+    "icon": "Mail",
+    "sections": [
+      {
+        "heading": "User Onboarding",
+        "type": "text",
+        "content": "Great apps guide users through their first experience. Apper provides tools to create welcome sequences, tutorial overlays, and progressive disclosure of features."
+      },
+      {
+        "heading": "Email Features",
+        "type": "list",
+        "items": [
+          "Welcome email sequences for new users",
+          "Automated notifications and reminders",
+          "Custom email templates with your branding",
+          "Integration with popular email services",
+          "Analytics on email open rates and clicks",
+          "A/B testing for email optimization"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "billing-and-revenue",
+    "title": "Billing and Revenue",
+    "subtitle": "Monetize your application effectively",
+    "icon": "CreditCard",
+    "sections": [
+      {
+        "heading": "Monetization Options",
+        "type": "text",
+        "content": "Turn your app into a revenue-generating business with Apper's built-in billing and payment processing. Accept one-time payments, recurring subscriptions, or implement complex pricing models."
+      },
+      {
+        "heading": "Revenue Features",
+        "type": "list",
+        "items": [
+          "One-time payments for products or services",
+          "Recurring subscription billing",
+          "Multiple payment methods (credit cards, PayPal, etc.)",
+          "Tax calculation and compliance",
+          "Revenue analytics and reporting",
+          "Integration with accounting software"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "code-section",
+    "title": "Code Section (Optional)",
+    "subtitle": "For developers who want to extend functionality",
+    "icon": "Code",
+    "sections": [
+      {
+        "heading": "Custom Code",
+        "type": "text",
+        "content": "While Apper is designed for no-code users, developers can add custom HTML, CSS, and JavaScript to extend functionality. This gives you the best of both worlds - visual building with the option for custom code."
+      },
+      {
+        "heading": "Example Custom Component",
+        "type": "code",
+        "code": "// Custom button with advanced interaction\nfunction CustomButton(props) {\n  const handleClick = () => {\n    // Custom logic here\n    console.log('Button clicked!');\n    props.onCustomAction();\n  };\n\n  return (\n    <button \n      className=\"custom-btn\"\n      onClick={handleClick}\n    >\n      {props.label}\n    </button>\n  );\n}"
+      },
+      {
+        "heading": "Advanced Features",
+        "type": "list",
+        "items": [
+          "Custom CSS for unique styling",
+          "JavaScript for advanced interactions",
+          "API integrations and webhooks",
+          "Third-party library integrations",
+          "Custom database queries",
+          "Advanced form validation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "database-setup",
+    "title": "Database Setup",
+    "subtitle": "Store and manage your application data",
+    "icon": "Database",
+    "sections": [
+      {
+        "heading": "Data Management",
+        "type": "text",
+        "content": "Every app needs to store data. Apper provides an easy-to-use database system that grows with your needs. From simple contact forms to complex inventory systems, we've got you covered."
+      },
+      {
+        "heading": "Database Features",
+        "type": "list",
+        "items": [
+          "Visual database designer - no SQL required",
+          "Automatic scaling based on your app's needs",
+          "Built-in security and data backup",
+          "Import data from spreadsheets and other sources",
+          "Real-time data updates across all users",
+          "Advanced filtering and search capabilities"
+        ]
+      },
+      {
+        "heading": "Getting Started with Data",
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Design Your Data Structure",
+            "description": "Think about what information your app needs to store (users, products, orders, etc.)"
+          },
+          {
+            "title": "Create Your Tables",
+            "description": "Use our visual designer to create tables and define relationships between data"
+          },
+          {
+            "title": "Connect to Your App",
+            "description": "Link database fields to your app components with simple drag-and-drop"
+          },
+          {
+            "title": "Test and Populate",
+            "description": "Add sample data and test your app's functionality before going live"
+          }
+        ]
+      }
+    ]
+  }
+]
