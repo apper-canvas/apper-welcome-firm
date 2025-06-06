@@ -85,13 +85,12 @@
     "sections": [
       {
         "heading": "Application Types",
-        "type": "list",
-        "items": [
+"items": [
           "Business websites and landing pages",
-"Business websites and landing pages",
           "E-commerce stores and marketplaces",
           "Customer relationship management (CRM) systems",
           "Project management and collaboration tools",
+          "Event management and booking systems",
           "Event management and booking systems",
           "Educational platforms and course websites",
           "Portfolio and personal websites",
@@ -112,9 +111,9 @@
     "icon": "PlusCircle",
     "sections": [
       {
-        "heading": "Getting Started",
+"heading": "Getting Started",
         "type": "text",
-"content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
+        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
       },
       {
         "heading": "Example Prompts",
@@ -147,9 +146,9 @@
           }
         ]
       }
-    ]
+]
   },
-{
+  {
     "id": "apper-builder-interface",
     "title": "The Apper Builder Interface",
     "subtitle": "Navigate and understand your app building workspace",
@@ -385,53 +384,118 @@
           "Third-party library integrations",
           "Custom database queries",
           "Advanced form validation"
-        ]
+]
       }
     ]
   },
   {
-    "id": "database-setup",
-    "title": "Database Setup",
-    "subtitle": "Store and manage your application data",
-    "icon": "Database",
+    "id": "app-being-built",
+    "title": "Your App Is Being Built...",
+    "subtitle": "Watch as Apper creates your app in real-time with intelligent progress updates",
+    "icon": "Loader",
     "sections": [
       {
-        "heading": "Data Management",
         "type": "text",
-        "content": "Every app needs to store data. Apper provides an easy-to-use database system that grows with your needs. From simple contact forms to complex inventory systems, we've got you covered."
+        "content": "In the center of the screen, you'll see a friendly message letting you know that your app is being set up. You don't have to do anything just yet — Apper is preparing everything for you automatically."
       },
       {
-        "heading": "Database Features",
+        "heading": "Real-Time Progress Updates",
+        "type": "text",
+        "content": "Meanwhile, you'll see a message in the left-hand chat interface that walks you through what's happening, something like:"
+      },
+      {
         "type": "list",
         "items": [
-          "Visual database designer - no SQL required",
-          "Automatic scaling based on your app's needs",
-          "Built-in security and data backup",
-          "Import data from spreadsheets and other sources",
-          "Real-time data updates across all users",
-          "Advanced filtering and search capabilities"
+          "Analyzing your request and breaking it into clear features",
+          "Setting up the right components, pages, and workflows",
+          "Building an intuitive, responsive interface",
+          "Preparing a first version focused on your core idea"
         ]
       },
       {
-        "heading": "Getting Started with Data",
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Design Your Data Structure",
-            "description": "Think about what information your app needs to store (users, products, orders, etc.)"
-          },
-          {
-            "title": "Create Your Tables",
-            "description": "Use our visual designer to create tables and define relationships between data"
-          },
-          {
-            "title": "Connect to Your App",
-            "description": "Link database fields to your app components with simple drag-and-drop"
-          },
-          {
-            "title": "Test and Populate",
-            "description": "Add sample data and test your app's functionality before going live"
-          }
+        "type": "text",
+        "content": "This chat updates as progress is made. You can even interact with it and ask for tweaks, request additions, or just sit back and watch things come together."
+      }
+    ]
+  },
+  {
+    "id": "first-version-ready",
+    "title": "Your App's First Version Is Ready 🎉",
+    "subtitle": "Explore your newly created app and see what Apper has built for you",
+    "icon": "Sparkles",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Once the setup is complete, your app's first version appears right on the dashboard."
+      },
+      {
+        "heading": "What You Can Expect",
+        "type": "list",
+        "items": [
+          "Some parts of your app are already working and clickable; you can explore and check them out",
+          "Others are just visual for now — they'll come to life as you add more logic",
+          "You can explore the app layout, click around, and get a feel for what's been generated so far"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This is your starting point - a solid foundation that you can build upon and customize to match your exact vision."
+      }
+    ]
+  },
+  {
+    "id": "edit-and-modify",
+    "title": "How to Edit, Modify, or Add New Features to Your App",
+    "subtitle": "Use the AI chat assistant to continuously improve and expand your app",
+    "icon": "MessageSquare",
+    "sections": [
+      {
+        "type": "text",
+        "content": "On the left-hand side, you'll see the Apper AI chat assistant. This is where you can keep building your app, just by having a conversation."
+      },
+      {
+        "heading": "Making Changes is Simple",
+        "type": "text",
+        "content": "You can type exactly what you want next. For example:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "\"Add a page to manage bookings.\"",
+          "\"Make the save button actually store data.\"",
+          "\"Each button should be large, with both an icon and text for clarity.\""
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Or, if you're not sure what to do next, just click one of the suggestions the assistant has already listed in the chat."
+      },
+      {
+        "heading": "Instant Updates",
+        "type": "text",
+        "content": "Apper will immediately start updating your app based on your input. Explore, customize, and keep building — all right from the same screen."
+      }
+    ]
+  },
+  {
+    "id": "app-versions",
+    "title": "App Versions",
+    "subtitle": "Manage different versions of your app and track changes over time",
+    "icon": "GitBranch",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Apper automatically saves versions of your app as you make changes, allowing you to revert to previous states if needed."
+      },
+      {
+        "heading": "Version Features",
+        "type": "list",
+        "items": [
+          "Automatic version creation on significant changes",
+          "Manual version saving with custom descriptions",
+          "Easy comparison between versions",
+"One-click version restoration",
+          "Version history and timeline view"
         ]
       }
     ]
