@@ -1,28 +1,29 @@
 [
   {
     "id": "welcome",
-    "title": "Welcome to Apper",
-    "description": "Get started with the most intuitive no-code platform",
+    "title": "What is Apper?",
+    "description": "Learn about your AI app creator that builds through conversation",
     "completed": false,
     "content": {
       "type": "welcome",
-      "heading": "Welcome to Apper!",
-      "subheading": "Ready to build amazing apps without writing a single line of code?",
+      "heading": "What is Apper?",
+      "subheading": "Apper is your AI app creator that builds fully functional apps through simple conversation",
+      "explanation": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes. You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface). Just chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs. In short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI.",
       "features": [
         {
-          "icon": "Palette",
-          "title": "Beautiful Design",
-          "description": "Drag & drop stunning components"
+          "icon": "MessageSquare",
+          "title": "Conversational Interface",
+          "description": "Chat in plain English to build your app"
         },
         {
           "icon": "Zap",
-          "title": "Lightning Fast",
-          "description": "Build apps in minutes, not months"
+          "title": "Instant Creation",
+          "description": "Apps built in minutes, not months"
         },
         {
           "icon": "Users",
-          "title": "No Code Required",
-          "description": "Perfect for non-technical users"
+          "title": "No Technical Skills",
+          "description": "Perfect for anyone with an idea"
         }
       ],
       "primaryAction": "Get Started",
