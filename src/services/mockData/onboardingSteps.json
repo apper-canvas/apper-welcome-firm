@@ -37,26 +37,27 @@
     "content": {
       "type": "explanation",
       "heading": "What is Apper?",
-      "subheading": "Apper is your friendly no-code platform that turns ideas into reality",
-      "explanation": "Build websites, apps, and tools without any programming knowledge!",
+"subheading": "Apper is your AI app creator that builds fully functional apps through conversation",
+      "explanation": "Just chat with Apper in simple English and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs.",
       "steps": [
         {
           "number": "1",
-          "title": "Choose a Template",
-          "description": "Pick from hundreds of beautiful templates",
-          "icon": "Layout"
+          "title": "Start a Conversation",
+          "description": "Chat with Apper about your app idea in simple English",
+          "icon": "MessageSquare"
         },
         {
           "number": "2",
-          "title": "Customize Everything",
-          "description": "Drag, drop, and style with our visual editor",
-          "icon": "Edit3"
+"number": "2",
+          "title": "AI Builds Your App",
+          "description": "Apper creates your app based on your conversation",
+          "icon": "Bot"
         },
         {
           "number": "3",
-          "title": "Publish Instantly",
-          "description": "Share your creation with the world in one click",
-          "icon": "Globe"
+          "title": "Refine and Launch",
+          "description": "Chat to improve your app and publish instantly",
+          "icon": "Rocket"
         }
       ],
       "demoActions": ["Drag", "Drop", "Done"],

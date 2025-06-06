@@ -143,10 +143,10 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
+className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
               >
-                Apper is your friendly no-code platform that turns ideas into reality. 
-                Build websites, apps, and tools without any programming knowledge!
+                Apper is your AI app creator that builds fully functional apps through conversation.
+                Just chat with Apper in simple English and tell it what kind of app you need.
               </motion.p>
             </div>
 
@@ -159,11 +159,11 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                 <h3 className="text-2xl font-heading font-bold text-surface-900 dark:text-white mb-6">
                   How it works:
                 </h3>
-                <div className="space-y-6">
+<div className="space-y-6">
                   {[
-                    { step: '1', title: 'Choose a Template', desc: 'Pick from hundreds of beautiful templates', icon: 'Layout' },
-                    { step: '2', title: 'Customize Everything', desc: 'Drag, drop, and style with our visual editor', icon: 'Edit3' },
-                    { step: '3', title: 'Publish Instantly', desc: 'Share your creation with the world in one click', icon: 'Globe' }
+                    { step: '1', title: 'Start a Conversation', desc: 'Chat with Apper about your app idea in simple English', icon: 'MessageSquare' },
+                    { step: '2', title: 'AI Builds Your App', desc: 'Apper creates your app based on your conversation', icon: 'Bot' },
+                    { step: '3', title: 'Refine and Launch', desc: 'Chat to improve your app and publish instantly', icon: 'Rocket' }
                   ].map((item, index) => (
                     <ProcessStep
                       key={item.step}
