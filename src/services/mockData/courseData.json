@@ -305,32 +305,7 @@
         "type": "text",
         "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
-    ]
-  },
-  {
-    "id": "mobile-vs-desktop-preview",
-    "title": "Mobile vs Desktop Preview 📱💻",
-    "subtitle": "Ensuring your app works perfectly on all devices",
-    "icon": "Smartphone",
-    "sections": [
-      {
-        "heading": "Responsive Design",
-        "type": "text",
-        "content": "Every app built with Apper automatically adapts to different screen sizes! Our preview mode lets you see exactly how your app will look on phones, tablets, and desktops."
-      },
-      {
-        "heading": "Preview Options",
-        "type": "list",
-        "items": [
-          "Live preview as you build",
-          "Device-specific previews (iPhone, iPad, etc.)",
-          "Orientation testing (portrait and landscape)",
-          "Performance testing on different devices",
-          "Share preview links with others for feedback",
-          "Test touch interactions on mobile devices"
-        ]
-      }
-    ]
+]
   },
   {
     "id": "manage-app-settings",
