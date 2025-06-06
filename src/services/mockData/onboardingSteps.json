@@ -44,11 +44,10 @@
           "number": "1",
           "title": "Start a Conversation",
           "description": "Chat with Apper about your app idea in simple English",
-          "icon": "MessageSquare"
+"icon": "MessageSquare"
         },
         {
           "number": "2",
-"number": "2",
           "title": "AI Builds Your App",
           "description": "Apper creates your app based on your conversation",
           "icon": "Bot"
