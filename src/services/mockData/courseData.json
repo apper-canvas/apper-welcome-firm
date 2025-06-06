@@ -150,37 +150,62 @@
     ]
   },
 {
-    "id": "editing-and-expanding",
-    "title": "Editing and Expanding the App",
-    "subtitle": "Learn how to modify and enhance your app",
-    "icon": "Edit3",
+    "id": "apper-builder-interface",
+    "title": "The Apper Builder Interface",
+    "subtitle": "Navigate and understand your app building workspace",
+    "icon": "Layout",
     "sections": [
-        {
-          "heading": "Making Changes",
-          "type": "text",
-          "content": "Once your app is generated, you can chat with Apper to make changes and add new features. Simply describe what you want to modify or add, and Apper will update your app accordingly."
-        },
-        {
-          "heading": "Example Modifications",
-          "type": "list",
-          "items": [
-"Ask for design changes: 'Make the buttons bigger and blue'",
-            "Add new features: 'Add a search function to find orders quickly'",
-            "Modify existing features: 'Change the payment form to include PayPal'",
-            "Request layout changes: 'Move the menu to the top of the page'"
-          ]
-        },
-        {
-"heading": "Expansion Options",
-          "type": "list",
-          "items": [
-          "Add new pages and sections as your business grows",
-          "Integrate third-party services and APIs",
-          "Set up user accounts and membership systems",
-          "Add e-commerce functionality and payment processing",
-          "Implement advanced features like search and filtering",
-          "Create custom workflows and automation"
+      {
+        "heading": "Getting to the Builder Interface",
+        "type": "text",
+        "content": "Once you submit your prompt, you'll be redirected to the 'Apper Builder Interface'."
+      },
+      {
+        "heading": "The 4 Main Sections",
+        "type": "text",
+        "content": "The Apper Builder Interface has 4 main sections, each designed to help you manage different aspects of your app:"
+      },
+      {
+        "heading": "1. Customize App",
+        "type": "text",
+        "content": "View and edit your app's layout, pages, and components. This is where you can see your app come to life and make visual adjustments to ensure it looks exactly how you want it."
+      },
+      {
+        "heading": "2. Manage App",
+        "type": "text",
+        "content": "Control your app's settings, invite users, set up permissions, onboarding emails, and billing for your app (we'll cover all this in detail later). This section handles all the business and operational aspects of your application."
+      },
+      {
+        "heading": "3. Code (Optional)",
+        "type": "text",
+        "content": "View or edit the code behind your app if you're working with a developer and want advanced customization. Important Note: No coding is required to use Apper; this is just for added flexibility."
+      },
+      {
+        "heading": "4. Database - Your App's Memory",
+        "type": "text",
+        "content": "It's where your app safely stores and manages all its data. This could be anything from user details, form submissions, product lists, bookings, messages, or any data your app needs to deal with."
+      },
+      {
+        "heading": "How Apper Handles Your Data Automatically",
+        "type": "text",
+        "content": "Apper takes care of everything automatically and works quietly in the background to make your app run smoothly."
+      },
+      {
+        "heading": "What Apper Does Behind the Scenes",
+        "type": "list",
+        "items": [
+          "Analyzes your app and understands what data it needs",
+          "Creates the right tables for your app's data automatically",
+          "Links related information together (like connecting a user to their orders)",
+          "Keeps everything updated in real time with your app's screens",
+          "Ensures data consistency and security at all times",
+          "Handles data backup and recovery automatically"
         ]
+      },
+      {
+        "heading": "The Result",
+        "type": "text",
+        "content": "So when someone adds, edits, or views something in your app, the database is always working quietly in the background to make it all run smoothly. You don't need to worry about technical details - Apper handles it all for you."
       }
     ]
   },
