@@ -255,28 +255,48 @@
       }
     ]
   },
-  {
+{
     "id": "app-versions",
-    "title": "App Versions 📚",
+    "title": "What are App Versions & How to Switch Between Them 📚",
     "subtitle": "Managing different versions of your application",
     "icon": "GitBranch",
     "sections": [
       {
-        "heading": "Version Control",
+        "heading": "What are App Versions & How to Switch Between Them",
         "type": "text",
-        "content": "Apper automatically saves versions of your app as you work! This allows you to revert to previous states if needed. You can also create manual save points before making major changes."
+        "content": "Apper saves every change as a new version, so you can always go back, compare, or restore earlier versions."
       },
       {
-        "heading": "⚙️ Version Features",
+        "heading": "How to Switch Versions",
+        "type": "text",
+        "content": "To switch versions, click the Version dropdown at the top of the screen. You'll see a full list of all past versions:"
+      },
+      {
+        "heading": "Version Status Indicators",
         "type": "list",
         "items": [
-          "Automatic daily backups of your app",
-          "Manual save points for major milestones",
-          "Compare different versions side by side",
-          "Restore any previous version with one click",
-          "Branch versions for testing new features",
-          "Merge changes from different versions"
+          "✅ Versions that were built successfully are shown in white",
+          "❌ Versions that had errors are shown in red"
         ]
+      },
+      {
+        "heading": "Loading and Navigation",
+        "type": "text",
+        "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
+      },
+      {
+        "heading": "What Each Version Includes",
+        "type": "list",
+        "items": [
+          "A summary of what changed",
+          "A Preview button to view it",
+          "A Restore button to bring it back instantly"
+        ]
+      },
+      {
+        "heading": "Benefits of Version Management",
+        "type": "text",
+        "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
     ]
   },
