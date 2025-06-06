@@ -13,8 +13,16 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
 
   const currentStepData = steps[currentStep]
 
-useEffect(() => {
-    setAnimatedElements([]) // Clear elements since interactive step is removed
+  useEffect(() => {
+    if (currentStep === 2) {
+      setAnimatedElements([
+        { id: 1, type: 'button', x: 100, y: 50, label: 'Add Button' },
+        { id: 2, type: 'text', x: 300, y: 100, label: 'Add Text' },
+        { id: 3, type: 'image', x: 200, y: 200, label: 'Add Image' }
+      ])
+    } else {
+      setAnimatedElements([]) // Clear elements if not on step 3
+    }
   }, [currentStep])
 
   const handleDemoInteraction = (demoType) => {
@@ -50,12 +58,12 @@ useEffect(() => {
             animate={{ opacity: 1, scale: 1 }}
             className="text-center max-w-4xl mx-auto"
           >
-<motion.div
+            <motion.div
               animate={{ y: [-10, 10, -10] }}
               transition={{ duration: 3, repeat: Infinity }}
-              className="mb-12"
-            >
-              <div className="relative inline-block">
+className="mb-12"
+          >
+            <div className="relative inline-block">
                 <div className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-card">
                   <Icon name="Sparkles" className="w-16 h-16 text-white" />
                 </div>
@@ -137,10 +145,10 @@ animate={{ opacity: 1, y: 0 }}
               >
                 Apper is your AI app creator that builds fully functional apps through conversation.
                 Just chat with Apper in simple English and tell it what kind of app you need.
-</motion.p>
+              </motion.p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -191,10 +199,10 @@ animate={{ opacity: 1, y: 0 }}
                       <motion.div
                         animate={{ y: [-2, 2, -2] }}
                         transition={{ duration: 2, repeat: Infinity, delay: 0 }}
-className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg border-2 border-dashed border-primary/30"
+                        className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg border-2 border-dashed border-primary/30"
                       />
                       <motion.div
-                        animate={{ y: [2, -2, 2] }}
+animate={{ y: [2, -2, 2] }}
                         transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
                         className="h-20 bg-gradient-to-br from-accent/20 to-primary/20 rounded-lg border-2 border-dashed border-accent/30"
                       />
@@ -222,13 +230,13 @@ className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg bor
                       }`}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-{action}
+                    >
+                      {action}
                     </Button>
-                  ))}
+))}
                 </div>
               </motion.div>
             </div>
-            <motion.div
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -257,10 +265,102 @@ className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg bor
                 </Button>
               </div>
             </motion.div>
-</motion.div>
+          </motion.div>
         )
 
       case 2:
+        return (
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="max-w-6xl mx-auto"
+          >
+            <div className="text-center mb-12">
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="text-4xl md:text-6xl font-heading font-bold text-surface-900 dark:text-white mb-6"
+              >
+                Let's Build Your First App!
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
+>
+                Try our interactive demo! Drag the elements around to see how easy it is to build with Apper.
+              </motion.p>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.4 }}
+                className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-6"
+              >
+                <h3 className="font-heading font-bold text-lg text-surface-900 dark:text-white mb-4 flex items-center">
+                  <Icon name="Package" className="w-5 h-5 mr-2 text-primary" />
+                  Components
+                </h3>
+                <div className="space-y-3">
+                  {[
+                    { name: 'Button', icon: 'Square', color: 'bg-primary' },
+                    { name: 'Text', icon: 'Type', color: 'bg-secondary' },
+                    { name: 'Image', icon: 'Image', color: 'bg-accent' },
+                    { name: 'Form', icon: 'FileText', color: 'bg-purple-500' }
+                  ].map((component) => (
+                    <motion.div
+                      key={component.name}
+                      className={`p-3 ${component.color} rounded-xl text-white cursor-pointer hover:scale-105 transition-transform flex items-center`}
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      drag
+                      dragSnapToOrigin
+                    >
+                      <Icon name={component.icon} className="w-4 h-4 mr-2" />
+                      <span className="font-semibold">{component.name}</span>
+                    </motion.div>
+                  ))}
+                </div>
+</motion.div>
+
+              <AppCanvas
+                animatedElements={animatedElements}
+                handleElementDrag={handleElementDrag}
+                resetElements={resetCanvasElements}
+              />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8 }}
+              className="text-center mt-12"
+            >
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button
+                  onClick={() => onNavigate(1)}
+                  className="px-6 py-3 border-2 border-surface-300 dark:border-surface-600 text-surface-700 dark:text-surface-300 font-semibold rounded-2xl hover:bg-surface-100 dark:hover:bg-surface-700"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  icon="ArrowLeft"
+                >
+                  Back
+                </Button>
+
+                <Button
+                  onClick={() => onStepComplete(2)}
+                  className="px-8 py-4 bg-gradient-to-r from-accent to-orange-500 text-white font-semibold rounded-2xl text-lg shadow-card"
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  icon="CheckCircle"
+                >
+                  Complete Onboarding
+                </Button>
+              </div>
+</motion.div>
+          </motion.div>
+        )
       case 3:
         return (
           <motion.div
@@ -284,10 +384,10 @@ className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg bor
               >
                 Ready to build? Here's how to get started with your first app
               </motion.p>
-</div>
+            </div>
 
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
               className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-8 mb-12"
@@ -324,10 +424,10 @@ className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg bor
                     prompt: "Create a quiz game that gives points and tracks team progress.",
                     description: "Ideal for education and team building",
                     color: "from-accent to-orange-500"
-}
+                  }
                 ].map((example, index) => (
                   <motion.div
-                    key={example.title}
+key={example.title}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6 + index * 0.1 }}
@@ -346,10 +446,10 @@ className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg bor
                       {example.description}
                     </p>
                   </motion.div>
-))}
+                ))}
               </div>
 
-              <motion.div
+<motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
@@ -375,22 +475,22 @@ className="h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg bor
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-transition={{ delay: 1.0 }}
+              transition={{ delay: 1.0 }}
               className="text-center"
             >
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button
-                  onClick={() => onNavigate(1)}
+                  onClick={() => onNavigate(2)}
                   className="px-6 py-3 border-2 border-surface-300 dark:border-surface-600 text-surface-700 dark:text-surface-300 font-semibold rounded-2xl hover:bg-surface-100 dark:hover:bg-surface-700"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   icon="ArrowLeft"
                 >
                   Back
-</Button>
+                </Button>
 
                 <Button
-                  onClick={() => onStepComplete(currentStep)}
+                  onClick={() => onStepComplete(3)}
                   className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-2xl text-lg shadow-card"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
