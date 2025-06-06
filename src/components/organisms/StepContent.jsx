@@ -1,21 +1,27 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import ApperIcon from './ApperIcon'
+import Button from '@/components/atoms/Button'
+import Icon from '@/components/atoms/Icon'
+import FeatureCard from '@/components/molecules/FeatureCard'
+import ProcessStep from '@/components/molecules/ProcessStep'
+import AnimatedIconBubble from '@/components/molecules/AnimatedIconBubble'
+import AppCanvas from '@/components/organisms/AppCanvas'
 
-function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavigate }) {
+function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavigate }) {
   const [selectedDemo, setSelectedDemo] = useState(null)
   const [animatedElements, setAnimatedElements] = useState([])
 
   const currentStepData = steps[currentStep]
 
   useEffect(() => {
-    // Initialize animated elements for step 3
     if (currentStep === 2) {
       setAnimatedElements([
         { id: 1, type: 'button', x: 100, y: 50, label: 'Add Button' },
         { id: 2, type: 'text', x: 300, y: 100, label: 'Add Text' },
         { id: 3, type: 'image', x: 200, y: 200, label: 'Add Image' }
       ])
+    } else {
+      setAnimatedElements([]) // Clear elements if not on step 3
     }
   }, [currentStep])
 
@@ -32,7 +38,18 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
     )
   }
 
-  const renderStepContent = () => {
+  const resetCanvasElements = () => {
+    setAnimatedElements([])
+    setTimeout(() => {
+      setAnimatedElements([
+        { id: Date.now() + 1, type: 'button', x: 150, y: 80, label: 'Welcome Button' },
+        { id: Date.now() + 2, type: 'text', x: 50, y: 150, label: 'Hello World!' },
+        { id: Date.now() + 3, type: 'image', x: 250, y: 120, label: 'Hero Image' }
+      ])
+    }, 200)
+  }
+
+  const renderContent = () => {
     switch (currentStep) {
       case 0:
         return (
@@ -48,15 +65,15 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
             >
               <div className="relative inline-block">
                 <div className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-card">
-                  <ApperIcon name="Zap" className="w-16 h-16 text-white" />
+                  <Icon name="Zap" className="w-16 h-16 text-white" />
                 </div>
-                <motion.div
+                <AnimatedIconBubble
+                  iconName="Sparkles"
+                  bubbleClass="w-8 h-8 bg-accent -top-2 -right-2"
+                  iconClass="w-4 h-4 text-white"
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 2, repeat: Infinity }}
-                  className="absolute -top-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center"
-                >
-                  <ApperIcon name="Sparkles" className="w-4 h-4 text-white" />
-                </motion.div>
+                />
               </div>
             </motion.div>
 
@@ -85,24 +102,24 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
-              <motion.button
+              <Button
                 onClick={() => onStepComplete(0)}
-                className="px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold rounded-2xl text-lg shadow-card hover:shadow-lg transition-all duration-300 flex items-center"
+                className="px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold rounded-2xl text-lg shadow-card"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
+                icon="Play"
               >
-                <ApperIcon name="Play" className="w-6 h-6 mr-2" />
                 Get Started
-              </motion.button>
+              </Button>
 
-              <motion.button
+              <Button
                 onClick={() => onNavigate(1)}
-                className="px-6 py-3 border-2 border-primary text-primary dark:text-primary-light font-semibold rounded-2xl hover:bg-primary hover:text-white transition-all duration-300"
+                className="px-6 py-3 border-2 border-primary text-primary dark:text-primary-light font-semibold rounded-2xl hover:bg-primary hover:text-white"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 Skip Tour
-              </motion.button>
+              </Button>
             </motion.div>
 
             <motion.div
@@ -116,23 +133,13 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
                 { icon: 'Zap', title: 'Lightning Fast', desc: 'Build apps in minutes, not months' },
                 { icon: 'Users', title: 'No Code Required', desc: 'Perfect for non-technical users' }
               ].map((feature, index) => (
-                <motion.div
+                <FeatureCard
                   key={feature.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1.2 + index * 0.2 }}
-                  className="bg-white dark:bg-surface-800 p-6 rounded-2xl shadow-card hover:shadow-lg transition-shadow"
-                >
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4">
-                    <ApperIcon name={feature.icon} className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="font-heading font-semibold text-lg text-surface-900 dark:text-white mb-2">
-                    {feature.title}
-                  </h3>
-                  <p className="text-surface-600 dark:text-surface-400">
-                    {feature.desc}
-                  </p>
-                </motion.div>
+                  icon={feature.icon}
+                  title={feature.title}
+                  description={feature.desc}
+                  delay={1.2 + index * 0.2}
+                />
               ))}
             </motion.div>
           </motion.div>
@@ -179,25 +186,14 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
                     { step: '2', title: 'Customize Everything', desc: 'Drag, drop, and style with our visual editor', icon: 'Edit3' },
                     { step: '3', title: 'Publish Instantly', desc: 'Share your creation with the world in one click', icon: 'Globe' }
                   ].map((item, index) => (
-                    <motion.div
+                    <ProcessStep
                       key={item.step}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.6 + index * 0.2 }}
-                      className="flex items-start space-x-4"
-                    >
-                      <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center flex-shrink-0">
-                        <span className="text-white font-bold text-sm">{item.step}</span>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-lg text-surface-900 dark:text-white mb-1">
-                          {item.title}
-                        </h4>
-                        <p className="text-surface-600 dark:text-surface-400">
-                          {item.desc}
-                        </p>
-                      </div>
-                    </motion.div>
+                      step={item.step}
+                      title={item.title}
+                      description={item.desc}
+                      icon={item.icon}
+                      delay={0.6 + index * 0.2}
+                    />
                   ))}
                 </div>
               </motion.div>
@@ -234,18 +230,18 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
                     </div>
                   </div>
                   
-                  <motion.div
+                  <AnimatedIconBubble
+                    iconName="Magic"
+                    bubbleClass="w-12 h-12 bg-accent -top-6 -right-6"
+                    iconClass="w-6 h-6 text-white"
                     animate={{ rotate: [0, 5, -5, 0] }}
                     transition={{ duration: 3, repeat: Infinity }}
-                    className="absolute -top-6 -right-6 w-12 h-12 bg-accent rounded-full flex items-center justify-center"
-                  >
-                    <ApperIcon name="Magic" className="w-6 h-6 text-white" />
-                  </motion.div>
+                  />
                 </div>
 
                 <div className="flex justify-center mt-8 space-x-4">
                   {['Drag', 'Drop', 'Done'].map((action, index) => (
-                    <motion.button
+                    <Button
                       key={action}
                       onClick={() => handleDemoInteraction(action.toLowerCase())}
                       className={`px-4 py-2 rounded-xl font-semibold transition-all ${
@@ -257,7 +253,7 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
                       whileTap={{ scale: 0.95 }}
                     >
                       {action}
-                    </motion.button>
+                    </Button>
                   ))}
                 </div>
               </motion.div>
@@ -269,15 +265,15 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
               transition={{ delay: 0.8 }}
               className="text-center"
             >
-              <motion.button
+              <Button
                 onClick={() => onStepComplete(1)}
-                className="px-8 py-4 bg-gradient-to-r from-secondary to-secondary-dark text-white font-semibold rounded-2xl text-lg shadow-card hover:shadow-lg transition-all duration-300 flex items-center mx-auto"
+                className="px-8 py-4 bg-gradient-to-r from-secondary to-secondary-dark text-white font-semibold rounded-2xl text-lg shadow-card mx-auto"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
+                icon="ArrowRight"
               >
-                <ApperIcon name="ArrowRight" className="w-6 h-6 mr-2" />
                 Let's Try It!
-              </motion.button>
+              </Button>
             </motion.div>
           </motion.div>
         )
@@ -308,7 +304,6 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Component Palette */}
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -341,73 +336,11 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
                 </div>
               </motion.div>
 
-              {/* Canvas Area */}
-              <motion.div
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6 }}
-                className="lg:col-span-2 bg-gradient-to-br from-surface-50 to-surface-100 dark:from-surface-900 dark:to-surface-800 rounded-2xl shadow-card p-8 relative min-h-96 border-2 border-dashed border-surface-300 dark:border-surface-600"
-              >
-                <div className="absolute top-4 left-4 text-surface-500 dark:text-surface-400 text-sm">
-                  Your App Canvas - Drag components here!
-                </div>
-
-                <AnimatePresence>
-                  {animatedElements.map((element) => (
-                    <motion.div
-                      key={element.id}
-                      initial={{ opacity: 0, scale: 0 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0 }}
-                      drag
-                      dragMomentum={false}
-                      onDrag={(event, info) => {
-                        handleElementDrag(element.id, {
-                          x: element.x + info.offset.x,
-                          y: element.y + info.offset.y
-                        })
-                      }}
-                      className={`absolute cursor-pointer select-none`}
-                      style={{ left: element.x, top: element.y }}
-                      whileHover={{ scale: 1.1 }}
-                      whileDrag={{ scale: 1.1, zIndex: 50 }}
-                    >
-                      <div className={`p-3 rounded-xl shadow-card ${
-                        element.type === 'button' ? 'bg-primary text-white' :
-                        element.type === 'text' ? 'bg-secondary text-white' :
-                        'bg-accent text-white'
-                      }`}>
-                        <ApperIcon 
-                          name={element.type === 'button' ? 'Square' : element.type === 'text' ? 'Type' : 'Image'} 
-                          className="w-4 h-4 mr-2 inline" 
-                        />
-                        {element.label}
-                      </div>
-                    </motion.div>
-                  ))}
-                </AnimatePresence>
-
-                <div className="absolute bottom-4 right-4">
-                  <motion.button
-                    onClick={() => {
-                      setAnimatedElements([])
-                      setTimeout(() => {
-                        setAnimatedElements([
-                          { id: Date.now() + 1, type: 'button', x: 150, y: 80, label: 'Welcome Button' },
-                          { id: Date.now() + 2, type: 'text', x: 50, y: 150, label: 'Hello World!' },
-                          { id: Date.now() + 3, type: 'image', x: 250, y: 120, label: 'Hero Image' }
-                        ])
-                      }, 200)
-                    }}
-                    className="px-4 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold hover:scale-105 transition-transform"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <ApperIcon name="RefreshCw" className="w-4 h-4 mr-1 inline" />
-                    Reset
-                  </motion.button>
-                </div>
-              </motion.div>
+              <AppCanvas
+                animatedElements={animatedElements}
+                handleElementDrag={handleElementDrag}
+                resetElements={resetCanvasElements}
+              />
             </div>
 
             <motion.div
@@ -417,42 +350,38 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
               className="text-center mt-12"
             >
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <motion.button
+                <Button
                   onClick={() => onNavigate(1)}
-                  className="px-6 py-3 border-2 border-surface-300 dark:border-surface-600 text-surface-700 dark:text-surface-300 font-semibold rounded-2xl hover:bg-surface-100 dark:hover:bg-surface-700 transition-all duration-300"
+                  className="px-6 py-3 border-2 border-surface-300 dark:border-surface-600 text-surface-700 dark:text-surface-300 font-semibold rounded-2xl hover:bg-surface-100 dark:hover:bg-surface-700"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  icon="ArrowLeft"
                 >
-                  <ApperIcon name="ArrowLeft" className="w-5 h-5 mr-2 inline" />
                   Back
-                </motion.button>
+                </Button>
 
-                <motion.button
+                <Button
                   onClick={() => onStepComplete(2)}
-                  className="px-8 py-4 bg-gradient-to-r from-accent to-orange-500 text-white font-semibold rounded-2xl text-lg shadow-card hover:shadow-lg transition-all duration-300"
+                  className="px-8 py-4 bg-gradient-to-r from-accent to-orange-500 text-white font-semibold rounded-2xl text-lg shadow-card"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
+                  icon="CheckCircle"
                 >
-                  <ApperIcon name="CheckCircle" className="w-6 h-6 mr-2 inline" />
                   Complete Onboarding
-                </motion.button>
+                </Button>
               </div>
             </motion.div>
           </motion.div>
         )
 
       default:
-        return null
+        return (
+          <div className="text-center py-20">
+            <Icon name="Loader" className="w-8 h-8 animate-spin text-primary mx-auto mb-4" />
+            <p className="text-surface-600 dark:text-surface-400">Loading step content...</p>
+          </div>
+        )
     }
-  }
-
-  if (!currentStepData) {
-    return (
-      <div className="text-center py-20">
-        <ApperIcon name="Loader" className="w-8 h-8 animate-spin text-primary mx-auto mb-4" />
-        <p className="text-surface-600 dark:text-surface-400">Loading step content...</p>
-      </div>
-    )
   }
 
   return (
@@ -465,11 +394,11 @@ function MainFeature({ steps, currentStep, userProgress, onStepComplete, onNavig
           exit={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
         >
-          {renderStepContent()}
+          {renderContent()}
         </motion.div>
       </AnimatePresence>
     </div>
   )
 }
 
-export default MainFeature
+export default StepContent
