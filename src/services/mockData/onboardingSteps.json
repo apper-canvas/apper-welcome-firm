@@ -29,16 +29,16 @@
       "secondaryAction": "Skip Tour"
     }
   },
-  {
+{
     "id": "what-is-apper",
     "title": "What is Apper?",
     "description": "Learn about our no-code platform and how it works",
     "completed": false,
     "content": {
-"type": "explanation",
+      "type": "explanation",
       "heading": "What is Apper?",
       "subheading": "Apper is your AI app creator that builds fully functional apps through conversation",
-      "explanation": "Just chat with Apper in simple English and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs.",
+      "explanation": "Most tools help with only one part of building an app. You might use one for design, another for databases, something else for login, payments, hosting, testing, & more. With Apper, everything happens in one place. The AI builds your app from start to finish: Pages and layouts, Buttons and forms, How your app behaves, Where the data goes, How users log in, How do you get paid, And more — all set up and ready to use. What truly sets Apper apart is how natural it feels. You just speak with Apper in your plain everyday language, and it understands what to build, how it should look, and how it should work. That's why Apper isn't just another app builder — it's a new way to create software.",
       "steps": [
         {
           "number": "1",
