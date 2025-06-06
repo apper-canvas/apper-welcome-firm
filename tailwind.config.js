@@ -18,22 +18,7 @@ export default {
           light: '#34D399',
           dark: '#059669'
         },
-accent: '#F59E0B',
-        blue: {
-          DEFAULT: '#007BFF',
-          light: '#3395FF',
-          dark: '#0056B3'
-        },
-        green: {
-          DEFAULT: '#28A745',
-          light: '#5CB85C',
-          dark: '#1E7E34'
-        },
-        purple: {
-          DEFAULT: '#663399',
-          light: '#8A4FBB',
-          dark: '#4A1A66'
-        },
+        accent: '#F59E0B',
         surface: {
           50: '#FAFAFA',
           100: '#F5F5F5',
