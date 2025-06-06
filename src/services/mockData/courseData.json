@@ -139,8 +139,48 @@
         "content": "From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
       }
     ]
+},
+  {
+    "id": "create-your-first-app",
+    "title": "Create Your First App 🚀",
+    "subtitle": "Get started with Apper's intuitive prompt interface",
+    "icon": "Rocket",
+    "sections": [
+      {
+        "heading": "Getting Started",
+        "type": "text",
+        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
+      },
+      {
+        "heading": "💡 Example Prompts",
+        "type": "text",
+        "content": "For example, you could type something like:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "\"I want to build a tool to track customer orders.\"",
+          "\"Make an app where users can book sessions and pay online.\"",
+          "\"Create a quiz game that gives points and tracks team progress.\""
+        ]
+      },
+      {
+        "heading": "🎯 Get Better Results with ChatGPT",
+        "type": "text",
+        "content": "But to help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. Here's how to do it:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Open ChatGPT in a new tab",
+          "Tell ChatGPT about your app idea and ask it to refine your prompt",
+          "Use the improved version in Apper's prompt box",
+          "This will give you much better and more accurate results"
+        ]
+      }
+    ]
   },
-{
+  {
   "id": "getting-started-prompts",
   "title": "Getting Started with Better Prompts 💡",
   "subtitle": "Learn how to write effective prompts for better results",
