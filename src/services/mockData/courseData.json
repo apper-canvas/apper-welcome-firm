@@ -57,41 +57,21 @@
         "type": "text",
         "content": "You just speak with Apper in your plain everyday language, and it understands what to build, how it should look, and how it should work."
       },
-      {
+{
         "type": "text",
         "content": "That's why Apper isn't just another app builder — it's a new way to create software."
       }
     ]
   },
   {
-    "id": "interactive-building",
-    "title": "Interactive Building Experience",
-    "subtitle": "See how intuitive app creation can be",
-    "icon": "Wand2",
+    "id": "what-can-you-build",
+    "title": "What Can You Build?",
+    "subtitle": "Endless possibilities with AI-powered development",
+    "icon": "Lightbulb",
     "sections": [
       {
-        "type": "text",
-        "content": "Apper's interface is designed to feel like a conversation with a smart assistant who happens to be an expert app developer. You describe features in plain English, and Apper translates them into working functionality."
-      },
-      {
-        "type": "demo",
-        "title": "Try Interactive Demo",
-        "description": "Experience Apper's building process with our hands-on demo"
-},
-      {
-        "type": "text",
-        "content": "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you."
-      },
-      {
         "type": "list",
-        "heading": "Internal Business Tools:",
-        "items": [
-          "Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards."
-        ]
-      },
-      {
-        "type": "list",
-        "heading": "Customer-Facing Apps:",
+        "heading": "Web Apps:",
         "items": [
           "Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools."
         ]
@@ -173,9 +153,9 @@
           },
           {
             "title": "Watch Apper Build",
-            "description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
+"description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
           },
-{
+          {
             "title": "Customize and Launch",
             "description": "Make any changes you want by continuing the conversation, then publish your app with one click."
           }
@@ -193,10 +173,10 @@
         "type": "text",
         "content": "If something goes wrong during setup, you might see a message saying \"Build was unsuccessful.\""
       },
-      {
+{
         "heading": "No Need to Worry",
         "type": "text",
-"content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
+        "content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
       }
     ]
   },
@@ -234,9 +214,9 @@
       {
         "heading": "Loading and Navigation",
         "type": "text",
-        "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
+"content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
       },
-{
+      {
         "heading": "What Each Version Includes",
         "type": "list",
         "items": [
@@ -431,9 +411,9 @@
       },
       {
         "heading": "User Management Features",
-        "type": "list",
+"type": "list",
         "items": [
-"Create User Profiles – Set up detailed user accounts with roles and information",
+          "Create User Profiles – Set up detailed user accounts with roles and information",
           "Assign Permissions – Control what each user can view, edit, or delete",
           "Manage Team Access – Organize users into teams with specific access rights",
           "Secure Data Access – Ensure sensitive information is only visible to authorized users",
@@ -506,9 +486,9 @@
           "One-time unlocks"
         ]
       },
-      {
+{
         "type": "text",
-"content": "Perfect for apps that offer flexibility or usage-based pricing."
+        "content": "Perfect for apps that offer flexibility or usage-based pricing."
       },
       {
         "heading": "Stripe Settings",
@@ -575,9 +555,9 @@
       },
       {
         "type": "text",
-        "content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
+"content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
       },
-{
+      {
         "heading": "You'll choose one of two options:",
         "type": "list",
         "items": [
