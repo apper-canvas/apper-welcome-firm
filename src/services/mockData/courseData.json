@@ -88,10 +88,11 @@
         "type": "list",
         "items": [
           "Business websites and landing pages",
+"Business websites and landing pages",
           "E-commerce stores and marketplaces",
           "Customer relationship management (CRM) systems",
           "Project management and collaboration tools",
-"Event management and booking systems",
+          "Event management and booking systems",
           "Educational platforms and course websites",
           "Portfolio and personal websites",
           "Social networking and community platforms"
@@ -113,9 +114,9 @@
       {
         "heading": "Getting Started",
         "type": "text",
-        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
+"content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
       },
-{
+      {
         "heading": "Example Prompts",
         "type": "text",
         "content": "This will give you a much better starting point. Using this prompt, Apper will be able to generate your app more accurately based on your needs."
@@ -124,37 +125,36 @@
         "type": "steps",
         "heading": "Step-by-Step: How to Write a Better Prompt with ChatGPT",
         "steps": [
-            {
-              "title": "Open ChatGPT in a new tab",
-              "description": "Navigate to ChatGPT in your browser to start refining your prompt."
-            },
-            {
-              "title": "Copy and paste the following prompt into ChatGPT",
-              "description": "\"I want to build [Insert your app idea here]. Rewrite this as a detailed prompt focused on the app's main function and detailed features. It should be simple, clear, easy to understand, and ready to use in an AI app creator.\""
-            },
-            {
-              "title": "Replace the placeholder with your actual idea",
-              "description": "Replace the part that says [Insert your app idea here] with your actual idea. For example: I want to build an app that helps users book yoga classes and pay online."
-            },
-            {
-              "title": "Get the improved version from ChatGPT",
-              "description": "ChatGPT will rewrite your idea into a cleaner, more detailed prompt."
-            },
-            {
-              "title": "Copy and paste into Apper",
-              "description": "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box."
-            }
-]
-        }
-      ]
-    }
+          {
+            "title": "Open ChatGPT in a new tab",
+            "description": "Navigate to ChatGPT in your browser to start refining your prompt."
+          },
+          {
+            "title": "Copy and paste the following prompt into ChatGPT",
+            "description": "\"I want to build [Insert your app idea here]. Rewrite this as a detailed prompt focused on the app's main function and detailed features. It should be simple, clear, easy to understand, and ready to use in an AI app creator.\""
+          },
+          {
+            "title": "Replace the placeholder with your actual idea",
+            "description": "Replace the part that says [Insert your app idea here] with your actual idea. For example: I want to build an app that helps users book yoga classes and pay online."
+          },
+          {
+            "title": "Get the improved version from ChatGPT",
+            "description": "ChatGPT will rewrite your idea into a cleaner, more detailed prompt."
+          },
+          {
+            "title": "Copy and paste into Apper",
+            "description": "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box."
+          }
+        ]
+      }
+    ]
   },
-  {
+{
     "id": "editing-and-expanding",
-      "title": "Editing and Expanding the App",
-      "icon": "Edit3",
-"subtitle": "Learn how to modify and enhance your app",
-      "sections": [
+    "title": "Editing and Expanding the App",
+    "subtitle": "Learn how to modify and enhance your app",
+    "icon": "Edit3",
+    "sections": [
         {
           "heading": "Making Changes",
           "type": "text",
@@ -164,16 +164,16 @@
           "heading": "Example Modifications",
           "type": "list",
           "items": [
-            "Ask for design changes: 'Make the buttons bigger and blue'",
+"Ask for design changes: 'Make the buttons bigger and blue'",
             "Add new features: 'Add a search function to find orders quickly'",
             "Modify existing features: 'Change the payment form to include PayPal'",
             "Request layout changes: 'Move the menu to the top of the page'"
-]
+          ]
         },
         {
-          "heading": "Expansion Options",
+"heading": "Expansion Options",
           "type": "list",
-        "items": [
+          "items": [
           "Add new pages and sections as your business grows",
           "Integrate third-party services and APIs",
           "Set up user accounts and membership systems",
