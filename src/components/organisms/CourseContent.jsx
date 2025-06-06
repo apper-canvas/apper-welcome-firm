@@ -44,14 +44,14 @@ const renderContentSection = (section) => {
           const textBeforeUrl = section.content.substring(0, section.content.indexOf(videoUrl))
           const textAfterUrl = section.content.substring(section.content.indexOf(videoUrl) + videoUrl.length)
           
-          return (
+return (
             <div className="prose prose-lg dark:prose-invert max-w-none">
-              <p className="text-surface-600 dark:text-surface-400 leading-relaxed">
+              <div className="text-surface-600 dark:text-surface-400 leading-relaxed">
                 {textBeforeUrl.trim()}
                 {textBeforeUrl.trim() && <span> </span>}
                 <VideoButton url={videoUrl} />
                 {textAfterUrl.trim() && <span> {textAfterUrl.trim()}</span>}
-              </p>
+              </div>
             </div>
           )
         }
