@@ -307,6 +307,35 @@
       }
 ]
 },
+{
+    "id": "manage-your-app",
+    "title": "Manage Your App ⚙️",
+    "subtitle": "Essential app management and configuration",
+    "icon": "Settings",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Now that your app is almost ready, it's time to take care of a few essentials, like what your app is called, who can access it, how people sign up, how to charge users, and more."
+      },
+      {
+        "type": "text", 
+        "content": "You'll find all of these in the 'Manage App' section. Let's get started."
+      },
+      {
+        "heading": "Rename Your App in Apper",
+        "type": "text",
+        "content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
+      },
+      {
+        "type": "text",
+        "content": "Apper makes this easy. You can update your app's name anytime from the 'Manage App' settings in the top menu bar, no complicated setup needed."
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
+      }
+    ]
+  },
   {
     "id": "user-login-signup",
     "title": "Let Users Log In and Sign Up 🔐",
@@ -439,35 +468,6 @@
         "heading": "Not sure which option to choose?",
         "type": "text",
         "content": "Start with the default as it works instantly. You can always switch to your own setup anytime."
-      }
-    ]
-  },
-  {
-    "id": "manage-your-app",
-    "title": "Manage Your App ⚙️",
-    "subtitle": "Essential app management and configuration",
-    "icon": "Settings",
-    "sections": [
-      {
-        "type": "text",
-        "content": "Now that your app is almost ready, it's time to take care of a few essentials, like what your app is called, who can access it, how people sign up, how to charge users, and more."
-      },
-      {
-        "type": "text", 
-        "content": "You'll find all of these in the 'Manage App' section. Let's get started."
-      },
-      {
-        "heading": "Rename Your App in Apper",
-        "type": "text",
-        "content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
-      },
-      {
-        "type": "text",
-        "content": "Apper makes this easy. You can update your app's name anytime from the 'Manage App' settings in the top menu bar, no complicated setup needed."
-      },
-      {
-        "type": "text",
-"content": "<<<Video Link>>>"
       }
     ]
   }
