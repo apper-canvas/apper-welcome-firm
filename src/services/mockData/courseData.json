@@ -306,8 +306,143 @@
         "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
 ]
+},
+  {
+    "id": "user-login-signup",
+    "title": "Let Users Log In and Sign Up 🔐",
+    "subtitle": "Set up user authentication and account management",
+    "icon": "UserPlus",
+    "sections": [
+      {
+        "type": "text",
+        "content": "If you want users to create accounts, log in, or access premium features of your app, you'll need to set up Login and Signup."
+      },
+      {
+        "type": "text",
+        "content": "Apper makes this really easy. You can let users:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sign up with your email and password",
+          "Log in with Google",
+          "Use Facebook to sign in"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
+      },
+      {
+        "heading": "Choose Whether Users Can Log In via Email or Phone Number",
+        "type": "text",
+        "content": "You can decide how users log in — using an email address, a phone number, or both."
+      },
+      {
+        "type": "text",
+        "content": "This lets you choose what's easiest for your audience, whether it's international users, mobile-first users, or businesses."
+      },
+      {
+        "type": "text",
+        "content": "<<<SS>>>"
+      },
+      {
+        "heading": "Set Up Email Verification",
+        "type": "text",
+        "content": "If you're using email-based login, you can turn on email verification to confirm that users are signing up with real email addresses."
+      },
+      {
+        "type": "text",
+        "content": "This adds an extra layer of trust and helps you avoid fake or mistyped accounts."
+      },
+      {
+        "type": "text",
+        "content": "When enabled, users will receive a verification link in their email after signing up. They'll need to click the verification link to access your app."
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
+      },
+      {
+        "heading": "Set Password Rules for Better Security and User Experience",
+        "type": "text",
+        "content": "When you allow email or phone login, you can define what kind of passwords users need to create."
+      },
+      {
+        "type": "text",
+        "content": "For example, you can:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Set a minimum number of characters",
+          "Require symbols or numbers",
+          "Let users reset passwords easily, & more"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This helps you keep accounts safe while making the login setup smooth for users."
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
+      },
+      {
+        "heading": "Let Users Sign In with Google or Facebook",
+        "type": "text",
+        "content": "To let users sign in with their Google or Facebook account, you need to connect your app to those platforms."
+      },
+      {
+        "type": "text",
+        "content": "Apper gives you 2 ways to make this work:"
+      },
+      {
+        "heading": "Option 1: Use the Default Setup (Simple and automatic)",
+        "type": "text",
+        "content": "When you turn the 'Use Default Credentials' toggle on, Apper uses a secure connection it has already set up with Google and Facebook."
+      },
+      {
+        "type": "text",
+        "content": "Users can still log in with just a click, but the login screen will show Apper's name instead of yours. That's because you're using Apper's shared connection, not your own."
+      },
+      {
+        "type": "text",
+        "content": "This is ideal for testing, prototyping, or if you don't need custom branding yet."
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
+      },
+      {
+        "heading": "Option 2: Use Your Own Setup (For custom branding and control)",
+        "type": "text",
+        "content": "You might want the login pop-up to show your app's name and logo, especially if you're preparing to launch your app publicly."
+      },
+      {
+        "type": "text",
+        "content": "In that case, you can connect your own setup with Google & Facebook (instead of using Apper's default shared connection)."
+      },
+      {
+        "type": "text",
+        "content": "It's a one-time setup and takes just a few minutes."
+      },
+      {
+        "type": "text",
+        "content": "Once it's done, just copy and paste the Client ID, Client Secret, and Callback URL from your setup into Apper. Here's how:"
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
+      },
+      {
+        "heading": "Not sure which option to choose?",
+        "type": "text",
+        "content": "Start with the default as it works instantly. You can always switch to your own setup anytime."
+      }
+    ]
   },
-{
+  {
     "id": "manage-your-app",
     "title": "Manage Your App ⚙️",
     "subtitle": "Essential app management and configuration",
