@@ -47,24 +47,33 @@
     "icon": "Star",
 "sections": [
       {
-        "heading": "What is Apper?",
-        "type": "text",
-        "content": "Apper is your AI app creator.\n\nIt's not just powered by AI — it is AI.\n\nKind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes.\n\nYou don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app.\n\nWith Apper, everything happens in one place, all through a simple conversation (chat interface).\n\nJust chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs.\n\nIn short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI."
-      },
-      {
         "heading": "Why Apper Stands Out",
         "type": "text",
-"content": "In a world filled with no-code platforms, Apper distinguishes itself through its unique combination of simplicity, power, and innovation. Here's what sets us apart:\n\n**AI-Powered Intelligence**: Our platform learns from your preferences and suggests optimizations as you build.\n\n**True Visual Building**: Unlike other platforms that require technical knowledge, Apper is genuinely visual and intuitive.\n\n**Enterprise-Grade Performance**: Built for scale, your applications will perform beautifully whether you have 10 users or 10,000.\n\n**Seamless Integrations**: Connect with your favorite tools and services without complex setup.\n\n**Community-Driven**: Learn from and collaborate with thousands of other creators in our vibrant community.\n\n**Continuous Innovation**: We're constantly adding new features and capabilities based on user feedback.\n\nWith Apper, you're not just using a tool – you're joining a movement that's democratizing app development for everyone."
+        "content": "In a crowded market of app-building tools, Apper takes a fundamentally different approach. While others require you to learn their platform, Apper learns from you. It's the difference between speaking a new language and having a conversation in your own words."
       },
       {
-        "heading": "Getting Started Basics",
+        "heading": "What Makes Us Different",
         "type": "text",
-        "content": "Ready to build your first app? Let's walk through the fundamentals that will get you up and running in no time.\n\n**Your Dashboard**: This is your command center where you'll manage all your projects. Think of it as your creative workspace.\n\n**Creating a Project**: Click 'New Project' and choose from our templates or start from scratch. Each template is designed for specific use cases.\n\n**The Builder Interface**: Our drag-and-drop builder is divided into three main areas:\n• Component Panel (left): Your toolkit of building blocks\n• Canvas (center): Where you build your app\n• Properties Panel (right): Customize selected elements\n\n**Your First Elements**: Start with basic components like text, buttons, and images. You can always add complexity later.\n\n**Saving Your Work**: Apper auto-saves every change, so you never lose your progress.\n\n**Preview Mode**: Test your app at any time with our instant preview feature.\n\nRemember, there's no wrong way to start. Experiment, play around, and don't be afraid to try new things!"
+        "content": "Unlike traditional no-code platforms that still require you to understand templates, drag-and-drop interfaces, and technical concepts, Apper works purely through natural conversation. You simply describe what you want, and it builds it for you."
       },
       {
-        "heading": "Understanding Components",
+        "heading": "Key Differentiators",
+        "type": "list",
+        "items": [
+          "Pure AI conversation - no templates or drag-and-drop required",
+          "Builds complete, functional apps in minutes, not hours or days",
+          "No learning curve - if you can chat, you can build apps",
+          "Instant iterations - just ask for changes in plain English",
+          "One unified platform - no need to switch between multiple tools",
+          "Real-time collaboration through shared conversations",
+          "Automatically optimized for all devices and screen sizes",
+          "Built-in best practices for performance, security, and accessibility"
+        ]
+      },
+      {
+        "heading": "The Apper Advantage",
         "type": "text",
-        "content": "Components are the building blocks of your Apper applications. Think of them as LEGO pieces that you can combine to create amazing structures.\n\n**What Are Components?**\nComponents are pre-built elements that serve specific functions in your app. Each component is designed to be user-friendly while maintaining professional quality.\n\n**Basic Components:**\n• **Text**: Display headings, paragraphs, and formatted content\n• **Button**: Create interactive elements that trigger actions\n• **Image**: Add visual appeal with photos and graphics\n• **Container**: Organize and group other components\n• **Form**: Collect user input and data\n\n**Advanced Components:**\n• **Data Tables**: Display and manage large datasets\n• **Charts & Graphs**: Visualize data beautifully\n• **Maps**: Integrate location-based features\n• **Media Players**: Embed videos and audio\n• **Social Widgets**: Connect with social platforms\n\n**Customization**: Every component can be styled, resized, and configured to match your vision. Change colors, fonts, spacing, and behavior with simple clicks.\n\n**Responsive Design**: All components automatically adapt to different screen sizes, ensuring your app looks great on desktop, tablet, and mobile."
+        "content": "Traditional platforms make you adapt to their way of thinking. Apper adapts to yours. Whether you're a business owner with an idea, a designer with a vision, or a developer who wants to prototype quickly, Apper meets you where you are and builds what you need."
       }
     ]
   },
