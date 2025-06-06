@@ -469,6 +469,71 @@
         "type": "text",
         "content": "Start with the default as it works instantly. You can always switch to your own setup anytime."
       }
+]
+  },
+{
+    "id": "onboarding-emails",
+    "title": "Set Up Onboarding & Other Imp Emails for Your App 📧",
+    "subtitle": "Built-in email system for user communication",
+    "icon": "Mail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "As users sign up and start using your app, you'll want to send them helpful emails to guide their journey (for confirming their email, or resetting a password, etc.)"
+      },
+      {
+        "type": "text",
+        "content": "Apper offers built-in support for creating and sending such system emails, so you don't need to connect any email service to get started."
+      },
+      {
+        "heading": "Available Email Templates",
+        "type": "list",
+        "items": [
+          "Email Confirmation – to verify a new user's email",
+          "Reset Password – when someone forgets their login",
+          "Invite User – to bring others into a team or workspace",
+          "Subscription Receipt – after a successful payment",
+          "Sign In with OTP – to send secure one-time login links"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "You can customize these templates to match your app's tone and branding — or create your own emails and sequences."
+      }
+    ]
+  },
+{
+    "id": "user-profiles-permissions",
+    "title": "Manage User Profiles and Permissions 👥",
+    "subtitle": "Control user access and organize your team",
+    "icon": "Users",
+    "sections": [
+      {
+        "type": "text",
+        "content": "You can invite users, create profiles, and assign specific permissions to control access to tables and pages. This ensures that each user sees only what they need, keeping your data secure and organized."
+      },
+      {
+        "heading": "User Management Features",
+        "type": "list",
+        "items": [
+          "Create User Profiles – Set up detailed user accounts with roles and information",
+          "Assign Permissions – Control what each user can view, edit, or delete",
+          "Manage Team Access – Organize users into teams with specific access rights",
+          "Secure Data Access – Ensure sensitive information is only visible to authorized users",
+          "Role-Based Control – Define different permission levels for different user types"
+        ]
+      },
+      {
+        "heading": "💡 Best Practices",
+        "type": "list",
+        "items": [
+          "Start with basic roles and expand as needed",
+          "Regularly review and update user permissions",
+          "Use the principle of least privilege",
+          "Document your permission structure",
+          "Train team leads on user management best practices"
+        ]
+      }
     ]
   }
 ]
