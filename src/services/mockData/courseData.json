@@ -4,16 +4,26 @@
     "title": "What is Apper? 🚀",
     "subtitle": "Discover the power of no-code development",
     "icon": "Zap",
-    "sections": [
+"sections": [
       {
         "heading": "What is Apper",
         "type": "text",
-        "content": "Apper is your AI app creator! It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes!"
+        "content": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes."
       },
       {
         "heading": "How Apper Works",
         "type": "text",
         "content": "You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface)."
+      },
+      {
+        "heading": "Simple Conversation Interface",
+        "type": "text",
+        "content": "Just chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs."
+      },
+      {
+        "heading": "The Simplest Way to Build Apps",
+        "type": "text",
+        "content": "In short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI."
       },
       {
         "heading": "🌟 Key Benefits",
