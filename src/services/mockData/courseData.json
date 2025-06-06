@@ -475,10 +475,10 @@
         "type": "text",
         "content": "Apper will immediately start updating your app based on your input. Explore, customize, and keep building — all right from the same screen."
       }
-    ]
+]
   },
   {
-    "id": "app-versions",
+    "id": "app-versions-management",
     "title": "App Versions",
     "subtitle": "Manage different versions of your app and track changes over time",
     "icon": "GitBranch",
