@@ -9,11 +9,11 @@ function CourseNavigation({ courseData, activeSection, onSectionClick, isMobileM
   }))
 
   return (
-    <AnimatePresence>
-<motion.div
+<AnimatePresence>
+      <motion.div
         initial={{ x: -300 }}
         animate={{ x: isMobileMenuOpen || window.innerWidth >= 1024 ? 0 : -300 }}
-        className="fixed lg:sticky top-0 left-0 h-screen w-80 lg:w-[28%] xl:w-[26%] bg-white dark:bg-surface-800 shadow-xl lg:shadow-soft z-40 lg:z-10 overflow-y-auto border-r border-surface-200 dark:border-surface-700"
+        className="fixed lg:fixed top-0 left-0 h-screen w-80 lg:w-[28%] xl:w-[26%] bg-white dark:bg-surface-800 shadow-xl lg:shadow-soft z-40 lg:z-30 overflow-y-auto border-r border-surface-200 dark:border-surface-700"
       >
         {/* Header */}
         <div className="p-6 border-b border-surface-200 dark:border-surface-700">
