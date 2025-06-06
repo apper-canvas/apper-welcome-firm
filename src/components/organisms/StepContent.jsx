@@ -112,7 +112,7 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                 Get Started
               </Button>
 
-              <Button
+<Button
                 onClick={() => onNavigate(1)}
                 className="px-6 py-3 border-2 border-primary text-primary dark:text-primary-light font-semibold rounded-2xl hover:bg-primary hover:text-white"
                 whileHover={{ scale: 1.05 }}
@@ -121,31 +121,9 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                 Skip Tour
               </Button>
             </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1 }}
-              className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8"
-            >
-              {[
-                { icon: 'Palette', title: 'Beautiful Design', desc: 'Drag & drop stunning components' },
-                { icon: 'Zap', title: 'Lightning Fast', desc: 'Build apps in minutes, not months' },
-                { icon: 'Users', title: 'No Code Required', desc: 'Perfect for non-technical users' }
-              ].map((feature, index) => (
-                <FeatureCard
-                  key={feature.title}
-                  icon={feature.icon}
-                  title={feature.title}
-                  description={feature.desc}
-                  delay={1.2 + index * 0.2}
-                />
-              ))}
-            </motion.div>
           </motion.div>
         )
-
-      case 1:
+case 1:
         return (
           <motion.div
             initial={{ opacity: 0, x: 100 }}
@@ -308,10 +286,10 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
-                className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-6"
+className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-6"
               >
                 <h3 className="font-heading font-bold text-lg text-surface-900 dark:text-white mb-4 flex items-center">
-                  <ApperIcon name="Package" className="w-5 h-5 mr-2 text-primary" />
+                  <Icon name="Package" className="w-5 h-5 mr-2 text-primary" />
                   Components
                 </h3>
                 <div className="space-y-3">
@@ -328,13 +306,13 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                       whileTap={{ scale: 0.95 }}
                       drag
                       dragSnapToOrigin
+drag
+                      dragSnapToOrigin
                     >
-                      <ApperIcon name={component.icon} className="w-4 h-4 mr-2" />
+                      <Icon name={component.icon} className="w-4 h-4 mr-2" />
                       <span className="font-semibold">{component.name}</span>
                     </motion.div>
                   ))}
-                </div>
-              </motion.div>
 
               <AppCanvas
                 animatedElements={animatedElements}
