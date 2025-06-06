@@ -4,6 +4,29 @@ import Button from '@/components/atoms/Button'
 
 function CourseContent({ courseData, activeSection }) {
 
+  // Extract video URL from text content
+  const extractVideoUrl = (text) => {
+    const urlRegex = /(https?:\/\/[^\s]+)/g
+    const match = text.match(urlRegex)
+    return match ? match[0] : null
+  }
+
+  // Video Button Component
+  const VideoButton = ({ url, className = '' }) => (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`inline-flex items-center justify-center px-5 py-2.5 bg-[#007bff] text-white rounded-[5px] font-semibold transition-all duration-200 hover:bg-[#0056b3] focus:outline-none focus:ring-2 focus:ring-[#007bff] focus:ring-offset-2 no-underline ${className}`}
+      role="button"
+      aria-label="Watch video tutorial"
+      tabIndex="0"
+    >
+      <Icon name="Play" className="w-4 h-4 mr-2" />
+      Watch Video
+    </a>
+  )
+
   const renderCodeBlock = (code) => (
     <div className="bg-surface-900 rounded-xl p-6 overflow-x-auto">
       <pre className="text-sm text-surface-300">
@@ -12,9 +35,27 @@ function CourseContent({ courseData, activeSection }) {
     </div>
   )
 
-  const renderContentSection = (section) => {
+const renderContentSection = (section) => {
     switch (section.type) {
       case 'text':
+        const videoUrl = extractVideoUrl(section.content)
+        if (videoUrl) {
+          // Replace video URL with VideoButton
+          const textBeforeUrl = section.content.substring(0, section.content.indexOf(videoUrl))
+          const textAfterUrl = section.content.substring(section.content.indexOf(videoUrl) + videoUrl.length)
+          
+          return (
+            <div className="prose prose-lg dark:prose-invert max-w-none">
+              <p className="text-surface-600 dark:text-surface-400 leading-relaxed">
+                {textBeforeUrl.trim()}
+                {textBeforeUrl.trim() && <span> </span>}
+                <VideoButton url={videoUrl} />
+                {textAfterUrl.trim() && <span> {textAfterUrl.trim()}</span>}
+              </p>
+            </div>
+          )
+        }
+        
         return (
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-surface-600 dark:text-surface-400 leading-relaxed">
