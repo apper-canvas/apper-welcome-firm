@@ -232,10 +232,10 @@
       },
       {
         "heading": "⚡ Instant Updates",
-        "type": "text",
+"type": "text",
         "content": "Apper will immediately start updating your app based on your input! Explore, customize, and keep building — all right from the same screen."
       }
-]
+    ]
   },
   {
     "id": "troubleshooting-errors",
@@ -302,30 +302,31 @@
       },
       {
         "heading": "Benefits of Version Management",
-        "type": "text",
+"type": "text",
         "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
-]
-},
-{
+    ]
+  },
+  {
     "id": "manage-your-app",
     "title": "Manage Your App ⚙️",
     "subtitle": "Essential app management and configuration",
     "icon": "Settings",
     "sections": [
       {
+      {
         "type": "text",
         "content": "Now that your app is almost ready, it's time to take care of a few essentials, like what your app is called, who can access it, how people sign up, how to charge users, and more."
       },
-      {
-        "type": "text", 
+"type": "text", 
         "content": "You'll find all of these in the 'Manage App' section. Let's get started."
       },
-{
+      {
         "heading": "Rename Your App in Apper",
         "type": "text",
         "content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
       },
+      {
       {
         "type": "text",
         "content": "Apper makes this easy. You can update your app's name anytime from the 'Manage App' settings in the top menu bar, no complicated setup needed."
@@ -499,10 +500,10 @@
         "heading": "💡 Best Practices",
         "type": "list",
         "items": [
-          "Start with basic roles and expand as needed",
+"Start with basic roles and expand as needed",
           "Regularly review and update user permissions",
           "Use the principle of least privilege",
-"Train team leads on user management best practices"
+          "Train team leads on user management best practices"
         ]
       }
     ]
@@ -574,11 +575,76 @@
         "heading": "Stripe handles:",
         "type": "list",
         "items": [
-          "One-time and recurring transactions",
+"One-time and recurring transactions",
           "Subscription billing",
           "Invoices and payouts"
         ]
       }
+    ]
+  },
+  {
+    "id": "code-section",
+    "title": "Code 💻",
+    "subtitle": "Access and customize your app's code directly",
+    "icon": "Code",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Apper builds everything for you — from logic to layout — without needing you to write any code."
+      },
+      {
+        "type": "text",
+        "content": "But for advanced customizations, the Code section gives you direct access to the code that powers your app."
+      },
+      {
+        "heading": "You can use this to:",
+        "type": "list",
+        "items": [
+          "Make fine-tuned changes beyond the visual builder",
+          "Add logic or custom functions manually",
+          "Review or debug the generated code"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This is especially useful for developers or technical users who want more control, or for those working with a developer on their team."
+      },
+      {
+        "type": "text",
+        "content": "Even though you don't need to use this section to launch your app, it's here if you want to take more control and customize things your way."
+      }
+    ]
+  },
+  {
+    "id": "connect-database",
+    "title": "Connect Database 🗄️",
+    "subtitle": "Automatic data management and structure setup",
+    "icon": "Database",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Every app needs a place to store data — like user info, form submissions, orders, or messages. That's what the Database does."
+      },
+      {
+        "type": "text",
+        "content": "Apper creates and manages your database automatically based on how your app works, so you don't have to set anything up manually."
+      },
+      {
+        "type": "text",
+        "content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
+      },
+      {
+        "heading": "You'll choose one of two options:",
+        "type": "list",
+        "items": [
+          "Employee App – Each user sees only their own data",
+          "Customer-Facing App – Each customer can have multiple users with shared access"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This choice helps Apper set up the right structure and permissions behind the scenes — so your app behaves the way it should."
+}
     ]
   }
 ]
