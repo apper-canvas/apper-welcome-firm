@@ -238,21 +238,33 @@ className="text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto"
               </motion.div>
             </div>
 
-            <motion.div
+<motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
               className="text-center"
             >
-              <Button
-                onClick={() => onStepComplete(1)}
-                className="px-8 py-4 bg-gradient-to-r from-secondary to-secondary-dark text-white font-semibold rounded-2xl text-lg shadow-card mx-auto"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                icon="ArrowRight"
-              >
-                Let's Try It!
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button
+                  onClick={() => onNavigate(0)}
+                  className="px-6 py-3 border-2 border-surface-300 dark:border-surface-600 text-surface-700 dark:text-surface-300 font-semibold rounded-2xl hover:bg-surface-100 dark:hover:bg-surface-700"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  icon="ArrowLeft"
+                >
+                  Back
+                </Button>
+
+                <Button
+                  onClick={() => onStepComplete(1)}
+                  className="px-8 py-4 bg-gradient-to-r from-secondary to-secondary-dark text-white font-semibold rounded-2xl text-lg shadow-card"
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  icon="ArrowRight"
+                >
+                  Let's Try It!
+                </Button>
+              </div>
             </motion.div>
           </motion.div>
         )
