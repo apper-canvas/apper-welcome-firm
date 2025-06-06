@@ -89,12 +89,12 @@ function WelcomeScreen({ darkMode, setDarkMode, onGetStarted }) {
             <span className="block mt-2">No coding required. No complex setup. Just pure creativity.</span>
           </motion.p>
 
-          {/* CTA Button */}
+{/* CTA Button */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-            className="pt-8"
+            className="pt-8 flex justify-center"
           >
             <Button
               onClick={onGetStarted}
