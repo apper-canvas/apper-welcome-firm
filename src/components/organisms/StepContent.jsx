@@ -108,11 +108,11 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 icon="Play"
-              >
+>
                 Get Started
               </Button>
 
-<Button
+              <Button
                 onClick={() => onNavigate(1)}
                 className="px-6 py-3 border-2 border-primary text-primary dark:text-primary-light font-semibold rounded-2xl hover:bg-primary hover:text-white"
                 whileHover={{ scale: 1.05 }}
@@ -122,8 +122,9 @@ function StepContent({ steps, currentStep, userProgress, onStepComplete, onNavig
               </Button>
             </motion.div>
           </motion.div>
-        )
-case 1:
+)
+
+      case 1:
         return (
           <motion.div
             initial={{ opacity: 0, x: 100 }}
@@ -281,12 +282,12 @@ case 1:
               </motion.p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
-className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-6"
+                className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-6"
               >
                 <h3 className="font-heading font-bold text-lg text-surface-900 dark:text-white mb-4 flex items-center">
                   <Icon name="Package" className="w-5 h-5 mr-2 text-primary" />
@@ -306,13 +307,13 @@ className="bg-white dark:bg-surface-800 rounded-2xl shadow-card p-6"
                       whileTap={{ scale: 0.95 }}
                       drag
                       dragSnapToOrigin
-drag
-                      dragSnapToOrigin
                     >
                       <Icon name={component.icon} className="w-4 h-4 mr-2" />
                       <span className="font-semibold">{component.name}</span>
                     </motion.div>
                   ))}
+                </div>
+              </motion.div>
 
               <AppCanvas
                 animatedElements={animatedElements}
