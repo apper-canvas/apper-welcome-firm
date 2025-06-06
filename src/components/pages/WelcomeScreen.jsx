@@ -1,17 +1,14 @@
 import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
 import ApperIcon from '@/components/ApperIcon'
 import Button from '@/components/atoms/Button'
 import ThemeToggle from '@/components/molecules/ThemeToggle'
 import DecorativeBlob from '@/components/atoms/DecorativeBlob'
 
 function WelcomeScreen({ darkMode, setDarkMode }) {
-  const navigate = useNavigate()
-
   const handleGetStarted = () => {
-    navigate('/onboarding')
+    // Get started action - could show a modal or just display a message
+    alert('Welcome to Apper! This is the main page.')
   }
-
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-white via-purple-50 to-orange-50 dark:from-gray-900 dark:via-purple-900/20 dark:to-orange-900/20">
       
