@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import Icon from '@/components/atoms/Icon'
 import Button from '@/components/atoms/Button'
 
-function CourseContent({ courseData, activeSection }) {
+function CourseContent({ courseData, activeSectionId, onSectionClick }) {
 
   // Extract video URL from text content
   const extractVideoUrl = (text) => {
@@ -139,96 +139,166 @@ const renderContentSection = (section) => {
       default:
         return null
     }
-  }
+}
 
-return (
-    <main className="flex-1 min-h-screen flex justify-center">
-      <div className="w-full max-w-4xl mx-auto px-6 py-8 lg:px-8 lg:py-12 lg:ml-[28%] xl:ml-[26%]">
-        {courseData.map((section, index) => (
-          <motion.section
-            key={section.id}
-            id={section.id}
-            initial={{ opacity: 0, y: 50 }}
+  const activeSection = courseData?.find(section => section.id === activeSectionId)
+  const sectionIndex = courseData?.findIndex(section => section.id === activeSectionId) || 0
+
+  return (
+    <main className="flex-1 min-h-screen">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+        {activeSection && (
+          <motion.div
+            key={activeSection.id}
+            id={`panel-${activeSection.id}`}
+            role="tabpanel"
+            aria-labelledby={`tab-${activeSection.id}`}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-            className="mb-16 scroll-mt-20"
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
+            className="course-tab-content"
           >
             {/* Section Header */}
-            <div className="mb-8">
-              <div className="flex items-center space-x-4 mb-4">
-                <div className="p-3 bg-gradient-to-r from-primary to-secondary rounded-xl">
-                  <Icon name={section.icon} className="w-6 h-6 text-white" />
-                </div>
-                <div className="flex-1">
-                  <h2 className="text-3xl font-heading font-bold text-surface-900 dark:text-white">
-                    {section.title}
-                  </h2>
-                  <p className="text-surface-500 dark:text-surface-400 mt-1">
-                    Section {index + 1} of {courseData.length}
-</p>
-                </div>
+            <div className="mb-12 text-center">
+              <div className="flex items-center justify-center space-x-4 mb-6">
+                <motion.div 
+                  className="p-4 bg-gradient-to-r from-primary to-secondary rounded-2xl shadow-lg"
+                  whileHover={{ scale: 1.05, rotate: 5 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 25 }}
+                >
+                  <Icon name={activeSection.icon} className="w-8 h-8 text-white" />
+                </motion.div>
               </div>
               
-              {section.subtitle && (
-                <p className="text-xl text-surface-600 dark:text-surface-400">
-                  {section.subtitle}
-                </p>
+              <motion.h1 
+                className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-surface-900 dark:text-white mb-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+              >
+                {activeSection.title}
+              </motion.h1>
+              
+              {activeSection.subtitle && (
+                <motion.p 
+                  className="text-lg sm:text-xl text-surface-600 dark:text-surface-400 max-w-3xl mx-auto leading-relaxed"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  {activeSection.subtitle}
+                </motion.p>
               )}
             </div>
 
             {/* Section Content */}
-            <div className="space-y-8">
-              {section.sections?.map((contentSection, contentIndex) => (
-                <div key={contentIndex} className="space-y-4">
+            <motion.div 
+              className="space-y-12"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
+            >
+              {activeSection.sections?.map((contentSection, contentIndex) => (
+                <motion.div 
+                  key={contentIndex} 
+                  className="bg-white dark:bg-surface-800 rounded-2xl p-6 sm:p-8 shadow-soft border border-surface-200 dark:border-surface-700"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 * contentIndex }}
+                >
                   {contentSection.heading && (
-                    <h3 className="text-xl font-semibold text-surface-900 dark:text-white">
+                    <h2 className="text-2xl sm:text-3xl font-heading font-bold text-surface-900 dark:text-white mb-6">
                       {contentSection.heading}
-                    </h3>
+                    </h2>
                   )}
-                  {renderContentSection(contentSection)}
-                </div>
+                  <div className="prose prose-lg dark:prose-invert max-w-none">
+                    {renderContentSection(contentSection)}
+                  </div>
+                </motion.div>
               ))}
-</div>
+            </motion.div>
 
             {/* Section Actions */}
-            <div className="mt-8 pt-8 border-t border-surface-200 dark:border-surface-700">
-              <div className="flex justify-center">
+            <motion.div 
+              className="mt-12 pt-8 border-t border-surface-200 dark:border-surface-700"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+            >
+              <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <Button
                   onClick={() => {
-                    // Video functionality will be implemented here
-                    console.log(`Watch video for section: ${section.title}`)
+                    console.log(`Watch video for section: ${activeSection.title}`)
                   }}
-                  className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold shadow-lg hover:shadow-xl"
+                  className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
                   <Icon name="Play" className="w-5 h-5 mr-3" />
-                  Watch Video
+                  Watch Video Tutorial
                 </Button>
-              </div>
-            </div>
-          </motion.section>
-        ))}
 
-        {/* Course Completion */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 text-center text-white"
-        >
-          <Icon name="Award" className="w-16 h-16 mx-auto mb-4" />
-          <h3 className="text-2xl font-bold mb-4">Congratulations!</h3>
-          <p className="text-lg mb-6">
-            You've completed the Getting Started Course. You're now ready to build amazing apps with Apper!
-          </p>
-          <Button
-            className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-surface-100"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Start Building Your First App
-          </Button>
-        </motion.div>
+                {/* Navigation buttons */}
+                <div className="flex space-x-3">
+                  {sectionIndex > 0 && (
+                    <Button
+                      onClick={() => onSectionClick?.(courseData[sectionIndex - 1].id)}
+                      className="px-6 py-3 bg-surface-100 dark:bg-surface-700 text-surface-700 dark:text-surface-300 rounded-xl font-medium hover:bg-surface-200 dark:hover:bg-surface-600"
+                      whileHover={{ scale: 1.02 }}
+                      whileTap={{ scale: 0.98 }}
+                    >
+                      <Icon name="ChevronLeft" className="w-4 h-4 mr-2" />
+                      Previous
+                    </Button>
+                  )}
+                  
+                  {sectionIndex < courseData.length - 1 && (
+                    <Button
+                      onClick={() => onSectionClick?.(courseData[sectionIndex + 1].id)}
+                      className="px-6 py-3 bg-surface-100 dark:bg-surface-700 text-surface-700 dark:text-surface-300 rounded-xl font-medium hover:bg-surface-200 dark:hover:bg-surface-600"
+                      whileHover={{ scale: 1.02 }}
+                      whileTap={{ scale: 0.98 }}
+                    >
+                      Next
+                      <Icon name="ChevronRight" className="w-4 h-4 ml-2" />
+                    </Button>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Course Completion for last section */}
+            {sectionIndex === courseData.length - 1 && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.6, type: "spring", stiffness: 200 }}
+                className="mt-16 bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 text-center text-white shadow-2xl"
+              >
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ delay: 0.8, type: "spring", stiffness: 300 }}
+                >
+                  <Icon name="Award" className="w-20 h-20 mx-auto mb-6" />
+                </motion.div>
+                <h3 className="text-3xl font-bold mb-4">Congratulations!</h3>
+                <p className="text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+                  You've completed the Getting Started Course. You're now ready to build amazing apps with Apper!
+                </p>
+                <Button
+                  className="bg-white text-primary px-10 py-4 rounded-xl font-semibold hover:bg-surface-100 text-lg shadow-lg"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <Icon name="Rocket" className="w-5 h-5 mr-3" />
+                  Start Building Your First App
+                </Button>
+              </motion.div>
+            )}
+          </motion.div>
+        )}
       </div>
     </main>
   )
