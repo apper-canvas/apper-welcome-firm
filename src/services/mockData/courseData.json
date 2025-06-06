@@ -97,11 +97,10 @@
           "Social networking and community platforms"
         ]
       },
-      {
+{
         "heading": "Industry Solutions",
         "type": "text",
         "content": "Apper serves businesses across all industries. From restaurants managing online orders to consultants tracking client projects, from artists showcasing portfolios to nonprofits organizing events - the possibilities are limitless."
-"content": "Apper serves businesses across all industries. From restaurants managing online orders to consultants tracking client projects, from artists showcasing portfolios to nonprofits organizing events - the possibilities are limitless."
       }
     ]
   },
@@ -132,11 +131,11 @@
             "description": "Use the visual editor to adjust layouts, colors, fonts, and spacing to match your brand."
           },
           {
-            "title": "Preview and Test",
+"title": "Preview and Test",
             "description": "Use our preview mode to test your app on different devices and screen sizes."
           }
         ]
-}
+      }
     ]
   },
   {
@@ -145,9 +144,9 @@
     "subtitle": "Master the tools that will bring your ideas to life",
     "icon": "Layout",
     "sections": [
-      {
+{
         "heading": "Interface Overview",
-"type": "text",
+        "type": "text",
         "content": "The Apper builder interface is designed for maximum productivity and ease of use. The main workspace shows your app as you build it, while side panels provide access to components, styling options, and settings."
       },
       {
@@ -157,9 +156,9 @@
           "Canvas: The main working area where you build your app",
           "Component Library: Pre-built elements to drag and drop",
           "Properties Panel: Customize selected components",
-          "Layers Panel: Navigate your app's structure",
+"Layers Panel: Navigate your app's structure",
           "Preview Mode: Test your app in real-time",
-"Publishing Tools: Deploy your app with one click"
+          "Publishing Tools: Deploy your app with one click"
         ]
       },
       {
