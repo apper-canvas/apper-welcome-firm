@@ -502,8 +502,81 @@
           "Start with basic roles and expand as needed",
           "Regularly review and update user permissions",
           "Use the principle of least privilege",
-          "Document your permission structure",
 "Train team leads on user management best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "billing-revenue",
+    "title": "Billing and Revenue 💰",
+    "subtitle": "Set up pricing, subscriptions, and payment collection",
+    "icon": "CreditCard",
+    "sections": [
+      {
+        "type": "text",
+        "content": "You've built something great with Apper — now it's time to start earning from it. Whether it's a tool, course, or community, Apper makes it easy to set up pricing, offer subscriptions, and collect payments."
+      },
+      {
+        "type": "text",
+        "content": "To keep things flexible, the Billing & Revenue section is divided into three parts:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tiers & Plans: Your main pricing structure",
+          "Addons / Credits – Extra features or pay-as-you-go upgrades",
+          "Stripe Settings – for accepting real payments"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Let's take a quick look at what each one does."
+      },
+      {
+        "heading": "Tier and Plans",
+        "type": "text",
+        "content": "This is where you set up the core pricing options for your app. You can offer free plans, paid subscriptions, or both — and control what users get with each one."
+      },
+      {
+        "heading": "Use this section to:",
+        "type": "list",
+        "items": [
+          "Set pricing (monthly, yearly, or custom)",
+          "Decide what each plan includes",
+          "Add limits (like number of users or credits)"
+        ]
+      },
+      {
+        "heading": "Addons / Credits",
+        "type": "text",
+        "content": "Addons let users purchase extra features or resources without changing their main plan. This is great for things like:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Additional AI credits",
+          "Extra storage",
+          "Bonus tools",
+          "One-time unlocks"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Perfect for apps that offer flexibility or usage-based pricing."
+      },
+      {
+        "heading": "Stripe Settings",
+        "type": "text",
+        "content": "Connect your Stripe account to start accepting real payments — securely and automatically."
+      },
+      {
+        "heading": "Stripe handles:",
+        "type": "list",
+        "items": [
+          "One-time and recurring transactions",
+          "Subscription billing",
+          "Invoices and payouts"
         ]
       }
     ]
