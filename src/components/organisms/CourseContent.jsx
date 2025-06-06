@@ -107,8 +107,8 @@ function CourseContent({ courseData, activeSection }) {
   }
 
   return (
-    <main className="flex-1 lg:ml-80 min-h-screen">
-      <div className="max-w-4xl mx-auto p-8">
+<main className="flex-1 lg:ml-[28%] xl:ml-[26%] min-h-screen">
+      <div className="max-w-4xl mx-auto px-6 py-8 lg:px-8 lg:py-12">
         {courseData.map((section, index) => (
           <motion.section
             key={section.id}

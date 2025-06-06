@@ -32,9 +32,10 @@ export default {
           900: '#171717'
         }
       },
-      fontFamily: {
+fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
-        heading: ['Poppins', 'ui-sans-serif', 'system-ui']
+        heading: ['Poppins', 'ui-sans-serif', 'system-ui'],
+        body: ['DM Sans', 'ui-sans-serif', 'system-ui']
       },
       boxShadow: {
         soft: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',

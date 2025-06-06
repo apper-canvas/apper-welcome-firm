@@ -24,14 +24,16 @@ function App() {
     }
   }, [darkMode])
 
-  return (
+return (
     <div className={darkMode ? 'dark' : ''}>
       <Router>
         <div className="min-h-screen bg-gradient-to-br from-surface-50 to-purple-50 dark:from-surface-900 dark:to-purple-900 transition-colors duration-300">
-<Routes>
-            <Route path="/" element={<HomePage darkMode={darkMode} setDarkMode={setDarkMode} />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <div className="max-w-screen-2xl mx-auto">
+            <Routes>
+              <Route path="/" element={<HomePage darkMode={darkMode} setDarkMode={setDarkMode} />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
           <ToastContainer
             position="top-right"
             autoClose={3000}
