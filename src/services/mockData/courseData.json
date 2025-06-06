@@ -1,7 +1,7 @@
 [
   {
     "id": "what-is-apper",
-"title": "What is Apper?",
+    "title": "What is Apper?",
     "subtitle": "Discover the power of no-code development",
     "icon": "Zap",
     "sections": [
@@ -39,10 +39,10 @@
         ]
       }
     ]
-  },
+},
   {
     "id": "why-apper-stands-out",
-"title": "Why Apper Stands Out",
+    "title": "Why Apper Stands Out",
     "subtitle": "What makes us different from other platforms",
     "icon": "Star",
     "sections": [
@@ -148,10 +148,10 @@
         "heading": "Interface Overview",
         "type": "text",
         "content": "The Apper builder interface is designed for maximum productivity and ease of use. The main workspace shows your app as you build it, while side panels provide access to components, styling options, and settings."
-      },
+},
       {
         "heading": "Key Interface Elements",
-"type": "list",
+        "type": "list",
         "items": [
           "Canvas: The main working area where you build your app",
           "Component Library: Pre-built elements to drag and drop",
@@ -160,18 +160,38 @@
           "Preview Mode: Test your app in real-time",
           "Publishing Tools: Deploy your app with one click"
         ]
-      },
+},
       {
         "heading": "Automatic Optimizations",
+        "type": "text",
+        "content": "Apper automatically optimizes your app for performance, accessibility, and search engines. No additional configuration required."
+      }
+    ]
+  },
+  {
+    "id": "create-your-first-app",
+    "title": "Create Your First App",
+    "subtitle": "Step-by-step guide to building your first application",
+    "icon": "PlusCircle",
+    "sections": [
+      {
+        "heading": "Getting Started",
+        "type": "text",
+        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
+      },
+      {
+        "heading": "Example Prompts",
         "type": "list",
         "items": [
-          "Code optimization for faster loading times",
-          "Automatic responsive design adjustments",
-          "SEO optimization for better search rankings",
-          "Security measures and data protection",
-          "Performance monitoring and improvements",
-          "Browser compatibility ensuring"
+          "\"I want to build a tool to track customer orders.\"",
+          "\"Make an app where users can book sessions and pay online.\"",
+          "\"Create a quiz game that gives points and tracks team progress.\""
         ]
+      },
+      {
+        "heading": "Best Practices",
+        "type": "text",
+        "content": "To help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. This will help you articulate your vision more precisely."
       }
     ]
   },
