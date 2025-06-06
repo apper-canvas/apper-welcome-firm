@@ -35,16 +35,16 @@
     "description": "Learn about our no-code platform and how it works",
     "completed": false,
     "content": {
-      "type": "explanation",
+"type": "explanation",
       "heading": "What is Apper?",
-"subheading": "Apper is your AI app creator that builds fully functional apps through conversation",
+      "subheading": "Apper is your AI app creator that builds fully functional apps through conversation",
       "explanation": "Just chat with Apper in simple English and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs.",
       "steps": [
         {
           "number": "1",
           "title": "Start a Conversation",
           "description": "Chat with Apper about your app idea in simple English",
-"icon": "MessageSquare"
+          "icon": "MessageSquare"
         },
         {
           "number": "2",
