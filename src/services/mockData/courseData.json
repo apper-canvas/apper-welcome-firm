@@ -321,18 +321,15 @@
         "type": "text", 
         "content": "You'll find all of these in the 'Manage App' section. Let's get started."
       },
-      {
+{
         "heading": "Rename Your App in Apper",
         "type": "text",
         "content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
-      },
-"content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
       },
       {
         "type": "text",
         "content": "Apper makes this easy. You can update your app's name anytime from the 'Manage App' settings in the top menu bar, no complicated setup needed."
       }
-}
     ]
   },
   {
@@ -353,7 +350,7 @@
         "type": "list",
         "items": [
           "Sign up with your email and password",
-"Log in with Google",
+          "Log in with Google",
           "Use Facebook to sign in"
         ]
       },
@@ -367,10 +364,6 @@
         "content": "This lets you choose what's easiest for your audience, whether it's international users, mobile-first users, or businesses."
       },
       {
-        "type": "text",
-        "content": "<<<SS>>>"
-      },
-      {
         "heading": "Set Up Email Verification",
         "type": "text",
         "content": "If you're using email-based login, you can turn on email verification to confirm that users are signing up with real email addresses."
@@ -380,7 +373,7 @@
         "content": "This adds an extra layer of trust and helps you avoid fake or mistyped accounts."
       },
       {
-"type": "text",
+        "type": "text",
         "content": "When enabled, users will receive a verification link in their email after signing up. They'll need to click the verification link to access your app."
       },
       {
@@ -401,7 +394,7 @@
         ]
       },
       {
-"type": "text",
+        "type": "text",
         "content": "This helps you keep accounts safe while making the login setup smooth for users."
       },
       {
@@ -423,7 +416,7 @@
         "content": "Users can still log in with just a click, but the login screen will show Apper's name instead of yours. That's because you're using Apper's shared connection, not your own."
       },
       {
-"type": "text",
+        "type": "text",
         "content": "This is ideal for testing, prototyping, or if you don't need custom branding yet."
       },
       {
@@ -441,7 +434,7 @@
       },
       {
         "type": "text",
-"content": "Once it's done, just copy and paste the Client ID, Client Secret, and Callback URL from your setup into Apper. Here's how:"
+        "content": "Once it's done, just copy and paste the Client ID, Client Secret, and Callback URL from your setup into Apper. Here's how:"
       },
       {
         "heading": "Not sure which option to choose?",
@@ -479,13 +472,13 @@
         "type": "text",
         "content": "You can customize these templates to match your app's tone and branding — or create your own emails and sequences."
       }
-}
     ]
   },
   {
     "id": "user-profiles-permissions",
     "title": "Manage User Profiles and Permissions 👥",
     "subtitle": "Control user access and organize your team",
+    "icon": "Users",
     "sections": [
       {
         "type": "text",
@@ -510,7 +503,7 @@
           "Regularly review and update user permissions",
           "Use the principle of least privilege",
           "Document your permission structure",
-          "Train team leads on user management best practices"
+"Train team leads on user management best practices"
         ]
       }
     ]
