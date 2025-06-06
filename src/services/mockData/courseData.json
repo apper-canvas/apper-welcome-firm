@@ -237,28 +237,21 @@
       }
     ]
   },
-  {
+{
     "id": "troubleshooting-errors",
     "title": "Troubleshooting Errors 🛠️",
-    "subtitle": "Common issues and how to solve them",
+    "subtitle": "What to do when you encounter build issues",
     "icon": "AlertCircle",
     "sections": [
       {
-        "heading": "Common Issues",
+        "heading": "What If You Encounter an Error",
         "type": "text",
-        "content": "Don't worry if you encounter issues while building - it's part of the learning process! Most problems have simple solutions, and our platform provides helpful error messages to guide you."
+        "content": "If something goes wrong during setup, you might see a message saying \"Build was unsuccessful.\""
       },
       {
-        "heading": "Quick Fixes",
-        "type": "list",
-        "items": [
-          "Clear your browser cache if the editor seems slow",
-          "Check your internet connection for sync issues",
-          "Refresh the page if components aren't loading",
-          "Use the undo feature to revert unwanted changes",
-          "Contact support through the help chat for assistance",
-          "Check our knowledge base for detailed troubleshooting guides"
-        ]
+        "heading": "No Need to Worry",
+        "type": "text",
+        "content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
       }
     ]
   },
