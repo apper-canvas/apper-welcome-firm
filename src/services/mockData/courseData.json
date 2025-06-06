@@ -81,36 +81,40 @@
     "id": "what-you-can-build",
     "title": "What You Can Build 🏗️",
     "subtitle": "Endless possibilities with Apper",
-    "icon": "Layers",
+"icon": "Layers",
     "sections": [
       {
-        "heading": "Application Types",
-        "type": "list",
-        "items": [
-          "Business websites and landing pages",
-          "E-commerce stores and marketplaces",
-          "Customer relationship management (CRM) systems",
-          "Project management and collaboration tools",
-          "Event management and booking systems",
-          "Educational platforms and course websites",
-          "Portfolio and personal websites",
-          "Social networking and community platforms"
-        ]
-      },
-      {
-        "heading": "Industry Solutions",
-        "type": "text",
-        "content": "Apper serves businesses across all industries! From restaurants managing online orders to consultants tracking client projects, from artists showcasing portfolios to nonprofits organizing events - the possibilities are limitless."
-      }
-    ]
-  },
-  {
-    "id": "create-your-first-app",
-    "title": "Create Your First App 🎉",
-    "subtitle": "Step-by-step guide to building your first application",
-    "icon": "PlusCircle",
-    "sections": [
-      {
+        "heading": "What You Can Build",
+        "type": "markdown",
+        "content": [
+        "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you.",
+        "",
+        "**Internal Business Tools**: Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards.",
+        "",
+        "**Customer-Facing Apps**: Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools.",
+        "",
+        "**SaaS Products**: Launch full software products people can subscribe to — with logins, payment plans, user roles, and usage tracking.",
+        "",
+        "**Websites**: Create stunning websites in minutes — from landing pages and personal portfolios to blogs and membership sites.",
+        "",
+        "**Online Stores**: Set up a complete online shop — with product listings, Stripe payments, carts, discounts, and order management.",
+        "",
+        "**Games & Interactive Apps**: Build fun and engaging apps — like quizzes, puzzles, learning games, tap-to-win challenges, or daily streak trackers.",
+        "",
+        "**Databases & Admin Panels**: Manage your data behind the scenes — with editable tables, filters, role-based access, and connected dashboards.",
+"",
+        "**Anything You Can Imagine**: From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
+      ]
+    }
+  ]
+},
+{
+  "id": "getting-started-prompts",
+  "title": "Getting Started with Better Prompts 💡",
+  "subtitle": "Learn how to write effective prompts for better results",
+  "icon": "PlusCircle",
+  "sections": [
+    {
         "heading": "🚀 Getting Started",
         "type": "text",
         "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
@@ -229,10 +233,10 @@
       {
         "type": "text",
         "content": "Or, if you're not sure what to do next, just click one of the suggestions the assistant has already listed in the chat!"
-      },
+},
       {
         "heading": "⚡ Instant Updates",
-"type": "text",
+        "type": "text",
         "content": "Apper will immediately start updating your app based on your input! Explore, customize, and keep building — all right from the same screen."
       }
     ]
@@ -299,20 +303,20 @@
           "A Preview button to view it",
           "A Restore button to bring it back instantly"
         ]
-      },
+},
       {
         "heading": "Benefits of Version Management",
-"type": "text",
+        "type": "text",
         "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
       }
     ]
   },
   {
     "id": "manage-your-app",
-    "title": "Manage Your App ⚙️",
+"title": "Manage Your App ⚙️",
     "subtitle": "Essential app management and configuration",
     "icon": "Settings",
-"sections": [
+    "sections": [
       {
         "type": "text",
         "content": "Now that your app is almost ready, it's time to take care of a few essentials, like what your app is called, who can access it, how people sign up, how to charge users, and more."
@@ -496,10 +500,10 @@
         ]
       },
       {
-        "heading": "💡 Best Practices",
+"heading": "💡 Best Practices",
         "type": "list",
         "items": [
-"Start with basic roles and expand as needed",
+          "Start with basic roles and expand as needed",
           "Regularly review and update user permissions",
           "Use the principle of least privilege",
           "Train team leads on user management best practices"
@@ -571,10 +575,10 @@
         "content": "Connect your Stripe account to start accepting real payments — securely and automatically."
       },
       {
-        "heading": "Stripe handles:",
+"heading": "Stripe handles:",
         "type": "list",
         "items": [
-"One-time and recurring transactions",
+          "One-time and recurring transactions",
           "Subscription billing",
           "Invoices and payouts"
         ]
@@ -640,10 +644,10 @@
           "Customer-Facing App – Each customer can have multiple users with shared access"
         ]
       },
-      {
+{
         "type": "text",
         "content": "This choice helps Apper set up the right structure and permissions behind the scenes — so your app behaves the way it should."
-}
+      }
     ]
   }
 ]
