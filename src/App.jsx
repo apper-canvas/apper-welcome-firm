@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import WelcomeScreen from '@/components/pages/WelcomeScreen'
+import OnboardingPage from '@/components/pages/OnboardingPage'
 import HomePage from '@/components/pages/HomePage'
 import CoursePage from '@/components/pages/CoursePage'
 import CustomContentPage from '@/components/pages/CustomContentPage'
@@ -29,8 +30,9 @@ function App() {
       <Router>
         <div className="min-h-screen bg-gradient-to-br from-surface-50 to-purple-50 dark:from-surface-900 dark:to-purple-900 transition-colors duration-300">
           <div className="max-w-screen-2xl mx-auto">
-            <Routes>
-              <Route path="/" element={<WelcomeScreen />} />
+<Routes>
+              <Route path="/" element={<WelcomeScreen darkMode={darkMode} setDarkMode={setDarkMode} />} />
+              <Route path="/onboarding" element={<OnboardingPage darkMode={darkMode} setDarkMode={setDarkMode} />} />
               <Route path="/home" element={<HomePage darkMode={darkMode} setDarkMode={setDarkMode} />} />
               <Route path="/course" element={<CoursePage />} />
               <Route path="/custom-content" element={<CustomContentPage />} />
