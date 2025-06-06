@@ -1,83 +1,46 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
-import WelcomeScreen from '@/components/pages/WelcomeScreen'
-import ContentPage from '@/components/pages/ContentPage'
-import ThemeToggle from '@/components/molecules/ThemeToggle'
-import ApperIcon from '@/components/ApperIcon'
-import '@fontsource/inter/400.css'
-import '@fontsource/inter/500.css'
-import '@fontsource/inter/600.css'
-import '@fontsource/inter/700.css'
-import '@fontsource/poppins/400.css'
-import '@fontsource/poppins/500.css'
-import '@fontsource/poppins/600.css'
-import '@fontsource/poppins/700.css'
-import '@fontsource/dm-sans/400.css'
-import '@fontsource/dm-sans/500.css'
-import '@fontsource/dm-sans/600.css'
 import 'react-toastify/dist/ReactToastify.css'
+import WelcomeScreen from '@/components/pages/WelcomeScreen'
+import OnboardingPage from '@/components/pages/OnboardingPage'
+import HomePage from '@/components/pages/HomePage'
+import CoursePage from '@/components/pages/CoursePage'
+import CustomContentPage from '@/components/pages/CustomContentPage'
+import NotFound from '@/pages/NotFound'
+import './index.css'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem('darkMode')
+    return savedTheme ? JSON.parse(savedTheme) : false
+  })
+
+  useEffect(() => {
+    localStorage.setItem('darkMode', JSON.stringify(darkMode))
+    if (darkMode) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [darkMode])
 
   return (
-    <Router>
-      <div className={`min-h-screen transition-colors duration-300 ${
-        darkMode ? 'dark bg-surface-900' : 'bg-surface-50'
-      }`}>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative"
-        >
-          {/* Navigation Bar */}
-          <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-surface-800/80 backdrop-blur-lg border-b border-surface-200 dark:border-surface-700">
-            <div className="container mx-auto px-4">
-              <div className="flex items-center justify-between h-16">
-                <div className="flex items-center space-x-8">
-                  <Link to="/" className="flex items-center space-x-2">
-                    <ApperIcon name="Zap" className="w-8 h-8 text-primary" />
-                    <span className="text-xl font-bold text-surface-900 dark:text-white">
-                      Apper
-                    </span>
-                  </Link>
-                  <div className="hidden md:flex items-center space-x-6">
-                    <Link 
-                      to="/" 
-                      className="text-surface-600 dark:text-surface-400 hover:text-primary transition-colors"
-                    >
-                      Home
-                    </Link>
-                    <Link 
-                      to="/content" 
-                      className="text-surface-600 dark:text-surface-400 hover:text-primary transition-colors"
-                    >
-                      Content
-                    </Link>
-</div>
-                </div>
-                <ThemeToggle
-                  darkMode={darkMode}
-                  onToggle={() => setDarkMode(!darkMode)}
-                />
-              </div>
-            </div>
-          </nav>
-
-          {/* Main Content */}
-          <div className="pt-16">
-            <Routes>
-              <Route path="/" element={<WelcomeScreen />} />
-              <Route path="/content" element={<ContentPage />} />
+    <div className={darkMode ? 'dark' : ''}>
+      <Router>
+        <div className="min-h-screen bg-gradient-to-br from-surface-50 to-purple-50 dark:from-surface-900 dark:to-purple-900 transition-colors duration-300">
+          <div className="max-w-screen-2xl mx-auto">
+<Routes>
+              <Route path="/" element={<WelcomeScreen darkMode={darkMode} setDarkMode={setDarkMode} />} />
+              <Route path="/onboarding" element={<OnboardingPage darkMode={darkMode} setDarkMode={setDarkMode} />} />
+              <Route path="/home" element={<HomePage darkMode={darkMode} setDarkMode={setDarkMode} />} />
+              <Route path="/course" element={<CoursePage />} />
+              <Route path="/custom-content" element={<CustomContentPage />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
-
-          {/* Toast Container */}
           <ToastContainer
-            position="bottom-right"
+            position="top-right"
             autoClose={3000}
             hideProgressBar={false}
             newestOnTop={false}
@@ -88,8 +51,10 @@ function App() {
             pauseOnHover
             theme={darkMode ? 'dark' : 'light'}
           />
-        </motion.div>
-      </div>
-    </Router>
+        </div>
+      </Router>
+    </div>
   )
 }
+
+export default App

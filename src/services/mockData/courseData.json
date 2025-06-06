@@ -1,0 +1,594 @@
+[
+  {
+    "id": "what-is-apper",
+    "title": "What is Apper?",
+    "subtitle": "Understanding your AI app creator",
+    "icon": "Brain",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Apper is a revolutionary AI-powered platform that transforms your ideas into fully functional applications through simple conversation. No coding required, no complex setup – just describe what you want, and Apper builds it for you."
+      },
+      {
+        "type": "list",
+        "heading": "What makes Apper special:",
+        "items": [
+          "Natural language interface - just talk to describe your app",
+          "Instant app generation from your descriptions", 
+          "Beautiful, responsive designs automatically created",
+          "Powerful features without technical complexity",
+          "Cloud-hosted with automatic scaling",
+          "Works on desktop, tablet, and mobile devices"
+        ]
+      }
+    ]
+  },
+{
+    "id": "why-apper-stands-out",
+    "title": "Why Apper Stands Out",
+    "subtitle": "The future of app development is here",
+    "icon": "Sparkles",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Most tools help with only one part of building an app. You might use one for design, another for databases, something else for login, payments, hosting, testing, & more."
+      },
+      {
+        "type": "text",
+        "content": "With Apper, everything happens in one place. The AI builds your app from start to finish:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pages and layouts",
+          "Buttons and forms",
+          "How your app behaves",
+          "Where the data goes",
+          "How users log in",
+          "How do you get paid",
+          "And more — all set up and ready to use"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "What truly sets Apper apart is how natural it feels."
+      },
+      {
+        "type": "text",
+        "content": "You just speak with Apper in your plain everyday language, and it understands what to build, how it should look, and how it should work."
+      },
+      {
+        "type": "text",
+        "content": "That's why Apper isn't just another app builder — it's a new way to create software."
+      }
+    ]
+  },
+  {
+    "id": "interactive-building",
+    "title": "Interactive Building Experience",
+    "subtitle": "See how intuitive app creation can be",
+    "icon": "Wand2",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Apper's interface is designed to feel like a conversation with a smart assistant who happens to be an expert app developer. You describe features in plain English, and Apper translates them into working functionality."
+      },
+      {
+        "type": "demo",
+        "title": "Try Interactive Demo",
+        "description": "Experience Apper's building process with our hands-on demo"
+},
+      {
+        "type": "text",
+        "content": "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you."
+      },
+      {
+        "type": "list",
+        "heading": "Internal Business Tools:",
+        "items": [
+          "Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Customer-Facing Apps:",
+        "items": [
+          "Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "SaaS Products:",
+        "items": [
+          "Launch full software products people can subscribe to — with logins, payment plans, user roles, and usage tracking."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Websites:",
+        "items": [
+          "Create stunning websites in minutes — from landing pages and personal portfolios to blogs and membership sites."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Online Stores:",
+        "items": [
+          "Set up a complete online shop — with product listings, Stripe payments, carts, discounts, and order management."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Games & Interactive Apps:",
+        "items": [
+          "Build fun and engaging apps — like quizzes, puzzles, learning games, tap-to-win challenges, or daily streak trackers."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Databases & Admin Panels:",
+        "items": [
+          "Manage your data behind the scenes — with editable tables, filters, role-based access, and connected dashboards."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Anything You Can Imagine:",
+        "items": [
+          "From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "create-your-first-app",
+    "title": "Create Your First App",
+    "subtitle": "Ready to build? Here's how to get started",
+    "icon": "MessageSquarePlus",
+    "sections": [
+      {
+        "type": "text",
+        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
+      },
+      {
+        "type": "list",
+        "heading": "Example prompts to try:",
+        "items": [
+          "\"I want to build a tool to track customer orders.\"",
+          "\"Make an app where users can book sessions and pay online.\"",
+          "\"Create a quiz game that gives points and tracks team progress.\""
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Pro tip: To help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. This will help you articulate your vision more precisely and get better results."
+      },
+      {
+        "type": "steps",
+        "heading": "Your first app in 3 steps:",
+        "steps": [
+          {
+            "title": "Describe Your Idea",
+            "description": "Tell Apper what you want to build in plain English. Be as detailed or as simple as you like."
+          },
+          {
+            "title": "Watch Apper Build",
+            "description": "Apper will create your app in real-time. You can see pages, features, and functionality appear as it works."
+          },
+{
+            "title": "Customize and Launch",
+            "description": "Make any changes you want by continuing the conversation, then publish your app with one click."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "troubleshooting-errors",
+    "title": "What to do when you encounter build issues 🛠️",
+    "icon": "AlertCircle",
+    "sections": [
+      {
+        "heading": "What If You Encounter an Error",
+        "type": "text",
+        "content": "If something goes wrong during setup, you might see a message saying \"Build was unsuccessful.\""
+      },
+      {
+        "heading": "No Need to Worry",
+        "type": "text",
+"content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
+      }
+    ]
+  },
+  {
+    "id": "desktop-mobile-views",
+    "title": "Switch Between Desktop and Mobile Views",
+    "subtitle": "Preview your app across different devices",
+    "icon": "Monitor",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Want to see how your app looks on different devices? Use the view toggle buttons at the top right of the screen (just beside the refresh icon)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "🖥️ Click the desktop icon to view how your app appears on larger screens",
+          "📱 Click the mobile icon to instantly switch to a phone-sized preview",
+          "This helps you make sure your app looks great and works smoothly across all screen sizes (no surprises later)",
+          "You can switch views anytime while editing or previewing your app"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Alternatively, you can also click the View App (or Live Preview) button (positioned right next to the view toggle buttons) to open a full-sized version of your app in a new tab. This will show exactly how your users will see your app."
+      }
+    ]
+  },
+  {
+    "id": "version-management",
+    "title": "Version Management 📊",
+    "subtitle": "Track and manage your app versions",
+    "icon": "GitBranch",
+    "sections": [
+      {
+        "heading": "Loading and Navigation",
+        "type": "text",
+        "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
+      },
+{
+        "heading": "What Each Version Includes",
+        "type": "list",
+        "items": [
+          "A summary of what changed",
+          "A Preview button to view it",
+          "A Restore button to bring it back instantly"
+        ]
+      },
+      {
+        "heading": "Benefits of Version Management",
+        "type": "text",
+        "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
+      }
+    ]
+  },
+  {
+    "id": "manage-your-app",
+    "title": "Manage Your App ⚙️",
+    "subtitle": "Essential app management and configuration",
+    "icon": "Settings",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Now that your app is almost ready, it's time to take care of a few essentials, like what your app is called, who can access it, how people sign up, how to charge users, and more."
+      },
+      {
+        "type": "text", 
+        "content": "You'll find all of these in the 'Manage App' section. Let's get started."
+      },
+      {
+        "heading": "Rename Your App in Apper",
+        "type": "text",
+        "content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
+      },
+      {
+        "type": "text",
+        "content": "Apper makes this easy. You can update your app's name anytime from the 'Manage App' settings in the top menu bar, no complicated setup needed."
+      }
+    ]
+  },
+  {
+    "id": "user-login-signup",
+    "title": "Let Users Log In and Sign Up 🔐",
+    "subtitle": "Set up user authentication and account management",
+    "icon": "UserPlus",
+    "sections": [
+      {
+        "type": "text",
+        "content": "If you want users to create accounts, log in, or access premium features of your app, you'll need to set up Login and Signup."
+      },
+      {
+        "type": "text",
+        "content": "Apper makes this really easy. You can let users:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sign up with your email and password",
+          "Log in with Google",
+          "Use Facebook to sign in"
+        ]
+      },
+      {
+        "heading": "Choose Whether Users Can Log In via Email or Phone Number",
+        "type": "text",
+        "content": "You can decide how users log in — using an email address, a phone number, or both."
+      },
+      {
+        "type": "text",
+        "content": "This lets you choose what's easiest for your audience, whether it's international users, mobile-first users, or businesses."
+      },
+      {
+        "heading": "Set Up Email Verification",
+        "type": "text",
+        "content": "If you're using email-based login, you can turn on email verification to confirm that users are signing up with real email addresses."
+      },
+      {
+        "type": "text",
+        "content": "This adds an extra layer of trust and helps you avoid fake or mistyped accounts."
+      },
+      {
+        "type": "text",
+        "content": "When enabled, users will receive a verification link in their email after signing up. They'll need to click the verification link to access your app."
+      },
+      {
+        "heading": "Set Password Rules for Better Security and User Experience",
+        "type": "text",
+        "content": "When you allow email or phone login, you can define what kind of passwords users need to create."
+      },
+      {
+        "type": "text",
+        "content": "For example, you can:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Set a minimum number of characters",
+          "Require symbols or numbers",
+          "Let users reset passwords easily, & more"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This helps you keep accounts safe while making the login setup smooth for users."
+      },
+      {
+        "heading": "Let Users Sign In with Google or Facebook",
+        "type": "text",
+        "content": "To let users sign in with their Google or Facebook account, you need to connect your app to those platforms."
+      },
+      {
+        "type": "text",
+        "content": "Apper gives you 2 ways to make this work:"
+      },
+      {
+        "heading": "Option 1: Use the Default Setup (Simple and automatic)",
+        "type": "text",
+        "content": "When you turn the 'Use Default Credentials' toggle on, Apper uses a secure connection it has already set up with Google and Facebook."
+      },
+      {
+        "type": "text",
+        "content": "Users can still log in with just a click, but the login screen will show Apper's name instead of yours. That's because you're using Apper's shared connection, not your own."
+      },
+      {
+        "type": "text",
+        "content": "This is ideal for testing, prototyping, or if you don't need custom branding yet."
+      },
+      {
+        "heading": "Option 2: Use Your Own Setup (For custom branding and control)",
+        "type": "text",
+        "content": "You might want the login pop-up to show your app's name and logo, especially if you're preparing to launch your app publicly."
+      },
+      {
+        "type": "text",
+        "content": "In that case, you can connect your own setup with Google & Facebook (instead of using Apper's default shared connection)."
+      },
+      {
+        "type": "text",
+        "content": "It's a one-time setup and takes just a few minutes."
+      },
+      {
+        "type": "text",
+        "content": "Once it's done, just copy and paste the Client ID, Client Secret, and Callback URL from your setup into Apper. Here's how:"
+      },
+      {
+        "heading": "Not sure which option to choose?",
+        "type": "text",
+        "content": "Start with the default as it works instantly. You can always switch to your own setup anytime."
+      }
+    ]
+  },
+  {
+    "id": "onboarding-emails",
+    "title": "Set Up Onboarding & Other Imp Emails for Your App 📧",
+    "subtitle": "Built-in email system for user communication",
+    "icon": "Mail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "As users sign up and start using your app, you'll want to send them helpful emails to guide their journey (for confirming their email, or resetting a password, etc.)"
+      },
+      {
+        "type": "text",
+        "content": "Apper offers built-in support for creating and sending such system emails, so you don't need to connect any email service to get started."
+      },
+      {
+        "heading": "Available Email Templates",
+        "type": "list",
+        "items": [
+          "Email Confirmation – to verify a new user's email",
+          "Reset Password – when someone forgets their login",
+          "Invite User – to bring others into a team or workspace",
+          "Subscription Receipt – after a successful payment",
+          "Sign In with OTP – to send secure one-time login links"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "You can customize these templates to match your app's tone and branding — or create your own emails and sequences."
+      }
+    ]
+  },
+  {
+    "id": "user-profiles-permissions",
+    "title": "Manage User Profiles and Permissions 👥",
+    "subtitle": "Control user access and organize your team",
+    "icon": "Users",
+    "sections": [
+      {
+        "type": "text",
+        "content": "You can invite users, create profiles, and assign specific permissions to control access to tables and pages. This ensures that each user sees only what they need, keeping your data secure and organized."
+      },
+      {
+        "heading": "User Management Features",
+        "type": "list",
+        "items": [
+"Create User Profiles – Set up detailed user accounts with roles and information",
+          "Assign Permissions – Control what each user can view, edit, or delete",
+          "Manage Team Access – Organize users into teams with specific access rights",
+          "Secure Data Access – Ensure sensitive information is only visible to authorized users",
+          "Role-Based Control – Define different permission levels for different user types"
+        ]
+      },
+      {
+        "heading": "💡 Best Practices",
+        "type": "list",
+        "items": [
+          "Start with basic roles and expand as needed",
+          "Regularly review and update user permissions",
+          "Use the principle of least privilege",
+          "Train team leads on user management best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "billing-revenue",
+    "title": "Billing and Revenue 💰",
+    "subtitle": "Set up pricing, subscriptions, and payment collection",
+    "icon": "CreditCard",
+    "sections": [
+      {
+        "type": "text",
+        "content": "You've built something great with Apper — now it's time to start earning from it. Whether it's a tool, course, or community, Apper makes it easy to set up pricing, offer subscriptions, and collect payments."
+      },
+      {
+        "type": "text",
+        "content": "To keep things flexible, the Billing & Revenue section is divided into three parts:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tiers & Plans: Your main pricing structure",
+          "Addons / Credits – Extra features or pay-as-you-go upgrades",
+          "Stripe Settings – for accepting real payments"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Let's take a quick look at what each one does."
+      },
+      {
+        "heading": "Tier and Plans",
+        "type": "text",
+        "content": "This is where you set up the core pricing options for your app. You can offer free plans, paid subscriptions, or both — and control what users get with each one."
+      },
+      {
+        "heading": "Use this section to:",
+        "type": "list",
+        "items": [
+          "Set pricing (monthly, yearly, or custom)",
+          "Decide what each plan includes",
+          "Add limits (like number of users or credits)"
+        ]
+      },
+      {
+        "heading": "Addons / Credits",
+        "type": "text",
+        "content": "Addons let users purchase extra features or resources without changing their main plan. This is great for things like:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Additional AI credits",
+          "Extra storage",
+          "Bonus tools",
+          "One-time unlocks"
+        ]
+      },
+      {
+        "type": "text",
+"content": "Perfect for apps that offer flexibility or usage-based pricing."
+      },
+      {
+        "heading": "Stripe Settings",
+        "type": "text",
+        "content": "Connect your Stripe account to start accepting real payments — securely and automatically."
+      },
+      {
+        "heading": "Stripe handles:",
+        "type": "list",
+        "items": [
+          "One-time and recurring transactions",
+          "Subscription billing",
+          "Invoices and payouts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "code-section",
+    "title": "Code 💻",
+    "subtitle": "Access and customize your app's code directly",
+    "icon": "Code",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Apper builds everything for you — from logic to layout — without needing you to write any code."
+      },
+      {
+        "type": "text",
+        "content": "But for advanced customizations, the Code section gives you direct access to the code that powers your app."
+      },
+      {
+        "heading": "You can use this to:",
+        "type": "list",
+        "items": [
+          "Make fine-tuned changes beyond the visual builder",
+          "Add logic or custom functions manually",
+          "Review or debug the generated code"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This is especially useful for developers or technical users who want more control, or for those working with a developer on their team."
+      },
+      {
+        "type": "text",
+        "content": "Even though you don't need to use this section to launch your app, it's here if you want to take more control and customize things your way."
+      }
+    ]
+  },
+  {
+    "id": "connect-database",
+    "title": "Connect Database 🗄️",
+    "subtitle": "Automatic data management and structure setup",
+    "icon": "Database",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Every app needs a place to store data — like user info, form submissions, orders, or messages. That's what the Database does."
+      },
+      {
+        "type": "text",
+        "content": "Apper creates and manages your database automatically based on how your app works, so you don't have to set anything up manually."
+      },
+      {
+        "type": "text",
+        "content": "Before Apper sets up your database, it asks you to choose your app type — so it knows how to organize your data properly."
+      },
+{
+        "heading": "You'll choose one of two options:",
+        "type": "list",
+        "items": [
+          "Employee App – Each user sees only their own data",
+          "Customer-Facing App – Each customer can have multiple users with shared access"
+        ]
+      },
+      {
+        "type": "text",
+        "content": "This choice helps Apper set up the right structure and permissions behind the scenes — so your app behaves the way it should."
+      }
+    ]
+  }
+]

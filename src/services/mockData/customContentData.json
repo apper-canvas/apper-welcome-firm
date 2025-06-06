@@ -1,0 +1,221 @@
+{
+  "topics": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "subtitle": "Learn the basics and get up and running quickly",
+      "icon": "BookOpen",
+      "sections": [
+        {
+          "heading": "Welcome to the Platform",
+          "type": "text",
+          "content": "This comprehensive guide will walk you through everything you need to know to get started with our platform. Whether you're a beginner or an experienced user, you'll find valuable information here."
+        },
+        {
+          "heading": "Key Benefits",
+          "type": "list",
+          "items": [
+            "Easy to use interface with intuitive navigation",
+            "Powerful features for all skill levels",
+            "Comprehensive documentation and support",
+            "Active community of users and developers",
+            "Regular updates and new features"
+          ]
+        },
+        {
+          "heading": "Quick Setup Steps",
+          "type": "steps",
+          "steps": [
+            {
+              "title": "Create Your Account",
+              "description": "Sign up for a new account using your email address. Verify your email to activate your account."
+            },
+            {
+              "title": "Complete Your Profile",
+              "description": "Add your personal information and preferences to customize your experience."
+            },
+            {
+              "title": "Explore the Dashboard",
+              "description": "Familiarize yourself with the main dashboard and available features."
+            },
+            {
+              "title": "Start Your First Project",
+              "description": "Create your first project to begin exploring the platform's capabilities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "features-overview",
+      "title": "Features Overview",
+      "subtitle": "Discover all the powerful features available to you",
+      "icon": "Zap",
+      "sections": [
+        {
+          "heading": "Core Features",
+          "type": "text",
+          "content": "Our platform offers a comprehensive set of features designed to streamline your workflow and boost productivity. From basic functionality to advanced tools, everything is built with user experience in mind."
+        },
+        {
+          "heading": "Main Capabilities",
+          "type": "list",
+          "items": [
+            "Real-time collaboration with team members",
+            "Advanced analytics and reporting tools",
+            "Customizable dashboards and workflows",
+            "Integration with popular third-party services",
+            "Mobile-responsive design for on-the-go access",
+            "Robust security and data protection measures"
+          ]
+        },
+        {
+          "heading": "Feature Categories",
+          "type": "steps",
+          "steps": [
+            {
+              "title": "Project Management",
+              "description": "Organize your work with project templates, task tracking, and milestone management."
+            },
+            {
+              "title": "Collaboration Tools",
+              "description": "Work together with real-time editing, comments, and team communication features."
+            },
+            {
+              "title": "Analytics & Insights",
+              "description": "Track progress with detailed reports, charts, and performance metrics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "subtitle": "Tips and guidelines for optimal usage",
+      "icon": "Target",
+      "sections": [
+        {
+          "heading": "Recommended Approach",
+          "type": "text",
+          "content": "Following best practices will help you get the most out of the platform while avoiding common pitfalls. These guidelines are based on feedback from thousands of successful users."
+        },
+        {
+          "heading": "Essential Guidelines",
+          "type": "list",
+          "items": [
+            "Start with clear goals and objectives",
+            "Use consistent naming conventions for projects",
+            "Regularly backup your important data",
+            "Keep your workspace organized and clutter-free",
+            "Take advantage of automation features",
+            "Stay updated with new features and improvements"
+          ]
+        },
+        {
+          "heading": "Implementation Strategy",
+          "type": "steps",
+          "steps": [
+            {
+              "title": "Plan Your Workflow",
+              "description": "Before diving in, take time to plan how you'll organize your projects and collaborate with others."
+            },
+            {
+              "title": "Set Up Templates",
+              "description": "Create reusable templates for common project types to save time and ensure consistency."
+            },
+            {
+              "title": "Train Your Team",
+              "description": "Make sure all team members understand the platform and follow the same conventions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "subtitle": "Common issues and their solutions",
+      "icon": "Tool",
+      "sections": [
+        {
+          "heading": "Getting Help",
+          "type": "text",
+          "content": "If you encounter any issues while using the platform, this section will help you resolve them quickly. Most problems have simple solutions that you can implement yourself."
+        },
+        {
+          "heading": "Common Issues",
+          "type": "list",
+          "items": [
+            "Login problems - check your credentials and internet connection",
+            "Slow performance - clear your browser cache and cookies",
+            "Missing features - ensure you have the necessary permissions",
+            "Sync issues - refresh the page or log out and back in",
+            "File upload errors - check file size and format requirements"
+          ]
+        },
+        {
+          "heading": "Resolution Process",
+          "type": "steps",
+          "steps": [
+            {
+              "title": "Identify the Problem",
+              "description": "Clearly describe what's happening and when the issue occurs."
+            },
+            {
+              "title": "Try Basic Solutions",
+              "description": "Refresh the page, clear cache, or try a different browser."
+            },
+            {
+              "title": "Contact Support",
+              "description": "If basic solutions don't work, reach out to our support team with details."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-tips",
+      "title": "Advanced Tips",
+      "subtitle": "Pro techniques for power users",
+      "icon": "Lightbulb",
+      "sections": [
+        {
+          "heading": "Power User Techniques",
+          "type": "text",
+          "content": "Once you're comfortable with the basics, these advanced techniques will help you work more efficiently and unlock the platform's full potential."
+        },
+        {
+          "heading": "Advanced Features",
+          "type": "list",
+          "items": [
+            "Custom automation workflows and triggers",
+            "API integration for external applications",
+            "Advanced filtering and search capabilities",
+            "Bulk operations for managing large datasets",
+            "Custom dashboard widgets and layouts",
+            "Advanced security settings and permissions"
+          ]
+        },
+        {
+          "heading": "Optimization Strategies",
+          "type": "steps",
+          "steps": [
+            {
+              "title": "Automate Repetitive Tasks",
+              "description": "Set up workflows to handle routine operations automatically."
+            },
+            {
+              "title": "Customize Your Interface",
+              "description": "Tailor the platform to match your specific needs and preferences."
+            },
+            {
+              "title": "Monitor Performance",
+              "description": "Use analytics to track and optimize your usage patterns."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

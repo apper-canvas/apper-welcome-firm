@@ -1,0 +1,248 @@
+[
+  {
+    "id": "welcome",
+    "title": "Welcome to Apper",
+    "subtitle": "Let's get you started on your app-building journey",
+    "description": "Apper makes it incredibly easy to turn your ideas into fully functional apps. No coding required!",
+    "icon": "heart",
+    "type": "welcome",
+    "estimatedTime": "1 min",
+    "content": {
+      "type": "welcome",
+      "features": [
+        {
+          "icon": "zap",
+          "title": "Lightning Fast",
+          "description": "Build apps in minutes, not months"
+        },
+        {
+          "icon": "palette",
+          "title": "Beautiful Design",
+          "description": "Professional layouts and themes"
+        },
+        {
+          "icon": "globe",
+          "title": "Deploy Anywhere",
+          "description": "Web, mobile, and desktop ready"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "type": "primary",
+        "label": "Let's Start Building",
+        "action": "continue"
+      }
+    ]
+  },
+  {
+    "id": "app-idea",
+    "title": "Describe Your App Idea",
+    "subtitle": "Tell us what you want to build",
+    "description": "Just describe your app in plain English. Apper will understand and start building it for you.",
+    "icon": "lightbulb",
+    "type": "input",
+    "estimatedTime": "2 min",
+    "content": {
+      "type": "app-builder",
+      "prompt": "What kind of app would you like to build?",
+      "placeholder": "e.g., A task management app for teams, a recipe sharing platform, a fitness tracker...",
+      "examples": [
+        {
+          "title": "Task Manager",
+          "description": "A collaborative task management app with team features",
+          "icon": "check-square"
+        },
+        {
+          "title": "Recipe Book",
+          "description": "A platform to share and discover cooking recipes",
+          "icon": "chef-hat"
+        },
+        {
+          "title": "Fitness Tracker",
+          "description": "Track workouts, nutrition, and health goals",
+          "icon": "activity"
+        },
+        {
+          "title": "Budget Planner",
+          "description": "Personal finance and expense tracking app",
+          "icon": "dollar-sign"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "type": "primary",
+        "label": "Build My App",
+        "action": "build-app"
+      },
+      {
+        "type": "secondary",
+        "label": "Use Example",
+        "action": "use-example"
+      }
+    ]
+  },
+  {
+    "id": "building",
+    "title": "Building Your App",
+    "subtitle": "Apper is creating your app right now",
+    "description": "Our AI is analyzing your requirements and building your app structure, features, and design.",
+    "icon": "cog",
+    "type": "building",
+    "estimatedTime": "30 sec",
+    "content": {
+      "type": "building-progress",
+      "steps": [
+        {
+          "label": "Analyzing requirements",
+          "duration": 3000
+        },
+        {
+          "label": "Creating app structure",
+          "duration": 4000
+        },
+        {
+          "label": "Designing user interface",
+          "duration": 5000
+        },
+        {
+          "label": "Setting up features",
+          "duration": 3000
+        },
+        {
+          "label": "Finalizing your app",
+          "duration": 2000
+        }
+      ]
+    },
+    "actions": []
+  },
+  {
+    "id": "preview",
+    "title": "Your App is Ready!",
+    "subtitle": "Take a look at what we've built for you",
+    "description": "Your app has been successfully created! You can preview it, customize it, or deploy it right away.",
+    "icon": "eye",
+    "type": "preview",
+    "estimatedTime": "2 min",
+    "content": {
+      "type": "app-preview",
+      "features": [
+        "User authentication",
+        "Responsive design",
+        "Database integration",
+        "Modern UI components",
+        "Mobile-friendly layout"
+      ],
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB"
+      ]
+    },
+    "actions": [
+      {
+        "type": "primary",
+        "label": "Customize App",
+        "action": "customize"
+      },
+      {
+        "type": "secondary",
+        "label": "Deploy Now",
+        "action": "deploy"
+      },
+      {
+        "type": "tertiary",
+        "label": "Preview App",
+        "action": "preview"
+      }
+    ]
+  },
+  {
+    "id": "customize",
+    "title": "Customize Your App",
+    "subtitle": "Make it uniquely yours",
+    "description": "Personalize your app's appearance, add features, or modify the layout to match your vision.",
+    "icon": "palette",
+    "type": "customization",
+    "estimatedTime": "5 min",
+    "content": {
+      "type": "customization-options",
+      "categories": [
+        {
+          "title": "Appearance",
+          "icon": "palette",
+          "options": ["Colors", "Fonts", "Layout", "Themes"]
+        },
+        {
+          "title": "Features",
+          "icon": "plus-circle",
+          "options": ["User Management", "Data Export", "Notifications", "Analytics"]
+        },
+        {
+          "title": "Integration",
+          "icon": "link",
+          "options": ["Third-party APIs", "Payment Systems", "Social Login", "Email Services"]
+        }
+      ]
+    },
+    "actions": [
+      {
+        "type": "primary",
+        "label": "Save Changes",
+        "action": "save-customization"
+      },
+      {
+        "type": "secondary",
+        "label": "Skip for Now",
+        "action": "skip-customization"
+      }
+    ]
+  },
+  {
+    "id": "complete",
+    "title": "You're All Set!",
+    "subtitle": "Welcome to the Apper community",
+    "description": "Your app is ready to use! You can continue customizing, deploy it live, or explore more features.",
+    "icon": "check-circle",
+    "type": "completion",
+    "estimatedTime": "1 min",
+    "content": {
+      "type": "completion",
+      "nextSteps": [
+        {
+          "title": "Deploy Your App",
+          "description": "Make your app live and accessible to users",
+          "icon": "upload",
+          "action": "deploy"
+        },
+        {
+          "title": "Share Your App",
+          "description": "Get feedback from friends and colleagues",
+          "icon": "share",
+          "action": "share"
+        },
+        {
+          "title": "Learn More",
+          "description": "Explore advanced features and capabilities",
+          "icon": "book-open",
+          "action": "learn"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "type": "primary",
+        "label": "Go to Dashboard",
+        "action": "dashboard"
+      },
+      {
+        "type": "secondary",
+        "label": "Deploy App",
+        "action": "deploy"
+      }
+    ]
+  }
+]
