@@ -4,11 +4,39 @@
     "title": "What is Apper?",
     "subtitle": "Discover the power of no-code development",
     "icon": "Zap",
-    "sections": [
-{
+"sections": [
+      {
         "heading": "What is Apper",
         "type": "text",
-        "content": "Apper is your AI app creator.\n\nIt's not just powered by AI — it is AI.\n\nKind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes.\n\nYou don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app.\n\nWith Apper, everything happens in one place, all through a simple conversation (chat interface).\n\nJust chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs.\n\nIn short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI."
+        "content": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes."
+      },
+      {
+        "heading": "How Apper Works",
+        "type": "text",
+        "content": "You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface)."
+      },
+      {
+        "heading": "Key Benefits",
+        "type": "list",
+        "items": [
+          "Chat in simple, everyday English to describe your app idea",
+          "Get fully functional apps built in just a few minutes",
+          "No coding, designing, or technical skills required",
+          "Everything happens in one unified platform",
+          "Apps improve instantly based on your feedback",
+          "Complete control through natural conversation"
+        ]
+      },
+      {
+        "heading": "Getting Started Tips",
+        "type": "list",
+        "items": [
+          "Start by describing your app idea in simple terms",
+          "Be specific about what you want your app to do",
+          "Don't worry about technical details - just explain your vision",
+          "Ask for changes or improvements anytime during the conversation",
+          "Test your app frequently as it's being built"
+        ]
       }
     ]
   },
