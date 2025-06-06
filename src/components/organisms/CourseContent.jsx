@@ -1,14 +1,8 @@
 import { motion } from 'framer-motion'
 import Icon from '@/components/atoms/Icon'
 import Button from '@/components/atoms/Button'
-import { useState } from 'react'
 
 function CourseContent({ courseData, activeSection }) {
-  const [completedSections, setCompletedSections] = useState(new Set())
-
-  const handleMarkComplete = (sectionId) => {
-    setCompletedSections(prev => new Set([...prev, sectionId]))
-  }
 
   const renderCodeBlock = (code) => (
     <div className="bg-surface-900 rounded-xl p-6 overflow-x-auto">
@@ -130,17 +124,8 @@ return (
                   </h2>
                   <p className="text-surface-500 dark:text-surface-400 mt-1">
                     Section {index + 1} of {courseData.length}
-                  </p>
+</p>
                 </div>
-                {completedSections.has(section.id) && (
-                  <motion.div
-                    initial={{ scale: 0 }}
-                    animate={{ scale: 1 }}
-                    className="p-2 bg-secondary rounded-full"
-                  >
-                    <Icon name="CheckCircle" className="w-5 h-5 text-white" />
-                  </motion.div>
-                )}
               </div>
               
               {section.subtitle && (
@@ -162,52 +147,23 @@ return (
                   {renderContentSection(contentSection)}
                 </div>
               ))}
-            </div>
+</div>
 
             {/* Section Actions */}
             <div className="mt-8 pt-8 border-t border-surface-200 dark:border-surface-700">
-              <div className="flex flex-col sm:flex-row gap-4 justify-between">
+              <div className="flex justify-center">
                 <Button
-                  onClick={() => handleMarkComplete(section.id)}
-                  disabled={completedSections.has(section.id)}
-                  className={`px-6 py-3 rounded-xl font-semibold transition-all ${
-                    completedSections.has(section.id)
-                      ? 'bg-secondary text-white cursor-not-allowed'
-                      : 'bg-primary text-white hover:bg-primary-dark'
-                  }`}
-                  whileHover={!completedSections.has(section.id) ? { scale: 1.05 } : {}}
-                  whileTap={!completedSections.has(section.id) ? { scale: 0.95 } : {}}
+                  onClick={() => {
+                    // Video functionality will be implemented here
+                    console.log(`Watch video for section: ${section.title}`)
+                  }}
+                  className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold shadow-lg hover:shadow-xl"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
                 >
-                  {completedSections.has(section.id) ? (
-                    <>
-                      <Icon name="CheckCircle" className="w-4 h-4 mr-2" />
-                      Completed
-                    </>
-                  ) : (
-                    <>
-                      <Icon name="Check" className="w-4 h-4 mr-2" />
-                      Mark as Complete
-                    </>
-                  )}
+                  <Icon name="Play" className="w-5 h-5 mr-3" />
+                  Watch Video
                 </Button>
-
-                {index < courseData.length - 1 && (
-                  <Button
-                    onClick={() => {
-                      const nextSection = courseData[index + 1]
-                      document.getElementById(nextSection.id)?.scrollIntoView({ 
-                        behavior: 'smooth',
-                        block: 'start'
-                      })
-                    }}
-                    className="px-6 py-3 border-2 border-primary text-primary dark:text-primary-light rounded-xl hover:bg-primary hover:text-white"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <span>Next Section</span>
-                    <Icon name="ArrowRight" className="w-4 h-4 ml-2" />
-                  </Button>
-                )}
               </div>
             </div>
           </motion.section>
