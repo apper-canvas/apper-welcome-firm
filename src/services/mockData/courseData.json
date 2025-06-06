@@ -77,37 +77,59 @@
       }
     ]
   },
-  {
+{
     "id": "what-you-can-build",
     "title": "What You Can Build 🏗️",
     "subtitle": "Endless possibilities with Apper",
-"icon": "Layers",
+    "icon": "Layers",
     "sections": [
       {
         "heading": "What You Can Build",
-        "type": "markdown",
-        "content": [
-        "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you.",
-        "",
-        "**Internal Business Tools**: Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards.",
-        "",
-        "**Customer-Facing Apps**: Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools.",
-        "",
-        "**SaaS Products**: Launch full software products people can subscribe to — with logins, payment plans, user roles, and usage tracking.",
-        "",
-        "**Websites**: Create stunning websites in minutes — from landing pages and personal portfolios to blogs and membership sites.",
-        "",
-        "**Online Stores**: Set up a complete online shop — with product listings, Stripe payments, carts, discounts, and order management.",
-        "",
-        "**Games & Interactive Apps**: Build fun and engaging apps — like quizzes, puzzles, learning games, tap-to-win challenges, or daily streak trackers.",
-        "",
-        "**Databases & Admin Panels**: Manage your data behind the scenes — with editable tables, filters, role-based access, and connected dashboards.",
-"",
-        "**Anything You Can Imagine**: From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
-      ]
-    }
-  ]
-},
+        "type": "text",
+        "content": "Apper lets you build almost any app, website, or digital product — just describe it and it builds it for you."
+      },
+      {
+        "heading": "Internal Business Tools",
+        "type": "text",
+        "content": "Create apps for internal use by you and your teams — like CRMs, project management systems, HR system, and sales dashboards."
+      },
+      {
+        "heading": "Customer-Facing Apps",
+        "type": "text",
+        "content": "Build apps your users can log into — like booking platforms, client portals, habit trackers, or lead capture tools."
+      },
+      {
+        "heading": "SaaS Products",
+        "type": "text",
+        "content": "Launch full software products people can subscribe to — with logins, payment plans, user roles, and usage tracking."
+      },
+      {
+        "heading": "Websites",
+        "type": "text",
+        "content": "Create stunning websites in minutes — from landing pages and personal portfolios to blogs and membership sites."
+      },
+      {
+        "heading": "Online Stores",
+        "type": "text",
+        "content": "Set up a complete online shop — with product listings, Stripe payments, carts, discounts, and order management."
+      },
+      {
+        "heading": "Games & Interactive Apps",
+        "type": "text",
+        "content": "Build fun and engaging apps — like quizzes, puzzles, learning games, tap-to-win challenges, or daily streak trackers."
+      },
+      {
+        "heading": "Databases & Admin Panels",
+        "type": "text",
+        "content": "Manage your data behind the scenes — with editable tables, filters, role-based access, and connected dashboards."
+      },
+      {
+        "heading": "Anything You Can Imagine",
+        "type": "text",
+        "content": "From mood journals to quiz makers and mini social hubs — if you can describe it, Apper can build it."
+      }
+    ]
+  },
 {
   "id": "getting-started-prompts",
   "title": "Getting Started with Better Prompts 💡",
