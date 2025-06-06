@@ -23,7 +23,7 @@
       }
     ]
   },
-  {
+{
     "id": "why-apper-stands-out",
     "title": "Why Apper Stands Out",
     "subtitle": "The future of app development is here",
@@ -31,25 +31,35 @@
     "sections": [
       {
         "type": "text",
-        "content": "Traditional app development takes months and requires technical expertise. Apper changes everything by using advanced AI to understand your needs and build exactly what you envision – in minutes, not months."
+        "content": "Most tools help with only one part of building an app. You might use one for design, another for databases, something else for login, payments, hosting, testing, & more."
       },
       {
-        "type": "steps",
-        "heading": "Compare traditional vs. Apper:",
-        "steps": [
-          {
-            "title": "Traditional Development",
-            "description": "Hire developers → Plan architecture → Write code → Test → Deploy → Maintain (3-6 months, $10,000+)"
-          },
-          {
-            "title": "Apper Development", 
-            "description": "Describe your idea → Apper builds it → Customize if needed → Publish (5-15 minutes, $0 to start)"
-          }
+        "type": "text",
+        "content": "With Apper, everything happens in one place. The AI builds your app from start to finish:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pages and layouts",
+          "Buttons and forms",
+          "How your app behaves",
+          "Where the data goes",
+          "How users log in",
+          "How do you get paid",
+          "And more — all set up and ready to use"
         ]
       },
       {
         "type": "text",
-        "content": "Watch this quick demo to see Apper in action: https://youtu.be/demo-video-url"
+        "content": "What truly sets Apper apart is how natural it feels."
+      },
+      {
+        "type": "text",
+        "content": "You just speak with Apper in your plain everyday language, and it understands what to build, how it should look, and how it should work."
+      },
+      {
+        "type": "text",
+        "content": "That's why Apper isn't just another app builder — it's a new way to create software."
       }
     ]
   },
