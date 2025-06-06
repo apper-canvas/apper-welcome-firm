@@ -87,9 +87,9 @@ function WelcomeScreen({ darkMode, setDarkMode, onGetStarted }) {
           >
             Just describe your app idea, and Apper builds it for you — instantly.
             <span className="block mt-2">No coding required. No complex setup. Just pure creativity.</span>
-          </motion.p>
+</motion.p>
 
-{/* CTA Button */}
+          {/* CTA Button */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -121,15 +121,16 @@ function WelcomeScreen({ darkMode, setDarkMode, onGetStarted }) {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="pt-12 text-sm text-gray-500 dark:text-gray-400 space-y-2"
           >
-<div className="flex items-center justify-center space-x-1 mb-2">
+            <div className="flex items-center justify-center space-x-1 mb-2">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <p>No credit card required</p>
             </div>
-<div className="flex items-center justify-center space-x-1">
+            <div className="flex items-center justify-center space-x-1">
               <div className="w-2 h-2 bg-secondary rounded-full"></div>
               <p>Start building in under 2 minutes</p>
             </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
 
       {/* Floating Elements */}
