@@ -307,28 +307,32 @@
       }
 ]
   },
-  {
-    "id": "manage-app-settings",
-    "title": "Manage App Settings ⚙️",
-    "subtitle": "Configure your app's behavior and appearance",
+{
+    "id": "manage-your-app",
+    "title": "Manage Your App ⚙️",
+    "subtitle": "Essential app management and configuration",
     "icon": "Settings",
     "sections": [
       {
-        "heading": "General Settings",
         "type": "text",
-        "content": "App settings control how your application behaves and appears to users! From basic information like the app name and description to advanced features like custom domains and analytics."
+        "content": "Now that your app is almost ready, it's time to take care of a few essentials, like what your app is called, who can access it, how people sign up, how to charge users, and more."
       },
       {
-        "heading": "Available Settings",
-        "type": "list",
-        "items": [
-          "App name, description, and favicon",
-          "Custom domain and SSL certificates",
-          "SEO settings and meta tags",
-          "Google Analytics and tracking codes",
-          "User permissions and access controls",
-          "Backup and export options"
-        ]
+        "type": "text", 
+        "content": "You'll find all of these in the 'Manage App' section. Let's get started."
+      },
+      {
+        "heading": "Rename Your App in Apper",
+        "type": "text",
+        "content": "As your app starts to take shape, it's a good idea to give it a proper name — one that accurately reflects what it does."
+      },
+      {
+        "type": "text",
+        "content": "Apper makes this easy. You can update your app's name anytime from the 'Manage App' settings in the top menu bar, no complicated setup needed."
+      },
+      {
+        "type": "text",
+        "content": "<<<Video Link>>>"
       }
     ]
   },
