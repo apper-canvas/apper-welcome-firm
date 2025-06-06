@@ -82,10 +82,11 @@
     "title": "What You Can Build",
     "subtitle": "Endless possibilities with Apper",
     "icon": "Layers",
-    "sections": [
+"sections": [
       {
         "heading": "Application Types",
-"items": [
+        "type": "list",
+        "items": [
           "Business websites and landing pages",
           "E-commerce stores and marketplaces",
           "Customer relationship management (CRM) systems",
@@ -109,9 +110,9 @@
     "title": "Create Your First App",
     "subtitle": "Step-by-step guide to building your first application",
     "icon": "PlusCircle",
-    "sections": [
+"sections": [
       {
-"heading": "Getting Started",
+        "heading": "Getting Started",
         "type": "text",
         "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
       },
@@ -143,10 +144,10 @@
           {
             "title": "Copy and paste into Apper",
             "description": "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box."
-          }
+}
         ]
       }
-]
+    ]
   },
   {
     "id": "apper-builder-interface",
@@ -381,10 +382,10 @@
           "Custom CSS for unique styling",
           "JavaScript for advanced interactions",
           "API integrations and webhooks",
-          "Third-party library integrations",
+"Third-party library integrations",
           "Custom database queries",
           "Advanced form validation"
-]
+        ]
       }
     ]
   },
@@ -472,10 +473,10 @@
       },
       {
         "heading": "Instant Updates",
-        "type": "text",
+"type": "text",
         "content": "Apper will immediately start updating your app based on your input. Explore, customize, and keep building — all right from the same screen."
       }
-]
+    ]
   },
   {
     "id": "app-versions-management",
@@ -492,9 +493,9 @@
         "type": "list",
         "items": [
           "Automatic version creation on significant changes",
-          "Manual version saving with custom descriptions",
+"Manual version saving with custom descriptions",
           "Easy comparison between versions",
-"One-click version restoration",
+          "One-click version restoration",
           "Version history and timeline view"
         ]
       }
