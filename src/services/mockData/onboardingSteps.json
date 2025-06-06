@@ -1,8 +1,8 @@
 [
-  {
+{
     "id": 1,
     "title": "Welcome to Apper!",
-    "description": "Get ready to build amazing apps without writing code",
+    "description": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes. You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface). Just chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs. In short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI.",
     "isCompleted": false
   },
   {
