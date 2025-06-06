@@ -1,17 +1,10 @@
 import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
 import ApperIcon from '@/components/ApperIcon'
 import Button from '@/components/atoms/Button'
 import ThemeToggle from '@/components/molecules/ThemeToggle'
 import DecorativeBlob from '@/components/atoms/DecorativeBlob'
 
-function WelcomeScreen({ darkMode, setDarkMode }) {
-  const navigate = useNavigate()
-
-  const handleGetStarted = () => {
-    navigate('/onboarding')
-  }
-
+function WelcomeScreen({ darkMode, setDarkMode, onGetStarted }) {
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-white via-purple-50 to-orange-50 dark:from-gray-900 dark:via-purple-900/20 dark:to-orange-900/20">
       
@@ -103,8 +96,8 @@ function WelcomeScreen({ darkMode, setDarkMode }) {
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             className="pt-8 flex justify-center"
           >
-<Button
-              onClick={handleGetStarted}
+            <Button
+              onClick={onGetStarted}
               variant="secondary"
               size="lg"
               className="text-xl px-12 py-5 shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300"

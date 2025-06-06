@@ -1,248 +1,160 @@
 [
-  {
-    "id": "welcome",
-    "title": "Welcome to Apper",
-    "subtitle": "Let's get you started on your app-building journey",
-    "description": "Apper makes it incredibly easy to turn your ideas into fully functional apps. No coding required!",
-    "icon": "heart",
-    "type": "welcome",
-    "estimatedTime": "1 min",
-    "content": {
-      "type": "welcome",
-      "features": [
-        {
-          "icon": "zap",
-          "title": "Lightning Fast",
-          "description": "Build apps in minutes, not months"
-        },
-        {
-          "icon": "palette",
-          "title": "Beautiful Design",
-          "description": "Professional layouts and themes"
-        },
-        {
-          "icon": "globe",
-          "title": "Deploy Anywhere",
-          "description": "Web, mobile, and desktop ready"
-        }
-      ]
-    },
-    "actions": [
-      {
-        "type": "primary",
-        "label": "Let's Start Building",
-        "action": "continue"
-      }
-    ]
+{
+    "id": 1,
+    "title": "Welcome to Apper!",
+    "description": "Apper is your AI app creator. It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes. You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface). Just chat with Apper (in your simple, everyday English) and tell it what kind of app you need. It builds and improves your app instantly based on your chat inputs. In short, Apper is the simplest way to build complete, functional apps — just by having a conversation with AI.",
+    "isCompleted": false
   },
   {
-    "id": "app-idea",
-    "title": "Describe Your App Idea",
-    "subtitle": "Tell us what you want to build",
-    "description": "Just describe your app in plain English. Apper will understand and start building it for you.",
-    "icon": "lightbulb",
-    "type": "input",
-    "estimatedTime": "2 min",
-    "content": {
-      "type": "app-builder",
-      "prompt": "What kind of app would you like to build?",
-      "placeholder": "e.g., A task management app for teams, a recipe sharing platform, a fitness tracker...",
-      "examples": [
-        {
-          "title": "Task Manager",
-          "description": "A collaborative task management app with team features",
-          "icon": "check-square"
-        },
-        {
-          "title": "Recipe Book",
-          "description": "A platform to share and discover cooking recipes",
-          "icon": "chef-hat"
-        },
-        {
-          "title": "Fitness Tracker",
-          "description": "Track workouts, nutrition, and health goals",
-          "icon": "activity"
-        },
-        {
-          "title": "Budget Planner",
-          "description": "Personal finance and expense tracking app",
-          "icon": "dollar-sign"
-        }
-      ]
-    },
-    "actions": [
-      {
-        "type": "primary",
-        "label": "Build My App",
-        "action": "build-app"
-      },
-      {
-        "type": "secondary",
-        "label": "Use Example",
-        "action": "use-example"
-      }
-    ]
+    "id": 2,
+    "title": "What Makes Apper Special",
+    "description": "Discover how AI makes app building effortless",
+    "isCompleted": false
+},
+  {
+    "id": 4,
+    "title": "Create Your First App",
+    "description": "Learn how to create your first app with Apper",
+"description": "Learn how to create your first app with Apper",
+    "isCompleted": false
   },
   {
-    "id": "building",
-    "title": "Building Your App",
-    "subtitle": "Apper is creating your app right now",
-    "description": "Our AI is analyzing your requirements and building your app structure, features, and design.",
-    "icon": "cog",
-    "type": "building",
-    "estimatedTime": "30 sec",
+    "id": "what-is-apper",
+    "title": "What is Apper?",
+    "description": "Learn about our no-code platform and how it works",
     "content": {
-      "type": "building-progress",
+      "type": "explanation",
+      "heading": "What is Apper?",
+      "subheading": "Apper is your AI app creator that builds fully functional apps through conversation",
+      "explanation": "Most tools help with only one part of building an app. You might use one for design, another for databases, something else for login, payments, hosting, testing, & more. With Apper, everything happens in one place. The AI builds your app from start to finish: Pages and layouts, Buttons and forms, How your app behaves, Where the data goes, How users log in, How do you get paid, And more — all set up and ready to use. What truly sets Apper apart is how natural it feels. You just speak with Apper in your plain everyday language, and it understands what to build, how it should look, and how it should work. That's why Apper isn't just another app builder — it's a new way to create software.",
       "steps": [
         {
-          "label": "Analyzing requirements",
-          "duration": 3000
+          "number": "1",
+          "title": "Start a Conversation",
+          "description": "Chat with Apper about your app idea in simple English",
+          "icon": "MessageSquare"
         },
         {
-          "label": "Creating app structure",
-          "duration": 4000
+          "number": "2",
+          "title": "AI Builds Your App",
+          "description": "Apper creates your app based on your conversation",
+          "icon": "Bot"
         },
         {
-          "label": "Designing user interface",
-          "duration": 5000
-        },
-        {
-          "label": "Setting up features",
-          "duration": 3000
-        },
-        {
-          "label": "Finalizing your app",
-          "duration": 2000
+          "number": "3",
+          "title": "Refine and Launch",
+          "description": "Chat to improve your app and publish instantly",
+          "icon": "Rocket"
         }
-      ]
-    },
-    "actions": []
-  },
-  {
-    "id": "preview",
-    "title": "Your App is Ready!",
-    "subtitle": "Take a look at what we've built for you",
-    "description": "Your app has been successfully created! You can preview it, customize it, or deploy it right away.",
-    "icon": "eye",
-    "type": "preview",
-    "estimatedTime": "2 min",
-    "content": {
-      "type": "app-preview",
-      "features": [
-        "User authentication",
-        "Responsive design",
-        "Database integration",
-        "Modern UI components",
-        "Mobile-friendly layout"
       ],
-      "technologies": [
-        "React",
-        "Tailwind CSS",
-        "Node.js",
-        "MongoDB"
-      ]
-    },
-    "actions": [
-      {
-        "type": "primary",
-        "label": "Customize App",
-        "action": "customize"
-      },
-      {
-        "type": "secondary",
-        "label": "Deploy Now",
-        "action": "deploy"
-      },
-      {
-        "type": "tertiary",
-        "label": "Preview App",
-        "action": "preview"
-      }
-    ]
+      "demoActions": ["Drag", "Drop", "Done"],
+      "primaryAction": "Let's Try It!"
+    }
   },
   {
-    "id": "customize",
-    "title": "Customize Your App",
-    "subtitle": "Make it uniquely yours",
-    "description": "Personalize your app's appearance, add features, or modify the layout to match your vision.",
-    "icon": "palette",
-    "type": "customization",
-    "estimatedTime": "5 min",
+    "id": "getting-started",
+    "title": "Getting Started Guide",
+    "description": "Create your first app with our interactive tutorial",
+    "completed": false,
     "content": {
-      "type": "customization-options",
-      "categories": [
+      "type": "interactive",
+      "heading": "Let's Build Your First App!",
+      "subheading": "Try our interactive demo! Drag the elements around to see how easy it is to build with Apper.",
+      "components": [
         {
-          "title": "Appearance",
-          "icon": "palette",
-          "options": ["Colors", "Fonts", "Layout", "Themes"]
+          "name": "Button",
+          "icon": "Square",
+          "color": "bg-primary"
         },
         {
-          "title": "Features",
-          "icon": "plus-circle",
-          "options": ["User Management", "Data Export", "Notifications", "Analytics"]
+          "name": "Text",
+          "icon": "Type",
+          "color": "bg-secondary"
         },
         {
-          "title": "Integration",
-          "icon": "link",
-          "options": ["Third-party APIs", "Payment Systems", "Social Login", "Email Services"]
+          "name": "Image",
+          "icon": "Image",
+          "color": "bg-accent"
+        },
+        {
+          "name": "Form",
+          "icon": "FileText",
+          "color": "bg-purple-500"
         }
-      ]
-    },
-    "actions": [
-      {
-        "type": "primary",
-        "label": "Save Changes",
-        "action": "save-customization"
-      },
-      {
-        "type": "secondary",
-        "label": "Skip for Now",
-        "action": "skip-customization"
-      }
-    ]
+      ],
+      "defaultElements": [
+        {
+          "id": 1,
+          "type": "button",
+          "x": 100,
+          "y": 50,
+          "label": "Add Button"
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "x": 300,
+          "y": 100,
+          "label": "Add Text"
+        },
+        {
+          "id": 3,
+"type": "image",
+          "x": 200,
+          "y": 200,
+          "label": "Add Image"
+        }
+      ],
+      "primaryAction": "Next Step",
+      "secondaryAction": "Back"
+    }
   },
-  {
-    "id": "complete",
-    "title": "You're All Set!",
-    "subtitle": "Welcome to the Apper community",
-    "description": "Your app is ready to use! You can continue customizing, deploy it live, or explore more features.",
-    "icon": "check-circle",
-    "type": "completion",
-    "estimatedTime": "1 min",
+{
+    "id": "create-first-app",
+    "title": "Create Your First App",
+    "description": "Learn how to start building your first app with Apper",
+    "completed": false,
     "content": {
-      "type": "completion",
-      "nextSteps": [
+      "type": "tutorial",
+      "heading": "Create Your First App",
+      "subheading": "Ready to build? Here's how to get started with your first app",
+      "explanation": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend. For example, you could type something like: 'I want to build a tool to track customer orders.' 'Make an app where users can book sessions and pay online.' 'Create a quiz game that gives points and tracks team progress.' But to help Apper understand your idea more clearly, we strongly recommend refining your prompt first with ChatGPT. Here's how to do it:",
+      "examples": [
         {
-          "title": "Deploy Your App",
-          "description": "Make your app live and accessible to users",
-          "icon": "upload",
-          "action": "deploy"
+          "title": "Customer Order Tracker",
+          "prompt": "I want to build a tool to track customer orders.",
+          "description": "Perfect for small businesses managing orders"
         },
         {
-          "title": "Share Your App",
-          "description": "Get feedback from friends and colleagues",
-          "icon": "share",
-          "action": "share"
+          "title": "Booking & Payment App",
+          "prompt": "Make an app where users can book sessions and pay online.",
+          "description": "Great for service providers and consultants"
         },
         {
-          "title": "Learn More",
-          "description": "Explore advanced features and capabilities",
-          "icon": "book-open",
-          "action": "learn"
+          "title": "Quiz Game",
+          "prompt": "Create a quiz game that gives points and tracks team progress.",
+          "description": "Ideal for education and team building"
         }
-      ]
-    },
-    "actions": [
-      {
-        "type": "primary",
-        "label": "Go to Dashboard",
-        "action": "dashboard"
-      },
-      {
-        "type": "secondary",
-        "label": "Deploy App",
-        "action": "deploy"
-      }
-    ]
+      ],
+      "tips": [
+        {
+          "icon": "Lightbulb",
+          "title": "Be Specific",
+          "description": "The more details you provide, the better Apper can understand your vision"
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Use ChatGPT First",
+          "description": "Refine your idea with ChatGPT before describing it to Apper"
+        },
+        {
+          "icon": "Zap",
+          "title": "Start Simple",
+          "description": "Begin with core features, you can always add more later"
+        }
+      ],
+      "primaryAction": "Complete Onboarding",
+      "secondaryAction": "Back"
+    }
   }
 ]
