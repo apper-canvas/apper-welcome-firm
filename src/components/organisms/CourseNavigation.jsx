@@ -15,15 +15,15 @@ function CourseNavigation({ courseData, activeSection, onSectionClick, isMobileM
         animate={{ x: isMobileMenuOpen || window.innerWidth >= 1024 ? 0 : -300 }}
         className="fixed lg:fixed top-0 left-0 h-screen w-80 lg:w-[28%] xl:w-[26%] bg-white dark:bg-surface-800 shadow-xl lg:shadow-soft z-40 lg:z-30 overflow-y-auto border-r border-surface-200 dark:border-surface-700"
       >
-        {/* Header */}
+{/* Header */}
         <div className="p-6 border-b border-surface-200 dark:border-surface-700">
           <div className="flex items-center justify-between">
             <motion.h2
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-2xl font-heading font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+              className="text-2xl font-heading font-bold text-surface-900 dark:text-white"
             >
-              Getting Started Course
+              Course Contents
             </motion.h2>
             <button
               onClick={onClose}
@@ -37,7 +37,7 @@ function CourseNavigation({ courseData, activeSection, onSectionClick, isMobileM
           </p>
         </div>
 
-        {/* Navigation Items */}
+{/* Navigation Items */}
         <nav className="p-4 space-y-2">
           {navigationItems.map((item, index) => (
             <motion.button
@@ -54,19 +54,12 @@ function CourseNavigation({ courseData, activeSection, onSectionClick, isMobileM
               whileHover={{ x: 4 }}
               whileTap={{ scale: 0.98 }}
             >
-              <div className={`p-2 rounded-lg mr-3 transition-colors ${
+              <div className={`w-8 h-8 rounded-full mr-3 flex items-center justify-center text-sm font-bold transition-colors ${
                 activeSection === item.id
-                  ? 'bg-white/20'
-                  : 'bg-surface-200 dark:bg-surface-600 group-hover:bg-primary/20'
+                  ? 'bg-white/20 text-white'
+                  : 'bg-surface-200 dark:bg-surface-600 text-surface-600 dark:text-surface-400 group-hover:bg-primary/20 group-hover:text-primary'
               }`}>
-                <Icon 
-                  name={item.icon} 
-                  className={`w-4 h-4 ${
-                    activeSection === item.id 
-                      ? 'text-white' 
-                      : 'text-surface-600 dark:text-surface-400 group-hover:text-primary'
-                  }`} 
-                />
+                {index + 1}
               </div>
               <div className="flex-1">
                 <span className="font-medium text-sm leading-relaxed">
