@@ -7,9 +7,8 @@ import OnboardingPage from '@/components/pages/OnboardingPage'
 import HomePage from '@/components/pages/HomePage'
 import CoursePage from '@/components/pages/CoursePage'
 import CustomContentPage from '@/components/pages/CustomContentPage'
+import TopicsPage from '@/components/pages/TopicsPage'
 import NotFound from '@/pages/NotFound'
-import './index.css'
-
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('darkMode')
@@ -25,20 +24,20 @@ function App() {
     }
   }, [darkMode])
 
-  return (
+return (
     <div className={darkMode ? 'dark' : ''}>
       <Router>
         <div className="min-h-screen bg-gradient-to-br from-surface-50 to-purple-50 dark:from-surface-900 dark:to-purple-900 transition-colors duration-300">
-          <div className="max-w-screen-2xl mx-auto">
-<Routes>
-              <Route path="/" element={<WelcomeScreen darkMode={darkMode} setDarkMode={setDarkMode} />} />
-              <Route path="/onboarding" element={<OnboardingPage darkMode={darkMode} setDarkMode={setDarkMode} />} />
-              <Route path="/home" element={<HomePage darkMode={darkMode} setDarkMode={setDarkMode} />} />
-              <Route path="/course" element={<CoursePage />} />
-              <Route path="/custom-content" element={<CustomContentPage />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </div>
+          <Routes>
+            <Route path="/" element={<WelcomeScreen />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/onboarding" element={<OnboardingPage />} />
+            <Route path="/course" element={<CoursePage />} />
+            <Route path="/custom-content" element={<CustomContentPage />} />
+            <Route path="/topics" element={<TopicsPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
           <ToastContainer
             position="top-right"
             autoClose={3000}
