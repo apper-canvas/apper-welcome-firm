@@ -75,10 +75,10 @@ return (
                 transition={{ delay: index * 0.1 }}
                 className="flex items-start space-x-3"
               >
-                <div className="flex-shrink-0 w-6 h-6 bg-primary rounded-full flex items-center justify-center mt-0.5">
+<div className="flex-shrink-0 w-6 h-6 bg-primary rounded-full flex items-center justify-center mt-0.5">
                   <Icon name="Check" className="w-3 h-3 text-white" />
                 </div>
-                <span className="text-surface-600 dark:text-surface-400">{item}</span>
+                <span className={`text-surface-600 dark:text-surface-400 ${index === 0 ? 'leading-6' : ''}`}>{item}</span>
               </motion.li>
             ))}
           </ul>
