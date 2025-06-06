@@ -1,0 +1,124 @@
+[
+  {
+    "id": "welcome",
+    "title": "Welcome to Apper",
+    "description": "Get started with the most intuitive no-code platform",
+    "completed": false,
+    "content": {
+      "type": "welcome",
+      "heading": "Welcome to Apper!",
+      "subheading": "Ready to build amazing apps without writing a single line of code?",
+      "features": [
+        {
+          "icon": "Palette",
+          "title": "Beautiful Design",
+          "description": "Drag & drop stunning components"
+        },
+        {
+          "icon": "Zap",
+          "title": "Lightning Fast",
+          "description": "Build apps in minutes, not months"
+        },
+        {
+          "icon": "Users",
+          "title": "No Code Required",
+          "description": "Perfect for non-technical users"
+        }
+      ],
+      "primaryAction": "Get Started",
+      "secondaryAction": "Skip Tour"
+    }
+  },
+  {
+    "id": "what-is-apper",
+    "title": "What is Apper?",
+    "description": "Learn about our no-code platform and how it works",
+    "completed": false,
+    "content": {
+      "type": "explanation",
+      "heading": "What is Apper?",
+      "subheading": "Apper is your friendly no-code platform that turns ideas into reality",
+      "explanation": "Build websites, apps, and tools without any programming knowledge!",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Choose a Template",
+          "description": "Pick from hundreds of beautiful templates",
+          "icon": "Layout"
+        },
+        {
+          "number": "2",
+          "title": "Customize Everything",
+          "description": "Drag, drop, and style with our visual editor",
+          "icon": "Edit3"
+        },
+        {
+          "number": "3",
+          "title": "Publish Instantly",
+          "description": "Share your creation with the world in one click",
+          "icon": "Globe"
+        }
+      ],
+      "demoActions": ["Drag", "Drop", "Done"],
+      "primaryAction": "Let's Try It!"
+    }
+  },
+  {
+    "id": "getting-started",
+    "title": "Getting Started Guide",
+    "description": "Create your first app with our interactive tutorial",
+    "completed": false,
+    "content": {
+      "type": "interactive",
+      "heading": "Let's Build Your First App!",
+      "subheading": "Try our interactive demo! Drag the elements around to see how easy it is to build with Apper.",
+      "components": [
+        {
+          "name": "Button",
+          "icon": "Square",
+          "color": "bg-primary"
+        },
+        {
+          "name": "Text",
+          "icon": "Type",
+          "color": "bg-secondary"
+        },
+        {
+          "name": "Image",
+          "icon": "Image",
+          "color": "bg-accent"
+        },
+        {
+          "name": "Form",
+          "icon": "FileText",
+          "color": "bg-purple-500"
+        }
+      ],
+      "defaultElements": [
+        {
+          "id": 1,
+          "type": "button",
+          "x": 100,
+          "y": 50,
+          "label": "Add Button"
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "x": 300,
+          "y": 100,
+          "label": "Add Text"
+        },
+        {
+          "id": 3,
+          "type": "image",
+          "x": 200,
+          "y": 200,
+          "label": "Add Image"
+        }
+      ],
+      "primaryAction": "Complete Onboarding",
+      "secondaryAction": "Back"
+    }
+  }
+]
