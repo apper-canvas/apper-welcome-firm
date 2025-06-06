@@ -6,36 +6,36 @@
     "icon": "Zap",
     "sections": [
       {
-        "heading": "🤖 What is Apper",
+        "heading": "What is Apper",
         "type": "text",
-        "content": "Apper is your AI app creator! 🎯 It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes! ⚡"
+        "content": "Apper is your AI app creator! It's not just powered by AI — it is AI. Kind of like ChatGPT, but instead of giving you answers, Apper builds fully functional apps based on your inputs in a few minutes!"
       },
       {
-        "heading": "💬 How Apper Works",
+        "heading": "How Apper Works",
         "type": "text",
-        "content": "You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface). 🗣️✨"
+        "content": "You don't need to write code, pick design templates, or juggle multiple tools to handle different parts of an app. With Apper, everything happens in one place, all through a simple conversation (chat interface)."
       },
       {
         "heading": "🌟 Key Benefits",
         "type": "list",
         "items": [
-          "💬 Chat in simple, everyday English to describe your app idea",
-          "⚡ Get fully functional apps built in just a few minutes",
-          "🚫 No coding, designing, or technical skills required",
-          "🎯 Everything happens in one unified platform",
-          "🔄 Apps improve instantly based on your feedback",
-          "🎮 Complete control through natural conversation"
+          "Chat in simple, everyday English to describe your app idea",
+          "Get fully functional apps built in just a few minutes",
+          "No coding, designing, or technical skills required",
+          "Everything happens in one unified platform",
+          "Apps improve instantly based on your feedback",
+          "Complete control through natural conversation"
         ]
       },
       {
         "heading": "💡 Getting Started Tips",
         "type": "list",
         "items": [
-          "🗣️ Start by describing your app idea in simple terms",
-          "🎯 Be specific about what you want your app to do",
-          "🤝 Don't worry about technical details - just explain your vision",
-          "💬 Ask for changes or improvements anytime during the conversation",
-          "🧪 Test your app frequently as it's being built"
+          "Start by describing your app idea in simple terms",
+          "Be specific about what you want your app to do",
+          "Don't worry about technical details - just explain your vision",
+          "Ask for changes or improvements anytime during the conversation",
+          "Test your app frequently as it's being built"
         ]
       }
     ]
@@ -47,33 +47,33 @@
     "icon": "Star",
     "sections": [
       {
-        "heading": "🌟 Why Apper Stands Out",
+        "heading": "Why Apper Stands Out",
         "type": "text",
-        "content": "In a crowded market of app-building tools, Apper takes a fundamentally different approach. While others require you to learn their platform, Apper learns from you! 🤝 It's the difference between speaking a new language and having a conversation in your own words. 💬"
+        "content": "In a crowded market of app-building tools, Apper takes a fundamentally different approach. While others require you to learn their platform, Apper learns from you! It's the difference between speaking a new language and having a conversation in your own words."
       },
       {
-        "heading": "🎯 What Makes Us Different",
+        "heading": "What Makes Us Different",
         "type": "text",
-        "content": "Unlike traditional no-code platforms that still require you to understand templates, drag-and-drop interfaces, and technical concepts, Apper works purely through natural conversation. You simply describe what you want, and it builds it for you! ✨"
+        "content": "Unlike traditional no-code platforms that still require you to understand templates, drag-and-drop interfaces, and technical concepts, Apper works purely through natural conversation. You simply describe what you want, and it builds it for you!"
       },
       {
         "heading": "🚀 Key Differentiators",
         "type": "list",
         "items": [
-          "🤖 Pure AI conversation - no templates or drag-and-drop required",
-          "⚡ Builds complete, functional apps in minutes, not hours or days",
-          "📚 No learning curve - if you can chat, you can build apps",
-          "🔄 Instant iterations - just ask for changes in plain English",
-          "🎯 One unified platform - no need to switch between multiple tools",
-          "👥 Real-time collaboration through shared conversations",
-          "📱 Automatically optimized for all devices and screen sizes",
-          "🛡️ Built-in best practices for performance, security, and accessibility"
+          "Pure AI conversation - no templates or drag-and-drop required",
+          "Builds complete, functional apps in minutes, not hours or days",
+          "No learning curve - if you can chat, you can build apps",
+          "Instant iterations - just ask for changes in plain English",
+          "One unified platform - no need to switch between multiple tools",
+          "Real-time collaboration through shared conversations",
+          "Automatically optimized for all devices and screen sizes",
+          "Built-in best practices for performance, security, and accessibility"
         ]
       },
       {
-        "heading": "💪 The Apper Advantage",
+        "heading": "The Apper Advantage",
         "type": "text",
-        "content": "Traditional platforms make you adapt to their way of thinking. Apper adapts to yours! 🤝 Whether you're a business owner with an idea 💡, a designer with a vision 🎨, or a developer who wants to prototype quickly ⚡, Apper meets you where you are and builds what you need. 🎯"
+        "content": "Traditional platforms make you adapt to their way of thinking. Apper adapts to yours! Whether you're a business owner with an idea, a designer with a vision, or a developer who wants to prototype quickly, Apper meets you where you are and builds what you need."
       }
     ]
   },
@@ -84,23 +84,23 @@
     "icon": "Layers",
     "sections": [
       {
-        "heading": "🎯 Application Types",
+        "heading": "Application Types",
         "type": "list",
         "items": [
-          "🌐 Business websites and landing pages",
-          "🛒 E-commerce stores and marketplaces",
-          "👥 Customer relationship management (CRM) systems",
-          "📋 Project management and collaboration tools",
-          "🎫 Event management and booking systems",
-          "📚 Educational platforms and course websites",
-          "🎨 Portfolio and personal websites",
-          "🤝 Social networking and community platforms"
+          "Business websites and landing pages",
+          "E-commerce stores and marketplaces",
+          "Customer relationship management (CRM) systems",
+          "Project management and collaboration tools",
+          "Event management and booking systems",
+          "Educational platforms and course websites",
+          "Portfolio and personal websites",
+          "Social networking and community platforms"
         ]
       },
       {
-        "heading": "🏢 Industry Solutions",
+        "heading": "Industry Solutions",
         "type": "text",
-        "content": "Apper serves businesses across all industries! 🌍 From restaurants managing online orders 🍕 to consultants tracking client projects 📊, from artists showcasing portfolios 🎨 to nonprofits organizing events 🎗️ - the possibilities are limitless! ♾️"
+        "content": "Apper serves businesses across all industries! From restaurants managing online orders to consultants tracking client projects, from artists showcasing portfolios to nonprofits organizing events - the possibilities are limitless."
       }
     ]
   },
@@ -113,36 +113,36 @@
       {
         "heading": "🚀 Getting Started",
         "type": "text",
-        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen! 📝 This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend. 👥"
+        "content": "When you log in to Apper, you'll see a large prompt box in the center of the screen. This is where you tell Apper what kind of app you want to build, just like you're explaining it to a friend."
       },
       {
         "heading": "💡 Pro Tip for Better Results",
         "type": "text",
-        "content": "This will give you a much better starting point! ⭐ Using a detailed prompt, Apper will be able to generate your app more accurately based on your needs. 🎯"
+        "content": "This will give you a much better starting point! Using a detailed prompt, Apper will be able to generate your app more accurately based on your needs."
       },
       {
         "type": "steps",
         "heading": "📝 Step-by-Step: How to Write a Better Prompt with ChatGPT",
         "steps": [
           {
-            "title": "🌐 Open ChatGPT in a new tab",
-            "description": "Navigate to ChatGPT in your browser to start refining your prompt! 🚀"
+            "title": "Open ChatGPT in a new tab",
+            "description": "Navigate to ChatGPT in your browser to start refining your prompt."
           },
           {
-            "title": "📋 Copy and paste the following prompt into ChatGPT",
-            "description": "\"I want to build [Insert your app idea here]. Rewrite this as a detailed prompt focused on the app's main function and detailed features. It should be simple, clear, easy to understand, and ready to use in an AI app creator.\" ✨"
+            "title": "Copy and paste the following prompt into ChatGPT",
+            "description": "\"I want to build [Insert your app idea here]. Rewrite this as a detailed prompt focused on the app's main function and detailed features. It should be simple, clear, easy to understand, and ready to use in an AI app creator.\""
           },
           {
-            "title": "✏️ Replace the placeholder with your actual idea",
-            "description": "Replace the part that says [Insert your app idea here] with your actual idea. For example: I want to build an app that helps users book yoga classes and pay online. 🧘‍♀️💳"
+            "title": "Replace the placeholder with your actual idea",
+            "description": "Replace the part that says [Insert your app idea here] with your actual idea. For example: I want to build an app that helps users book yoga classes and pay online."
           },
           {
-            "title": "🎯 Get the improved version from ChatGPT",
-            "description": "ChatGPT will rewrite your idea into a cleaner, more detailed prompt! ✨"
+            "title": "Get the improved version from ChatGPT",
+            "description": "ChatGPT will rewrite your idea into a cleaner, more detailed prompt."
           },
           {
             "title": "🚀 Copy and paste into Apper",
-            "description": "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box. You're ready to build! 🎉"
+            "description": "Copy the improved version ChatGPT gives you, and paste it into the Apper prompt box. You're ready to build!"
           }
         ]
       }
@@ -156,12 +156,12 @@
     "sections": [
       {
         "type": "text",
-        "content": "In the center of the screen, you'll see a friendly message letting you know that your app is being set up! 🏗️ You don't have to do anything just yet — Apper is preparing everything for you automatically. ✨"
+        "content": "In the center of the screen, you'll see a friendly message letting you know that your app is being set up. You don't have to do anything just yet — Apper is preparing everything for you automatically."
       },
       {
-        "heading": "📊 Real-Time Progress Updates",
+        "heading": "Real-Time Progress Updates",
         "type": "text",
-        "content": "Meanwhile, you'll see a message in the left-hand chat interface that walks you through what's happening, something like: 💬"
+        "content": "Meanwhile, you'll see a message in the left-hand chat interface that walks you through what's happening, something like:"
       },
       {
         "type": "list",
@@ -174,7 +174,7 @@
       },
       {
         "type": "text",
-        "content": "This chat updates as progress is made! 📈 You can even interact with it and ask for tweaks, request additions, or just sit back and watch things come together. 🍿✨"
+        "content": "This chat updates as progress is made! You can even interact with it and ask for tweaks, request additions, or just sit back and watch things come together."
       }
     ]
   },
@@ -186,20 +186,20 @@
     "sections": [
       {
         "type": "text",
-        "content": "Once the setup is complete, your app's first version appears right on the dashboard! 🖥️✨"
+        "content": "Once the setup is complete, your app's first version appears right on the dashboard!"
       },
       {
-        "heading": "👀 What You Can Expect",
+        "heading": "What You Can Expect",
         "type": "list",
         "items": [
           "✅ Some parts of your app are already working and clickable; you can explore and check them out",
-          "🎨 Others are just visual for now — they'll come to life as you add more logic",
-          "🕹️ You can explore the app layout, click around, and get a feel for what's been generated so far"
+          "Others are just visual for now — they'll come to life as you add more logic",
+          "You can explore the app layout, click around, and get a feel for what's been generated so far"
         ]
       },
       {
         "type": "text",
-        "content": "This is your starting point - a solid foundation that you can build upon and customize to match your exact vision! 🏗️🎯"
+        "content": "This is your starting point - a solid foundation that you can build upon and customize to match your exact vision!"
       }
     ]
   },
@@ -211,29 +211,29 @@
     "sections": [
       {
         "type": "text",
-        "content": "On the left-hand side, you'll see the Apper AI chat assistant! 🤖 This is where you can keep building your app, just by having a conversation. 💬"
+        "content": "On the left-hand side, you'll see the Apper AI chat assistant! This is where you can keep building your app, just by having a conversation."
       },
       {
         "heading": "✨ Making Changes is Simple",
         "type": "text",
-        "content": "You can type exactly what you want next! For example: 💭"
+        "content": "You can type exactly what you want next! For example:"
       },
       {
         "type": "list",
         "items": [
-          "📋 \"Add a page to manage bookings.\"",
-          "💾 \"Make the save button actually store data.\"",
-          "🎨 \"Each button should be large, with both an icon and text for clarity.\""
+          "\"Add a page to manage bookings.\"",
+          "\"Make the save button actually store data.\"",
+          "\"Each button should be large, with both an icon and text for clarity.\""
         ]
       },
       {
         "type": "text",
-        "content": "Or, if you're not sure what to do next, just click one of the suggestions the assistant has already listed in the chat! 💡✨"
+        "content": "Or, if you're not sure what to do next, just click one of the suggestions the assistant has already listed in the chat!"
       },
       {
         "heading": "⚡ Instant Updates",
         "type": "text",
-        "content": "Apper will immediately start updating your app based on your input! 🔄 Explore, customize, and keep building — all right from the same screen. 🎯"
+        "content": "Apper will immediately start updating your app based on your input! Explore, customize, and keep building — all right from the same screen."
       }
     ]
   },
@@ -244,20 +244,20 @@
     "icon": "AlertCircle",
     "sections": [
       {
-        "heading": "😅 Common Issues",
+        "heading": "Common Issues",
         "type": "text",
-        "content": "Don't worry if you encounter issues while building - it's part of the learning process! 📚 Most problems have simple solutions, and our platform provides helpful error messages to guide you. 🧭"
+        "content": "Don't worry if you encounter issues while building - it's part of the learning process! Most problems have simple solutions, and our platform provides helpful error messages to guide you."
       },
       {
-        "heading": "🔧 Quick Fixes",
+        "heading": "Quick Fixes",
         "type": "list",
         "items": [
-          "🧹 Clear your browser cache if the editor seems slow",
-          "🌐 Check your internet connection for sync issues",
-          "🔄 Refresh the page if components aren't loading",
-          "↩️ Use the undo feature to revert unwanted changes",
-          "💬 Contact support through the help chat for assistance",
-          "📖 Check our knowledge base for detailed troubleshooting guides"
+          "Clear your browser cache if the editor seems slow",
+          "Check your internet connection for sync issues",
+          "Refresh the page if components aren't loading",
+          "Use the undo feature to revert unwanted changes",
+          "Contact support through the help chat for assistance",
+          "Check our knowledge base for detailed troubleshooting guides"
         ]
       }
     ]
@@ -269,20 +269,20 @@
     "icon": "GitBranch",
     "sections": [
       {
-        "heading": "📜 Version Control",
+        "heading": "Version Control",
         "type": "text",
-        "content": "Apper automatically saves versions of your app as you work! 💾 This allows you to revert to previous states if needed. You can also create manual save points before making major changes. 🎯"
+        "content": "Apper automatically saves versions of your app as you work! This allows you to revert to previous states if needed. You can also create manual save points before making major changes."
       },
       {
         "heading": "⚙️ Version Features",
         "type": "list",
         "items": [
-          "💾 Automatic daily backups of your app",
-          "📍 Manual save points for major milestones",
-          "🔍 Compare different versions side by side",
-          "🔄 Restore any previous version with one click",
-          "🌿 Branch versions for testing new features",
-          "🔀 Merge changes from different versions"
+          "Automatic daily backups of your app",
+          "Manual save points for major milestones",
+          "Compare different versions side by side",
+          "Restore any previous version with one click",
+          "Branch versions for testing new features",
+          "Merge changes from different versions"
         ]
       }
     ]
@@ -294,20 +294,20 @@
     "icon": "Smartphone",
     "sections": [
       {
-        "heading": "📐 Responsive Design",
+        "heading": "Responsive Design",
         "type": "text",
-        "content": "Every app built with Apper automatically adapts to different screen sizes! 📱💻 Our preview mode lets you see exactly how your app will look on phones, tablets, and desktops. ✨"
+        "content": "Every app built with Apper automatically adapts to different screen sizes! Our preview mode lets you see exactly how your app will look on phones, tablets, and desktops."
       },
       {
-        "heading": "👀 Preview Options",
+        "heading": "Preview Options",
         "type": "list",
         "items": [
-          "▶️ Live preview as you build",
-          "📱 Device-specific previews (iPhone, iPad, etc.)",
-          "🔄 Orientation testing (portrait and landscape)",
-          "⚡ Performance testing on different devices",
-          "🔗 Share preview links with others for feedback",
-          "👆 Test touch interactions on mobile devices"
+          "Live preview as you build",
+          "Device-specific previews (iPhone, iPad, etc.)",
+          "Orientation testing (portrait and landscape)",
+          "Performance testing on different devices",
+          "Share preview links with others for feedback",
+          "Test touch interactions on mobile devices"
         ]
       }
     ]
@@ -319,20 +319,20 @@
     "icon": "Settings",
     "sections": [
       {
-        "heading": "🎛️ General Settings",
+        "heading": "General Settings",
         "type": "text",
-        "content": "App settings control how your application behaves and appears to users! 👥 From basic information like the app name and description to advanced features like custom domains and analytics. 📊"
+        "content": "App settings control how your application behaves and appears to users! From basic information like the app name and description to advanced features like custom domains and analytics."
       },
       {
-        "heading": "🔧 Available Settings",
+        "heading": "Available Settings",
         "type": "list",
         "items": [
-          "📝 App name, description, and favicon",
-          "🌐 Custom domain and SSL certificates",
-          "🔍 SEO settings and meta tags",
-          "📊 Google Analytics and tracking codes",
-          "👥 User permissions and access controls",
-          "💾 Backup and export options"
+          "App name, description, and favicon",
+          "Custom domain and SSL certificates",
+          "SEO settings and meta tags",
+          "Google Analytics and tracking codes",
+          "User permissions and access controls",
+          "Backup and export options"
         ]
       }
     ]
@@ -344,20 +344,20 @@
     "icon": "Mail",
     "sections": [
       {
-        "heading": "🎯 User Onboarding",
+        "heading": "User Onboarding",
         "type": "text",
-        "content": "Great apps guide users through their first experience! 🌟 Apper provides tools to create welcome sequences, tutorial overlays, and progressive disclosure of features. ✨"
+        "content": "Great apps guide users through their first experience! Apper provides tools to create welcome sequences, tutorial overlays, and progressive disclosure of features."
       },
       {
         "heading": "📧 Email Features",
         "type": "list",
         "items": [
-          "🎉 Welcome email sequences for new users",
-          "🔔 Automated notifications and reminders",
-          "🎨 Custom email templates with your branding",
-          "🔗 Integration with popular email services",
-          "📊 Analytics on email open rates and clicks",
-          "🧪 A/B testing for email optimization"
+          "Welcome email sequences for new users",
+          "Automated notifications and reminders",
+          "Custom email templates with your branding",
+          "Integration with popular email services",
+          "Analytics on email open rates and clicks",
+          "A/B testing for email optimization"
         ]
       }
     ]
@@ -369,20 +369,20 @@
     "icon": "CreditCard",
     "sections": [
       {
-        "heading": "💸 Monetization Options",
+        "heading": "Monetization Options",
         "type": "text",
-        "content": "Turn your app into a revenue-generating business with Apper's built-in billing and payment processing! 💳 Accept one-time payments, recurring subscriptions, or implement complex pricing models. 📊"
+        "content": "Turn your app into a revenue-generating business with Apper's built-in billing and payment processing! Accept one-time payments, recurring subscriptions, or implement complex pricing models."
       },
       {
         "heading": "💰 Revenue Features",
         "type": "list",
         "items": [
-          "💳 One-time payments for products or services",
-          "🔄 Recurring subscription billing",
-          "💎 Multiple payment methods (credit cards, PayPal, etc.)",
-          "📋 Tax calculation and compliance",
-          "📊 Revenue analytics and reporting",
-          "🧮 Integration with accounting software"
+          "One-time payments for products or services",
+          "Recurring subscription billing",
+          "Multiple payment methods (credit cards, PayPal, etc.)",
+          "Tax calculation and compliance",
+          "Revenue analytics and reporting",
+          "Integration with accounting software"
         ]
       }
     ]
@@ -394,9 +394,9 @@
     "icon": "Code",
     "sections": [
       {
-        "heading": "⚡ Custom Code",
+        "heading": "Custom Code",
         "type": "text",
-        "content": "While Apper is designed for no-code users, developers can add custom HTML, CSS, and JavaScript to extend functionality! 🚀 This gives you the best of both worlds - visual building with the option for custom code. ⚡"
+        "content": "While Apper is designed for no-code users, developers can add custom HTML, CSS, and JavaScript to extend functionality! This gives you the best of both worlds - visual building with the option for custom code."
       },
       {
         "heading": "💻 Example Custom Component",
@@ -407,12 +407,12 @@
         "heading": "🛠️ Advanced Features",
         "type": "list",
         "items": [
-          "🎨 Custom CSS for unique styling",
-          "⚡ JavaScript for advanced interactions",
-          "🔗 API integrations and webhooks",
-          "📦 Third-party library integrations",
-          "🗄️ Custom database queries",
-          "✅ Advanced form validation"
+          "Custom CSS for unique styling",
+          "JavaScript for advanced interactions",
+          "API integrations and webhooks",
+          "Third-party library integrations",
+          "Custom database queries",
+          "Advanced form validation"
         ]
       }
     ]
@@ -424,31 +424,31 @@
     "icon": "Database",
     "sections": [
       {
-        "heading": "🧠 Database - Your App's Memory",
+        "heading": "Database - Your App's Memory",
         "type": "text",
-        "content": "It's where your app safely stores and manages all its data! 🛡️ This could be anything from user details, form submissions, product lists, bookings, messages, or any data your app needs to deal with. 📊"
+        "content": "It's where your app safely stores and manages all its data! This could be anything from user details, form submissions, product lists, bookings, messages, or any data your app needs to deal with."
       },
       {
-        "heading": "🤖 How Apper Handles Your Data Automatically",
+        "heading": "How Apper Handles Your Data Automatically",
         "type": "text",
-        "content": "Apper takes care of everything automatically and works quietly in the background to make your app run smoothly! ⚙️✨"
+        "content": "Apper takes care of everything automatically and works quietly in the background to make your app run smoothly!"
       },
       {
         "heading": "🔧 What Apper Does Behind the Scenes",
         "type": "list",
         "items": [
-          "🔍 Analyzes your app and understands what data it needs",
-          "📊 Creates the right tables for your app's data automatically",
-          "🔗 Links related information together (like connecting a user to their orders)",
-          "🔄 Keeps everything updated in real time with your app's screens",
-          "🛡️ Ensures data consistency and security at all times",
-          "💾 Handles data backup and recovery automatically"
+          "Analyzes your app and understands what data it needs",
+          "Creates the right tables for your app's data automatically",
+          "Links related information together (like connecting a user to their orders)",
+          "Keeps everything updated in real time with your app's screens",
+          "Ensures data consistency and security at all times",
+          "Handles data backup and recovery automatically"
         ]
       },
       {
         "heading": "✨ The Result",
         "type": "text",
-        "content": "So when someone adds, edits, or views something in your app, the database is always working quietly in the background to make it all run smoothly! 🚀 You don't need to worry about technical details - Apper handles it all for you. 🎯"
+        "content": "So when someone adds, edits, or views something in your app, the database is always working quietly in the background to make it all run smoothly! You don't need to worry about technical details - Apper handles it all for you."
       }
     ]
   }
