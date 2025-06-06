@@ -1,10 +1,10 @@
 [
   {
     "id": "what-is-apper",
-    "title": "What is Apper?",
+"title": "What is Apper?",
     "subtitle": "Discover the power of no-code development",
     "icon": "Zap",
-"sections": [
+    "sections": [
       {
         "heading": "What is Apper",
         "type": "text",
@@ -42,10 +42,10 @@
   },
   {
     "id": "why-apper-stands-out",
-    "title": "Why Apper Stands Out",
+"title": "Why Apper Stands Out",
     "subtitle": "What makes us different from other platforms",
     "icon": "Star",
-"sections": [
+    "sections": [
       {
         "heading": "Why Apper Stands Out",
         "type": "text",
@@ -151,28 +151,15 @@
       },
       {
         "heading": "Key Interface Elements",
-        "type": "list",
+"type": "list",
         "items": [
           "Canvas: The main working area where you build your app",
-          "Component Library: Drag-and-drop elements like buttons, forms, and images",
-          "Properties Panel: Customize the selected element's appearance and behavior",
-          "Pages Panel: Manage different pages of your application",
-          "Preview Mode: See how your app looks to end users",
-          "Publishing Options: Deploy your app with one click"
+          "Component Library: Pre-built elements to drag and drop",
+          "Properties Panel: Customize selected components",
+          "Layers Panel: Navigate your app's structure",
+          "Preview Mode: Test your app in real-time",
+          "Publishing Tools: Deploy your app with one click"
         ]
-      }
-    ]
-  },
-  {
-    "id": "behind-the-scenes",
-    "title": "What Happens Behind the Scenes",
-    "subtitle": "Understanding how Apper works its magic",
-    "icon": "Cog",
-    "sections": [
-      {
-        "heading": "The Technology",
-        "type": "text",
-        "content": "While you focus on design and functionality, Apper automatically generates clean, optimized code behind the scenes. Our platform uses modern web technologies to ensure your apps are fast, secure, and scalable."
       },
       {
         "heading": "Automatic Optimizations",
