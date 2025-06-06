@@ -251,54 +251,65 @@
       {
         "heading": "No Need to Worry",
         "type": "text",
-        "content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
+"content": "Don't worry — you don't need to debug anything yourself. Just click \"Fix It Now\" and Apper will automatically take care of the issue for you. Once it's fixed, your app will reload, and you can continue building right where you left off."
       }
     ]
   },
+  {
+      "id": "desktop-mobile-views",
+      "title": "Switch Between Desktop and Mobile Views",
 {
-    "id": "app-versions",
-    "title": "What are App Versions & How to Switch Between Them 📚",
-    "subtitle": "Managing different versions of your application",
-    "icon": "GitBranch",
-    "sections": [
-      {
-        "heading": "What are App Versions & How to Switch Between Them",
-        "type": "text",
-        "content": "Apper saves every change as a new version, so you can always go back, compare, or restore earlier versions."
-      },
-      {
-        "heading": "How to Switch Versions",
-        "type": "text",
-        "content": "To switch versions, click the Version dropdown at the top of the screen. You'll see a full list of all past versions:"
-      },
-      {
-        "heading": "Version Status Indicators",
-        "type": "list",
-        "items": [
-          "✅ Versions that were built successfully are shown in white",
-          "❌ Versions that had errors are shown in red"
-        ]
-      },
-      {
-        "heading": "Loading and Navigation",
-        "type": "text",
-        "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
-      },
-      {
-        "heading": "What Each Version Includes",
-        "type": "list",
-        "items": [
-          "A summary of what changed",
-          "A Preview button to view it",
-          "A Restore button to bring it back instantly"
-        ]
-      },
-      {
-        "heading": "Benefits of Version Management",
-        "type": "text",
-        "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
-      }
-    ]
+      "id": "desktop-mobile-views",
+      "title": "Switch Between Desktop and Mobile Views",
+      "icon": "Monitor",
+      "subtitle": "Preview your app across different devices",
+      "sections": [
+        {
+          "type": "text",
+          "content": "Want to see how your app looks on different devices? Use the view toggle buttons at the top right of the screen (just beside the refresh icon)."
+        },
+        {
+          "type": "list",
+          "items": [
+            "🖥️ Click the desktop icon to view how your app appears on larger screens",
+            "📱 Click the mobile icon to instantly switch to a phone-sized preview",
+            "This helps you make sure your app looks great and works smoothly across all screen sizes (no surprises later)",
+            "You can switch views anytime while editing or previewing your app"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Alternatively, you can also click the View App (or Live Preview) button (positioned right next to the view toggle buttons) to open a full-sized version of your app in a new tab. This will show exactly how your users will see your app."
+        }
+      ]
+  },
+  {
+      "id": "version-management",
+      "title": "Version Management 📊",
+      "subtitle": "Track and manage your app versions",
+      "icon": "GitBranch",
+      "sections": [
+        {
+          "heading": "Loading and Navigation",
+          "type": "text",
+          "content": "Click on any version to load it — the app will automatically re-initialize with that version's state. You can also scroll through your chat history on the left to find previous versions."
+        },
+},
+        {
+          "heading": "What Each Version Includes",
+          "type": "list",
+          "items": [
+            "A summary of what changed",
+            "A Preview button to view it",
+            "A Restore button to bring it back instantly"
+          ]
+        },
+        {
+          "heading": "Benefits of Version Management",
+          "type": "text",
+          "content": "This makes it easy to test ideas, fix mistakes, or roll back to a version that worked — anytime you need."
+        }
+      ]
   },
   {
     "id": "mobile-vs-desktop-preview",
