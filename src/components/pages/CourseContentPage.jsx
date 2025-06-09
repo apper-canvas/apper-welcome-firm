@@ -19,173 +19,382 @@ const CourseContentPage = () => {
   const contentRef = useRef(null)
   const topicRefs = useRef({})
 
-  // Mock data - would come from service in real app
+// Mock data - would come from service in real app
   const initialTopics = [
     {
-      id: 'introduction',
-      title: 'Introduction to the Platform',
+      id: 'welcome-to-apper',
+      title: 'Welcome to Apper',
       content: `
-        <h2 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Welcome to Our Learning Platform</h2>
-        <p class="mb-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">This comprehensive course will guide you through all the features and capabilities of our platform. Each section builds upon the previous one, providing you with a complete understanding of how to maximize your learning experience.</p>
-        <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 mb-6">
-          <h3 class="text-lg font-semibold text-blue-900 dark:text-blue-100 mb-2">What You'll Learn</h3>
-          <ul class="list-disc list-inside text-blue-800 dark:text-blue-200 space-y-1">
-            <li>Navigation and interface basics</li>
-            <li>Content creation and management</li>
-            <li>Advanced features and customization</li>
-            <li>Best practices and optimization</li>
-          </ul>
+        <h2 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Welcome to Apper! 🎉</h2>
+        
+        <div class="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 p-8 rounded-xl border border-purple-200 dark:border-purple-700 mb-8">
+          <h3 class="text-2xl font-semibold text-purple-900 dark:text-purple-100 mb-4">Transform Your Ideas Into Reality</h3>
+          <p class="text-lg text-purple-800 dark:text-purple-200 leading-relaxed mb-4">
+            Apper is the revolutionary platform that empowers you to build professional applications without writing a single line of code. Whether you're an entrepreneur, designer, or business professional, Apper makes app development accessible to everyone.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm">
+              <div class="text-2xl mb-2">🚀</div>
+              <h4 class="font-semibold text-gray-900 dark:text-white">Fast Launch</h4>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Go from idea to app in minutes</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm">
+              <div class="text-2xl mb-2">🎨</div>
+              <h4 class="font-semibold text-gray-900 dark:text-white">Beautiful Design</h4>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Professional templates included</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm">
+              <div class="text-2xl mb-2">⚡</div>
+              <h4 class="font-semibold text-gray-900 dark:text-white">No Code</h4>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Build with visual tools</p>
+            </div>
+          </div>
         </div>
-        <p class="text-gray-700 dark:text-gray-300">Navigate through the topics using the sidebar to explore each section in detail.</p>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none">
+          <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Your Journey Starts Here</h3>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            This comprehensive guide will walk you through every aspect of Apper, from your first app to advanced features that will make your applications stand out. Each topic is designed to build upon the previous one, ensuring you gain a complete understanding of the platform's capabilities.
+          </p>
+          
+          <div class="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-500 p-6 mb-6">
+            <h4 class="text-lg font-semibold text-amber-900 dark:text-amber-100 mb-2">💡 Pro Tip</h4>
+            <p class="text-amber-800 dark:text-amber-200">
+              Take your time with each section. The best way to learn Apper is by following along and trying out the features as you go. Don't hesitate to experiment!
+            </p>
+          </div>
+        </div>
       `,
       order: 1
     },
-    {
-      id: 'getting-started',
-      title: 'Getting Started Guide',
+{
+      id: 'what-is-apper',
+      title: 'What is Apper?',
       content: `
-        <h2 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Getting Started</h2>
-        <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">First Steps</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div class="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 p-6 rounded-xl border border-purple-200 dark:border-purple-700">
-            <h4 class="font-semibold text-purple-900 dark:text-purple-100 mb-3">Account Setup</h4>
-            <ul class="list-disc list-inside text-purple-800 dark:text-purple-200 space-y-2">
-              <li>Create your account</li>
-              <li>Complete profile information</li>
-              <li>Verify your email address</li>
-            </ul>
-          </div>
-          <div class="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl border border-green-200 dark:border-green-700">
-            <h4 class="font-semibold text-green-900 dark:text-green-100 mb-3">Initial Configuration</h4>
-            <ul class="list-disc list-inside text-green-800 dark:text-green-200 space-y-2">
-              <li>Set up preferences</li>
-              <li>Choose your learning path</li>
-              <li>Configure notifications</li>
-            </ul>
+        <h2 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white">What is Apper?</h2>
+        
+        <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-xl border border-blue-200 dark:border-blue-700 mb-8">
+          <h3 class="text-2xl font-semibold text-blue-900 dark:text-blue-100 mb-4">The No-Code Revolution</h3>
+          <p class="text-lg text-blue-800 dark:text-blue-200 leading-relaxed mb-6">
+            Apper is a comprehensive no-code platform that democratizes app development. It's designed for creators, entrepreneurs, and businesses who want to build powerful applications without the complexity of traditional programming.
+          </p>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <h4 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">🎯 Purpose</h4>
+              <p class="text-gray-700 dark:text-gray-300 mb-4">
+                Bridge the gap between having great ideas and turning them into functional applications that can scale and generate revenue.
+              </p>
+              <ul class="list-disc list-inside text-gray-600 dark:text-gray-400 space-y-1">
+                <li>Eliminate technical barriers</li>
+                <li>Accelerate time to market</li>
+                <li>Reduce development costs</li>
+                <li>Enable rapid iteration</li>
+              </ul>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <h4 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">⚙️ How It Works</h4>
+              <p class="text-gray-700 dark:text-gray-300 mb-4">
+                Using intuitive visual interfaces, drag-and-drop components, and smart automation, you can create sophisticated applications.
+              </p>
+              <ul class="list-disc list-inside text-gray-600 dark:text-gray-400 space-y-1">
+                <li>Visual app builder</li>
+                <li>Pre-built components</li>
+                <li>Database management</li>
+                <li>API integrations</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <p class="text-gray-700 dark:text-gray-300">Take your time to familiarize yourself with the interface. The platform is designed to be intuitive and user-friendly.</p>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none">
+          <h3 class="text-2xl font-semibold mb-6 text-gray-800 dark:text-gray-200">Core Philosophy</h3>
+          
+          <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 mb-8">
+            <div class="text-center mb-6">
+              <div class="text-4xl mb-4">🌟</div>
+              <h4 class="text-xl font-bold text-gray-900 dark:text-white">"Everyone Should Be Able to Build"</h4>
+            </div>
+            <p class="text-gray-700 dark:text-gray-300 text-center leading-relaxed">
+              We believe that great ideas shouldn't be limited by technical knowledge. Apper empowers anyone with vision and creativity to build professional applications that can compete in today's digital marketplace.
+            </p>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Who Uses Apper?</h3>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="text-center p-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl text-white">
+              <div class="text-3xl mb-3">🚀</div>
+              <h4 class="font-bold mb-2">Entrepreneurs</h4>
+              <p class="text-sm opacity-90">Launch MVPs and validate business ideas quickly</p>
+            </div>
+            
+            <div class="text-center p-6 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl text-white">
+              <div class="text-3xl mb-3">🏢</div>
+              <h4 class="font-bold mb-2">Businesses</h4>
+              <p class="text-sm opacity-90">Create internal tools and customer-facing apps</p>
+            </div>
+            
+            <div class="text-center p-6 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl text-white">
+              <div class="text-3xl mb-3">🎨</div>
+              <h4 class="font-bold mb-2">Creators</h4>
+              <p class="text-sm opacity-90">Turn creative concepts into interactive experiences</p>
+            </div>
+          </div>
+        </div>
       `,
       order: 2
     },
-    {
-      id: 'content-management',
-      title: 'Content Management',
+{
+      id: 'what-you-can-build',
+      title: 'What You Can Build',
       content: `
-        <h2 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Managing Your Content</h2>
-        <p class="mb-6 text-lg text-gray-700 dark:text-gray-300">Learn how to create, organize, and maintain your course content effectively.</p>
+        <h2 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white">What You Can Build with Apper</h2>
         
-        <div class="space-y-6">
-          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-            <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Creating Content</h3>
-            <p class="text-gray-700 dark:text-gray-300 mb-4">Use the rich text editor to create engaging content with multimedia support.</p>
-            <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-              <code class="text-sm text-gray-800 dark:text-gray-200">
-                // Example content structure<br>
-                {<br>
-                &nbsp;&nbsp;"title": "Your Topic Title",<br>
-                &nbsp;&nbsp;"content": "Rich HTML content",<br>
-                &nbsp;&nbsp;"order": 1<br>
-                }
-              </code>
-            </div>
+        <div class="bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 p-8 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-8">
+          <h3 class="text-2xl font-semibold text-indigo-900 dark:text-indigo-100 mb-4">Limitless Possibilities</h3>
+          <p class="text-lg text-indigo-800 dark:text-indigo-200 leading-relaxed">
+            From simple landing pages to complex enterprise applications, Apper provides the tools and flexibility to bring any digital idea to life. Here are just some examples of what our users have built.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
+            <div class="text-3xl mb-4">💼</div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Business Applications</h3>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+              <li>• CRM systems</li>
+              <li>• Project management tools</li>
+              <li>• Inventory tracking</li>
+              <li>• HR management portals</li>
+              <li>• Customer support platforms</li>
+            </ul>
           </div>
-          
-          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-            <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Organizing Topics</h3>
-            <p class="text-gray-700 dark:text-gray-300">Arrange your topics in a logical order to create the best learning experience.</p>
+
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
+            <div class="text-3xl mb-4">🛒</div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">E-commerce Solutions</h3>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+              <li>• Online stores</li>
+              <li>• Marketplace platforms</li>
+              <li>• Booking systems</li>
+              <li>• Subscription services</li>
+              <li>• Digital product delivery</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
+            <div class="text-3xl mb-4">📱</div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Mobile Apps</h3>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+              <li>• Social networking apps</li>
+              <li>• Fitness trackers</li>
+              <li>• Event management</li>
+              <li>• Food delivery apps</li>
+              <li>• Educational platforms</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
+            <div class="text-3xl mb-4">🎓</div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Educational Platforms</h3>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+              <li>• Online courses</li>
+              <li>• Student portals</li>
+              <li>• Quiz applications</li>
+              <li>• Certification systems</li>
+              <li>• Learning management</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
+            <div class="text-3xl mb-4">🏥</div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Healthcare Solutions</h3>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+              <li>• Patient management</li>
+              <li>• Appointment scheduling</li>
+              <li>• Telemedicine platforms</li>
+              <li>• Health tracking apps</li>
+              <li>• Medical records systems</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
+            <div class="text-3xl mb-4">🎨</div>
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Creative Platforms</h3>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+              <li>• Portfolio websites</li>
+              <li>• Content management</li>
+              <li>• Media galleries</li>
+              <li>• Creative marketplaces</li>
+              <li>• Collaboration tools</li>
+            </ul>
           </div>
         </div>
-      `,
-      order: 3
-    },
-    {
-      id: 'advanced-features',
-      title: 'Advanced Features',
-      content: `
-        <h2 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Advanced Platform Features</h2>
-        <p class="mb-6 text-lg text-gray-700 dark:text-gray-300">Explore advanced capabilities to enhance your learning experience.</p>
-        
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-          <div class="bg-gradient-to-br from-purple-500 to-pink-500 p-6 rounded-xl text-white">
-            <h3 class="text-xl font-bold mb-3">Analytics</h3>
-            <p class="mb-4">Track progress and engagement with detailed analytics.</p>
-            <div class="bg-white/20 p-3 rounded-lg">
-              <div class="text-sm opacity-90">Progress: 85%</div>
-              <div class="bg-white/30 rounded-full h-2 mt-2">
-                <div class="bg-white rounded-full h-2" style="width: 85%"></div>
-              </div>
+
+        <div class="bg-gradient-to-r from-green-500 to-emerald-500 p-8 rounded-xl text-white text-center mb-8">
+          <h3 class="text-2xl font-bold mb-4">Success Stories</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white/10 p-4 rounded-lg">
+              <div class="text-2xl font-bold mb-2">$2M+</div>
+              <div class="text-sm opacity-90">Revenue generated by Apper apps</div>
             </div>
-          </div>
-          
-          <div class="bg-gradient-to-br from-blue-500 to-cyan-500 p-6 rounded-xl text-white">
-            <h3 class="text-xl font-bold mb-3">Customization</h3>
-            <p class="mb-4">Customize the interface to match your preferences.</p>
-            <div class="flex space-x-2">
-              <div class="w-4 h-4 bg-white/40 rounded-full"></div>
-              <div class="w-4 h-4 bg-white/60 rounded-full"></div>
-              <div class="w-4 h-4 bg-white rounded-full"></div>
+            <div class="bg-white/10 p-4 rounded-lg">
+              <div class="text-2xl font-bold mb-2">50K+</div>
+              <div class="text-sm opacity-90">Apps built and deployed</div>
             </div>
-          </div>
-          
-          <div class="bg-gradient-to-br from-green-500 to-emerald-500 p-6 rounded-xl text-white">
-            <h3 class="text-xl font-bold mb-3">Integrations</h3>
-            <p class="mb-4">Connect with external tools and services.</p>
-            <div class="grid grid-cols-3 gap-2">
-              <div class="bg-white/20 p-2 rounded text-xs text-center">API</div>
-              <div class="bg-white/20 p-2 rounded text-xs text-center">SSO</div>
-              <div class="bg-white/20 p-2 rounded text-xs text-center">LMS</div>
+            <div class="bg-white/10 p-4 rounded-lg">
+              <div class="text-2xl font-bold mb-2">95%</div>
+              <div class="text-sm opacity-90">User satisfaction rate</div>
             </div>
           </div>
         </div>
-        
-        <div class="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-500 p-6">
-          <h3 class="text-lg font-semibold text-amber-900 dark:text-amber-100 mb-2">Pro Tip</h3>
-          <p class="text-amber-800 dark:text-amber-200">Take advantage of keyboard shortcuts to navigate more efficiently. Press '/' to search topics quickly.</p>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none">
+          <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6">
+            <h4 class="text-lg font-semibold text-blue-900 dark:text-blue-100 mb-2">💡 Your Turn</h4>
+            <p class="text-blue-800 dark:text-blue-200">
+              Ready to build your own application? The next section will guide you through creating your first app step by step. Don't worry if you're not sure what to build yet - we'll help you discover the perfect project for your needs.
+            </p>
+          </div>
         </div>
       `,
       order: 4
     },
-    {
-      id: 'support',
-      title: 'Support & Resources',
+{
+      id: 'create-your-first-app',
+      title: 'Create Your First App',
       content: `
-        <h2 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Getting Help & Support</h2>
-        <p class="mb-6 text-lg text-gray-700 dark:text-gray-300">Find the help you need with our comprehensive support resources.</p>
+        <h2 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white">Create Your First App</h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border-2 border-green-200 dark:border-green-700">
-            <div class="flex items-center mb-4">
-              <div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Live Support</h3>
+        <div class="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-8 rounded-xl border border-green-200 dark:border-green-700 mb-8">
+          <h3 class="text-2xl font-semibold text-green-900 dark:text-green-100 mb-4">🚀 Ready to Launch</h3>
+          <p class="text-lg text-green-800 dark:text-green-200 leading-relaxed">
+            Now that you understand what Apper can do, let's create your first application! This step-by-step guide will walk you through the entire process, from initial concept to published app.
+          </p>
+        </div>
+
+        <div class="space-y-8 mb-8">
+          <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                1
+              </div>
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Choose Your App Type</h3>
             </div>
-            <p class="text-gray-700 dark:text-gray-300 mb-4">Get instant help from our support team.</p>
-            <ul class="space-y-2 text-gray-600 dark:text-gray-400">
-              <li>• Live chat: Available 24/7</li>
-              <li>• Email: support@platform.com</li>
-              <li>• Phone: +1 (555) 123-4567</li>
-            </ul>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+              <div class="p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg hover:border-blue-500 transition-colors cursor-pointer">
+                <div class="text-2xl mb-2">📱</div>
+                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Mobile App</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Perfect for on-the-go users</p>
+              </div>
+              <div class="p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg hover:border-blue-500 transition-colors cursor-pointer">
+                <div class="text-2xl mb-2">💻</div>
+                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Web App</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Accessible from any browser</p>
+              </div>
+              <div class="p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg hover:border-blue-500 transition-colors cursor-pointer">
+                <div class="text-2xl mb-2">🖥️</div>
+                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Desktop App</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Full-featured desktop experience</p>
+              </div>
+            </div>
+            
+            <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4">
+              <p class="text-blue-800 dark:text-blue-200 text-sm">
+                💡 <strong>Tip:</strong> Start with a web app - it's the easiest to build and can be accessed from any device!
+              </p>
+            </div>
           </div>
-          
-          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border-2 border-blue-200 dark:border-blue-700">
-            <div class="flex items-center mb-4">
-              <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
-              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Community</h3>
+
+          <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                2
+              </div>
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Select a Template</h3>
             </div>
-            <p class="text-gray-700 dark:text-gray-300 mb-4">Connect with other users and experts.</p>
-            <ul class="space-y-2 text-gray-600 dark:text-gray-400">
-              <li>• Community forum</li>
-              <li>• User groups</li>
-              <li>• Knowledge base</li>
-            </ul>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div class="border border-gray-200 dark:border-gray-600 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                <div class="bg-gradient-to-br from-indigo-400 to-purple-500 h-32 flex items-center justify-center">
+                  <span class="text-white text-lg font-semibold">Business Dashboard</span>
+                </div>
+                <div class="p-4">
+                  <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Startup Essentials</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">Perfect for new businesses needing core functionality</p>
+                </div>
+              </div>
+              
+              <div class="border border-gray-200 dark:border-gray-600 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                <div class="bg-gradient-to-br from-emerald-400 to-teal-500 h-32 flex items-center justify-center">
+                  <span class="text-white text-lg font-semibold">E-commerce Store</span>
+                </div>
+                <div class="p-4">
+                  <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Online Shop</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">Complete solution for selling products online</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-4">
+              <p class="text-green-800 dark:text-green-200 text-sm">
+                🎨 <strong>Pro Tip:</strong> Don't worry about getting it perfect - you can always customize everything later!
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                3
+              </div>
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Customize Your App</h3>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
+                  <span class="text-white text-sm">🎨</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900 dark:text-white">Design & Branding</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">Colors, fonts, logo, and overall look</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                  <span class="text-white text-sm">📝</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900 dark:text-white">Content & Copy</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">Text, images, and other content</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <div class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center">
+                  <span class="text-white text-sm">⚙️</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900 dark:text-white">Features & Functionality</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">Add or remove features as needed</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        
-        <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-8 rounded-xl text-white text-center">
-          <h3 class="text-2xl font-bold mb-4">Need More Help?</h3>
-          <p class="mb-6 text-lg opacity-90">Our support team is here to help you succeed. Don't hesitate to reach out!</p>
-          <button class="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-            Contact Support
+
+        <div class="bg-gradient-to-r from-indigo-500 to-purple-500 p-8 rounded-xl text-white text-center">
+          <h3 class="text-2xl font-bold mb-4">Ready to Start Building?</h3>
+          <p class="text-lg opacity-90 mb-6">
+            Your app is just a few clicks away. Let's turn your idea into reality!
+          </p>
+          <button class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-lg">
+            Start Building Now
           </button>
         </div>
       `,
@@ -208,7 +417,7 @@ const CourseContentPage = () => {
   useEffect(() => {
     if (!topics.length || typeof window === 'undefined' || !window.IntersectionObserver) return
 
-    const observer = new IntersectionObserver(
+    const observer = new window.IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -445,9 +654,9 @@ const CourseContentPage = () => {
                           <Save className="w-4 h-4" />
                         </Button>
                       </div>
-                    ) : (
+) : (
                       <div
-                        onClick={() => scrollToTopic(topic.id)}
+                        onClick={() => navigate(`/topic/${topic.id}`)}
                         className={`
                           flex items-center justify-between p-3 rounded-lg cursor-pointer transition-all duration-200
                           ${activeTopicId === topic.id 
@@ -460,7 +669,7 @@ const CourseContentPage = () => {
                         onKeyDown={(e) => {
                           if (e.key === 'Enter' || e.key === ' ') {
                             e.preventDefault()
-                            scrollToTopic(topic.id)
+                            navigate(`/topic/${topic.id}`)
                           }
                         }}
                       >

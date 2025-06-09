@@ -7,13 +7,13 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      colors: {
+colors: {
         primary: {
           DEFAULT: '#7C3AED',
           light: '#A855F7',
           dark: '#6D28D9'
         },
-secondary: {
+        secondary: {
           DEFAULT: '#10B981',
           light: '#34D399',
           dark: '#059669'
