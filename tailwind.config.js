@@ -13,11 +13,11 @@ export default {
           light: '#A855F7',
           dark: '#6D28D9'
         },
-        secondary: {
+secondary: {
           DEFAULT: '#10B981',
           light: '#34D399',
           dark: '#059669'
-},
+        },
         accent: '#F59E0B',
         surface: {
           50: '#FAFAFA',
