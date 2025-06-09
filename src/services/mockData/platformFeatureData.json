@@ -10,41 +10,41 @@
       "readTime": 5,
       "order": 1,
       "gradient": "bg-gradient-to-br from-blue-500 to-purple-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Experience the magic of AI-powered app creation as you watch your application being built in real-time. Our intelligent system transforms your ideas into functional code, creating databases, designing interfaces, and implementing features automatically.</p><div class=\"bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-blue-900 dark:text-blue-100 mb-2\">Real-Time Progress</h3><p class=\"text-blue-800 dark:text-blue-200\">Track every step of the development process with live updates, progress indicators, and detailed logs of what's being created.</p></div>",
-      "benefits": [
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Watch your app come to life! It's like having a super-smart assistant who takes your ideas and turns them into a real, working app right before your eyes. You'll see everything happening step by step - it's pretty amazing!</p><div class=\"bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-blue-900 dark:text-blue-100 mb-2\">See It All Happen Live</h3><p class=\"text-blue-800 dark:text-blue-200\">You can watch every step as your app gets built. We'll show you exactly what's happening so you're never left wondering.</p></div>",
+"benefits": [
         {
-          "title": "Live Progress Tracking",
-          "description": "See exactly what's being built as it happens with detailed progress indicators"
+          "title": "Watch It All Happen",
+          "description": "You'll see exactly what's being built as it happens - no mystery, just progress!"
         },
         {
-          "title": "Transparent Process",
-          "description": "Understand every step of development with clear explanations and logs"
+          "title": "Nothing Hidden",
+          "description": "We explain everything in simple terms so you know what's going on"
         },
         {
-          "title": "Quality Assurance",
-          "description": "Built-in testing and validation ensure your app works perfectly"
+          "title": "It Just Works",
+          "description": "We test everything as we build it, so your app will work great from day one"
         },
         {
-          "title": "Time Estimation",
-          "description": "Accurate estimates help you plan and set expectations"
+          "title": "Know When It's Done",
+          "description": "We'll tell you how long it'll take so you can plan accordingly"
         }
       ],
-      "howItWorks": [
+"howItWorks": [
         {
-          "title": "AI Analysis",
-          "description": "Our AI analyzes your requirements and creates a detailed development plan"
+          "title": "We Listen to Your Ideas",
+          "description": "Tell us what you want, and we'll figure out the best way to build it"
         },
         {
-          "title": "Component Creation",
-          "description": "Individual components and features are built systematically"
+          "title": "We Build Each Piece",
+          "description": "Like building with blocks, we create each part of your app one by one"
         },
         {
-          "title": "Integration & Testing",
-          "description": "All parts are integrated and tested to ensure everything works together"
+          "title": "We Put It All Together",
+          "description": "All the pieces get connected and tested to make sure everything works perfectly"
         },
         {
-          "title": "Final Optimization",
-          "description": "Performance optimization and final touches are applied"
+          "title": "We Make It Perfect",
+          "description": "We add the finishing touches to make your app fast and beautiful"
         }
       ],
       "useCases": [
@@ -64,7 +64,7 @@
           "description": "Plan your launch timeline with accurate progress estimates"
         }
       ],
-      "gettingStarted": "Simply describe your app idea and watch as our AI transforms it into reality. The building process typically takes 5-15 minutes depending on complexity.",
+"gettingStarted": "Just tell us what kind of app you want, and we'll build it for you! Most apps are ready in 5-15 minutes.",
       "documentationLink": "/docs/app-building"
     },
     {
@@ -77,7 +77,7 @@
       "readTime": 4,
       "order": 2,
       "gradient": "bg-gradient-to-br from-green-500 to-emerald-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Congratulations! Your app has been successfully built and is ready for testing. This milestone marks the completion of your app's first version, complete with all requested features and functionality.</p><div class=\"bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-green-900 dark:text-green-100 mb-2\">What's Included</h3><p class=\"text-green-800 dark:text-green-200\">Your first version includes all core features, responsive design, database setup, and basic user authentication. It's fully functional and ready for testing.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Woohoo! Your app is done and ready to go! Everything you asked for is built and working. Time to celebrate - you now have a real app that people can use!</p><div class=\"bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-green-900 dark:text-green-100 mb-2\">What You Get</h3><p class=\"text-green-800 dark:text-green-200\">Your app works on phones, tablets, and computers. It has user accounts, stores data safely, and does everything you wanted. It's ready for people to try!</p></div>",
       "benefits": [
         {
           "title": "Fully Functional App",
@@ -131,7 +131,7 @@
           "description": "Test your business idea with a functional application"
         }
       ],
-      "gettingStarted": "Your app is now live and ready for testing! Use the preview links to explore your application and start gathering user feedback.",
+"gettingStarted": "Your app is ready! Click the preview button to see it in action and start showing it to friends and potential users.",
       "documentationLink": "/docs/first-version"
     },
     {
@@ -144,7 +144,7 @@
       "readTime": 7,
       "order": 3,
       "gradient": "bg-gradient-to-br from-purple-500 to-pink-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Your app is never truly finished. Easily modify existing features, add new functionality, or completely redesign sections using our intuitive editing tools. No coding required - just describe what you want to change.</p><div class=\"bg-purple-50 dark:bg-purple-900/20 border-l-4 border-purple-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-purple-900 dark:text-purple-100 mb-2\">Continuous Improvement</h3><p class=\"text-purple-800 dark:text-purple-200\">Make changes anytime with instant deployments. Your app evolves with your needs and user feedback.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Want to change something? No problem! Just tell us what you'd like different, and we'll update your app. Add new features, change colors, or completely redesign parts - it's all super easy.</p><div class=\"bg-purple-50 dark:bg-purple-900/20 border-l-4 border-purple-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-purple-900 dark:text-purple-100 mb-2\">Keep Making It Better</h3><p class=\"text-purple-800 dark:text-purple-200\">Your app can grow and change as you learn what works best. Users giving feedback? Great - we can add those improvements!</p></div>",
       "benefits": [
         {
           "title": "No Code Required",
@@ -198,7 +198,7 @@
           "description": "Improve mobile experience and responsiveness"
         }
       ],
-      "gettingStarted": "Click the 'Edit App' button in your dashboard and describe what you'd like to change. Our AI will handle the rest!",
+"gettingStarted": "Just click 'Edit App' and tell us what you want to change. We'll take care of making it happen!",
       "documentationLink": "/docs/editing-features"
     },
     {
@@ -211,7 +211,7 @@
       "readTime": 6,
       "order": 4,
       "gradient": "bg-gradient-to-br from-red-500 to-orange-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">When issues arise, our intelligent troubleshooting system automatically detects, diagnoses, and often fixes problems before you even notice them. For complex issues, get step-by-step guidance to resolve them quickly.</p><div class=\"bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-red-900 dark:text-red-100 mb-2\">Proactive Problem Solving</h3><p class=\"text-red-800 dark:text-red-200\">Most issues are automatically detected and resolved before they affect your users. When manual intervention is needed, get clear guidance.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Don't worry about tech problems! Our system watches your app 24/7 and fixes most issues automatically. If something bigger comes up, we'll walk you through fixing it step by step.</p><div class=\"bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-red-900 dark:text-red-100 mb-2\">We've Got Your Back</h3><p class=\"text-red-800 dark:text-red-200\">Most problems get fixed before you even know they happened. When we need your help, we'll explain everything clearly.</p></div>",
       "benefits": [
         {
           "title": "Automatic Detection",
@@ -265,7 +265,7 @@
           "description": "Address security vulnerabilities automatically"
         }
       ],
-      "gettingStarted": "Most troubleshooting happens automatically. For manual issues, check your app's health dashboard for detailed diagnostics.",
+"gettingStarted": "We handle most problems automatically. If you need to check on anything, just look at your app's health dashboard.",
       "documentationLink": "/docs/troubleshooting"
     },
     {
@@ -278,7 +278,7 @@
       "readTime": 8,
       "order": 5,
       "gradient": "bg-gradient-to-br from-indigo-500 to-purple-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Keep track of your app's evolution with comprehensive version management. Create snapshots, rollback to previous versions, and manage multiple release channels effortlessly.</p><div class=\"bg-indigo-50 dark:bg-indigo-900/20 border-l-4 border-indigo-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-indigo-900 dark:text-indigo-100 mb-2\">Version Control Made Simple</h3><p class=\"text-indigo-800 dark:text-indigo-200\">No complex Git commands or technical knowledge required. Manage versions with simple clicks and clear labels.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Think of this like saving different drafts of a document. Every time you make big changes, we save a copy of your app so you can always go back if needed. It's like having an undo button for your entire app!</p><div class=\"bg-indigo-50 dark:bg-indigo-900/20 border-l-4 border-indigo-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-indigo-900 dark:text-indigo-100 mb-2\">Super Simple Versions</h3><p class=\"text-indigo-800 dark:text-indigo-200\">No confusing tech stuff - just click to save a version or go back to an older one. Easy as that!</p></div>",
       "benefits": [
         {
           "title": "Safe Experimentation",
@@ -332,7 +332,7 @@
           "description": "Quickly revert if critical issues are discovered"
         }
       ],
-      "gettingStarted": "Versions are created automatically with each major change. Access the versions panel to view, compare, and manage all versions of your app.",
+"gettingStarted": "We automatically save versions when you make big changes. Check the versions section to see all your app's history!",
       "documentationLink": "/docs/app-versions"
     },
     {
@@ -345,7 +345,7 @@
       "readTime": 4,
       "order": 6,
       "gradient": "bg-gradient-to-br from-cyan-500 to-blue-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Test your app's responsive design across different screen sizes and devices. Our preview system shows exactly how your app will look and behave on phones, tablets, and desktop computers.</p><div class=\"bg-cyan-50 dark:bg-cyan-900/20 border-l-4 border-cyan-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-cyan-900 dark:text-cyan-100 mb-2\">Multi-Device Testing</h3><p class=\"text-cyan-800 dark:text-cyan-200\">Ensure your app provides a great experience on every device your users might use.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Want to see how your app looks on different devices? Easy! We can show you exactly how it appears on phones, tablets, and computers so you know it looks great everywhere.</p><div class=\"bg-cyan-50 dark:bg-cyan-900/20 border-l-4 border-cyan-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-cyan-900 dark:text-cyan-100 mb-2\">Try It On Everything</h3><p class=\"text-cyan-800 dark:text-cyan-200\">Make sure your app works great no matter what device people use to access it.</p></div>",
       "benefits": [
         {
           "title": "Responsive Design Testing",
@@ -399,7 +399,7 @@
           "description": "Test how elements adapt to different screen sizes"
         }
       ],
-      "gettingStarted": "Use the device preview buttons in your app dashboard to instantly see how your app looks on different devices.",
+"gettingStarted": "Just click the phone, tablet, or computer icons in your dashboard to see how your app looks on each device!",
       "documentationLink": "/docs/device-preview"
     },
     {
@@ -412,7 +412,7 @@
       "readTime": 6,
       "order": 7,
       "gradient": "bg-gradient-to-br from-gray-500 to-slate-600",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Customize every aspect of your app from branding and colors to functionality and integrations. Our settings panel gives you complete control over your app's configuration.</p><div class=\"bg-gray-50 dark:bg-gray-900/20 border-l-4 border-gray-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2\">Complete Customization</h3><p class=\"text-gray-800 dark:text-gray-200\">From visual design to advanced functionality, configure everything to match your exact needs.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Make your app truly yours! Change colors, fonts, features, and how everything works. Think of it as your app's control center where you can adjust anything you want.</p><div class=\"bg-gray-50 dark:bg-gray-900/20 border-l-4 border-gray-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2\">Your App, Your Way</h3><p class=\"text-gray-800 dark:text-gray-200\">Change anything from how it looks to what it does - it's all up to you!</p></div>",
       "benefits": [
         {
           "title": "Brand Customization",
@@ -466,7 +466,7 @@
           "description": "Connect with external tools and services"
         }
       ],
-      "gettingStarted": "Access the settings panel from your app dashboard to customize colors, features, integrations, and more.",
+"gettingStarted": "Click on 'Settings' in your app dashboard to start customizing everything to your liking!",
       "documentationLink": "/docs/app-settings"
     },
     {
@@ -479,7 +479,7 @@
       "readTime": 7,
       "order": 8,
       "gradient": "bg-gradient-to-br from-green-500 to-teal-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Create engaging onboarding experiences and automated email campaigns to welcome new users and keep them engaged. Design user flows that guide users through your app's key features.</p><div class=\"bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-green-900 dark:text-green-100 mb-2\">User Engagement</h3><p class=\"text-green-800 dark:text-green-200\">Well-designed onboarding and email sequences significantly improve user retention and engagement.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Help new users get started and keep existing ones coming back! Set up welcome messages and helpful emails that send automatically. It's like having a friendly assistant that greets everyone who uses your app.</p><div class=\"bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-green-900 dark:text-green-100 mb-2\">Keep Users Happy</h3><p class=\"text-green-800 dark:text-green-200\">Good welcome experiences and helpful emails make people want to keep using your app!</p></div>",
       "benefits": [
         {
           "title": "Guided User Experience",
@@ -533,7 +533,7 @@
           "description": "Notify users about new features and updates"
         }
       ],
-      "gettingStarted": "Start with pre-built onboarding templates, then customize them to match your app's specific user journey and goals.",
+"gettingStarted": "We have ready-made welcome templates you can use right away, or customize them to fit your app perfectly!",
       "documentationLink": "/docs/onboarding-emails"
     },
     {
@@ -546,7 +546,7 @@
       "readTime": 9,
       "order": 9,
       "gradient": "bg-gradient-to-br from-yellow-500 to-orange-500",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Transform your app into a revenue-generating business with comprehensive billing and payment solutions. Support subscriptions, one-time payments, and complex pricing models with ease.</p><div class=\"bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-yellow-900 dark:text-yellow-100 mb-2\">Complete Revenue Solution</h3><p class=\"text-yellow-800 dark:text-yellow-200\">Everything you need to start generating revenue from your app, from simple payments to complex subscription models.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Ready to make money from your app? We make it super easy! Accept credit cards, PayPal, subscriptions - whatever you need. People can pay you directly through your app, and we handle all the tricky stuff.</p><div class=\"bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-yellow-900 dark:text-yellow-100 mb-2\">Everything You Need to Get Paid</h3><p class=\"text-yellow-800 dark:text-yellow-200\">From simple one-time purchases to monthly subscriptions, we've got all the payment stuff covered!</p></div>",
       "benefits": [
         {
           "title": "Multiple Payment Methods",
@@ -600,7 +600,7 @@
           "description": "Sell digital courses and educational content"
         }
       ],
-      "gettingStarted": "Set up your payment processor, create pricing plans, and start accepting payments in minutes with our guided setup wizard.",
+"gettingStarted": "Our setup wizard walks you through everything step by step. You'll be accepting payments in just a few minutes!",
       "documentationLink": "/docs/billing-revenue"
     },
     {
@@ -613,7 +613,7 @@
       "readTime": 10,
       "order": 10,
       "gradient": "bg-gradient-to-br from-slate-600 to-gray-700",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">For developers who want to dive deeper, access the complete source code of your generated application. View, understand, and even customize the code that powers your app.</p><div class=\"bg-slate-50 dark:bg-slate-900/20 border-l-4 border-slate-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2\">Full Code Access</h3><p class=\"text-slate-800 dark:text-slate-200\">While no coding is required to use Apper, having code access gives you ultimate flexibility and control over your application.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Curious about how your app actually works? If you know how to code (or want to learn), you can see and even change the actual code that makes your app run. It's like looking under the hood of a car!</p><div class=\"bg-slate-50 dark:bg-slate-900/20 border-l-4 border-slate-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2\">See How It All Works</h3><p class=\"text-slate-800 dark:text-slate-200\">You don't need to know coding to use Apper, but if you do, you have complete access to everything!</p></div>",
       "benefits": [
         {
           "title": "Complete Transparency",
@@ -667,7 +667,7 @@
           "description": "Deploy your app to your own infrastructure"
         }
       ],
-      "gettingStarted": "Access the code section from your app dashboard to explore, understand, and customize your application's source code.",
+"gettingStarted": "Click on 'Code' in your dashboard to see how your app is built. Perfect for learning or making advanced changes!",
       "documentationLink": "/docs/code-section"
     },
     {
@@ -680,7 +680,7 @@
       "readTime": 8,
       "order": 11,
       "gradient": "bg-gradient-to-br from-blue-600 to-indigo-600",
-      "overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Your app's database is automatically configured and optimized based on your data needs. From simple storage to complex relationships, everything is handled seamlessly without any technical setup required.</p><div class=\"bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-blue-900 dark:text-blue-100 mb-2\">Intelligent Database Design</h3><p class=\"text-blue-800 dark:text-blue-200\">Our AI analyzes your app's requirements and creates an optimal database structure with proper relationships and indexing.</p></div>",
+"overview": "<p class=\"text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6\">Think of your database as your app's memory - it's where all your information gets stored safely. We set this up automatically based on what your app needs to remember. No technical stuff required from you!</p><div class=\"bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 mb-6\"><h3 class=\"text-lg font-semibold text-blue-900 dark:text-blue-100 mb-2\">Smart Storage Setup</h3><p class=\"text-blue-800 dark:text-blue-200\">We figure out the best way to organize and store your app's information so everything runs smoothly!</p></div>",
       "benefits": [
         {
           "title": "Automatic Optimization",
@@ -734,7 +734,7 @@
           "description": "Store app content, media files, and user-generated content"
         }
       ],
-      "gettingStarted": "Your database is automatically set up when your app is created. Use the data management tools to view and manage your information.",
+"gettingStarted": "We set up your database automatically when we build your app. You can view and manage your data using our simple tools!",
       "documentationLink": "/docs/database-setup"
     }
   ],
