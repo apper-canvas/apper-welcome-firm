@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import PageLayout from '@/components/templates/PageLayout'
 import ApperIcon from '@/components/ApperIcon'
 
 function ContentPage({ darkMode, setDarkMode }) {
+  const navigate = useNavigate()
+  
   return (
     <PageLayout darkMode={darkMode} setDarkMode={setDarkMode} title="About Apper">
       <div className="relative overflow-hidden">
@@ -226,21 +229,21 @@ function ContentPage({ darkMode, setDarkMode }) {
               <p className="text-xl text-gray-600 dark:text-gray-300 mt-4 max-w-3xl mx-auto">
                 Everything you need to build, deploy, and manage your applications
               </p>
-            </div>
+</div>
             
             <div className="grid md:grid-cols-2 gap-8">
               {[
-                { title: "Your App Is Being Built...", desc: "Watch in real-time as AI creates your application", icon: "loader" },
-                { title: "Your App's First Version Is Ready 🎉", desc: "Get your working prototype in minutes", icon: "check-circle" },
-                { title: "Edit, Modify, or Add New Features", desc: "Continuously improve your app with simple requests", icon: "edit" },
-                { title: "Troubleshooting Errors", desc: "AI-powered debugging and error resolution", icon: "alert-circle" },
-                { title: "App Versions", desc: "Manage different versions of your application", icon: "git-branch" },
-                { title: "Mobile vs Desktop Preview", desc: "See how your app looks on all devices", icon: "monitor" },
-                { title: "Manage App Settings", desc: "Configure your app's behavior and appearance", icon: "settings" },
-                { title: "Onboarding and Emails", desc: "Set up user flows and email notifications", icon: "mail" },
-                { title: "Billing and Revenue", desc: "Monetize your app with built-in payment systems", icon: "credit-card" },
-                { title: "Code Section", desc: "Access and customize the generated code", icon: "code" },
-                { title: "Database Setup", desc: "Automatic database configuration and management", icon: "database" }
+                { title: "Your App Is Being Built...", desc: "Watch in real-time as AI creates your application", icon: "loader", id: "app-building" },
+                { title: "Your App's First Version Is Ready 🎉", desc: "Get your working prototype in minutes", icon: "check-circle", id: "first-version-ready" },
+                { title: "Edit, Modify, or Add New Features", desc: "Continuously improve your app with simple requests", icon: "edit", id: "edit-modify-features" },
+                { title: "Troubleshooting Errors", desc: "AI-powered debugging and error resolution", icon: "alert-circle", id: "troubleshooting-errors" },
+                { title: "App Versions", desc: "Manage different versions of your application", icon: "git-branch", id: "app-versions" },
+                { title: "Mobile vs Desktop Preview", desc: "See how your app looks on all devices", icon: "monitor", id: "mobile-desktop-preview" },
+                { title: "Manage App Settings", desc: "Configure your app's behavior and appearance", icon: "settings", id: "app-settings" },
+                { title: "Onboarding and Emails", desc: "Set up user flows and email notifications", icon: "mail", id: "onboarding-emails" },
+                { title: "Billing and Revenue", desc: "Monetize your app with built-in payment systems", icon: "credit-card", id: "billing-revenue" },
+                { title: "Code Section", desc: "Access and customize the generated code", icon: "code", id: "code-section" },
+                { title: "Database Setup", desc: "Automatic database configuration and management", icon: "database", id: "database-setup" }
               ].map((feature, index) => (
                 <motion.div
                   key={index}
@@ -248,14 +251,18 @@ function ContentPage({ darkMode, setDarkMode }) {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="flex items-start space-x-4 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-soft border border-gray-200 dark:border-gray-700"
+                  onClick={() => navigate(`/platform-feature/${feature.id || feature.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`)}
+                  className="flex items-start space-x-4 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-soft border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group"
                 >
-                  <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                     <ApperIcon name={feature.icon} className="w-5 h-5 text-white" />
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2">{feature.title}</h3>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">{feature.title}</h3>
                     <p className="text-gray-600 dark:text-gray-400">{feature.desc}</p>
+                    <div className="mt-3 text-sm text-purple-600 dark:text-purple-400 opacity-0 group-hover:opacity-100 transition-opacity">
+                      Click to learn more →
+                    </div>
                   </div>
                 </motion.div>
               ))}
