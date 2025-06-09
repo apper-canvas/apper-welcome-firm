@@ -1,5 +1,5 @@
 // Platform Feature Service
-import platformFeatureData from '@/services/mockData/platformFeatureData.json'
+import platformFeatureData from '../mockData/platformFeatureData.json'
 
 class PlatformFeatureService {
   constructor() {
@@ -42,7 +42,7 @@ class PlatformFeatureService {
     return { ...feature }
   }
 
-  async getFeaturesBy category(category) {
+  async getFeaturesByCategory(category) {
     await new Promise(resolve => setTimeout(resolve, 200))
     return this.data.features.filter(f => f.category === category)
   }
