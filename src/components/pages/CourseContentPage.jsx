@@ -204,9 +204,9 @@ const CourseContentPage = () => {
     }, 500)
   }, [])
 
-  // Intersection Observer for auto-highlighting active topic
+// Intersection Observer for auto-highlighting active topic
   useEffect(() => {
-    if (!topics.length) return
+    if (!topics.length || typeof window === 'undefined' || !window.IntersectionObserver) return
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -226,7 +226,6 @@ const CourseContentPage = () => {
 
     return () => observer.disconnect()
   }, [topics])
-
   // Filter topics based on search
   const filteredTopics = topics.filter(topic =>
     topic.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -349,10 +348,10 @@ const CourseContentPage = () => {
       </div>
 
       <div className="flex h-screen lg:h-auto">
-        {/* Left Sidebar - Table of Contents */}
+{/* Left Sidebar - Table of Contents */}
         <motion.div 
           initial={{ x: -300 }}
-          animate={{ x: sidebarOpen || window.innerWidth >= 1024 ? 0 : -300 }}
+          animate={{ x: sidebarOpen || (typeof window !== 'undefined' && window.innerWidth >= 1024) ? 0 : -300 }}
           className={`
             fixed lg:static inset-y-0 left-0 z-50 w-80 bg-white dark:bg-gray-800 
             border-r border-gray-200 dark:border-gray-700 transform transition-transform duration-300 ease-in-out
@@ -535,8 +534,70 @@ const CourseContentPage = () => {
           />
         )}
 
-        {/* Right Content Area */}
-        <div className="flex-1 lg:ml-0">
+{/* Right Content Area */}
+        <div className="flex-1 lg:ml-0 relative">
+          {/* Admin Controls Bar */}
+          {isAdmin && (
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="absolute top-6 right-6 z-30 admin-controls-bar rounded-xl shadow-lg p-3"
+            >
+              <div className="flex items-center space-x-2">
+                <Button
+                  size="sm"
+                  variant="primary"
+                  onClick={addNewTopic}
+                  className="flex items-center space-x-2 admin-button"
+                  title="Add new content topic"
+                >
+                  <Plus className="w-4 h-4" />
+                  <span className="hidden sm:inline">Add</span>
+                </Button>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => {
+                    const activeTopic = topics.find(t => t.id === activeTopicId)
+                    if (activeTopic) {
+                      setEditingContent(activeTopic.id)
+                      // Scroll to active topic
+                      const element = document.getElementById(activeTopic.id)
+                      if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                      }
+                    } else {
+                      toast.info('Please select a topic to edit')
+                    }
+                  }}
+                  className="flex items-center space-x-2 admin-button"
+                  title="Edit currently selected topic"
+                  disabled={!activeTopicId}
+                >
+                  <Edit2 className="w-4 h-4" />
+                  <span className="hidden sm:inline">Edit</span>
+                </Button>
+                <Button
+                  size="sm"
+                  variant="danger"
+                  onClick={() => {
+                    if (activeTopicId) {
+                      deleteTopic(activeTopicId)
+                    } else {
+                      toast.info('Please select a topic to delete')
+                    }
+                  }}
+                  className="flex items-center space-x-2 admin-button"
+                  title="Delete currently selected topic"
+                  disabled={!activeTopicId}
+                >
+                  <Trash2 className="w-4 h-4" />
+                  <span className="hidden sm:inline">Delete</span>
+                </Button>
+              </div>
+            </motion.div>
+          )}
+
           <div ref={contentRef} className="h-screen overflow-y-auto content-area">
             <div className="max-w-4xl mx-auto p-6 lg:p-8">
               {topics.length === 0 ? (
