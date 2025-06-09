@@ -19,11 +19,11 @@ export default {
           dark: '#059669'
         },
         accent: '#F59E0B',
+accent: '#F59E0B',
         surface: {
           50: '#FAFAFA',
-100: '#F5F5F5',
+          100: '#F5F5F5',
           200: '#E5E5E5',
-          300: '#D4D4D4',
           400: '#A3A3A3',
           500: '#737373',
           600: '#525252',
