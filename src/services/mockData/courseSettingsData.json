@@ -1,0 +1,26 @@
+{
+  "general": {
+    "autoSave": true,
+    "soundEffects": true,
+    "animations": true,
+    "language": "en"
+  },
+  "display": {
+    "fontSize": 16,
+    "theme": "auto",
+    "layoutDensity": "comfortable",
+    "sidebarWidth": 280
+  },
+  "navigation": {
+    "autoScroll": true,
+    "highlightActive": true,
+    "mobileAutoClose": true,
+    "scrollBehavior": "smooth"
+  },
+  "advanced": {
+    "developerMode": false,
+    "debugInfo": false,
+    "performanceMode": "balanced",
+    "cacheDuration": 30
+  }
+}
