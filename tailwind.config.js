@@ -30,9 +30,9 @@ export default {
           700: '#404040',
           800: '#262626',
           900: '#171717'
-        }
+}
       },
-fontFamily: {
+      fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         heading: ['Poppins', 'ui-sans-serif', 'system-ui'],
         body: ['DM Sans', 'ui-sans-serif', 'system-ui']
